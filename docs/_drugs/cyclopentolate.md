@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 194
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cyclopentolate: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Cycloplegia"
 monitor_inn: "Cyclopentolate"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
@@ -93,7 +93,13 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-The authorisation number above is as recorded in the compiled data and does not follow the usual PL format, so it should be verified against the MHRA register. The product is a topical ophthalmic preparation.
+The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers; MHRA licence details should be checked in the MHRA register. The product is a topical ophthalmic preparation.
+
+<!-- review:begin uk-lic-20261124d-cyclopentolate-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The authorisation number above is as recorded in the compiled data and does not follow the usual PL format, so it should be verified against the MHRA register." Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-cyclopentolate-1 -->
 
 ## Safety Considerations
 
@@ -120,17 +126,25 @@ All three predicted indications rest on model prediction only (L5), with no tria
 - Evidence of adequate systemic or target-organ exposure, and a suitable non-ophthalmic formulation
 - Preclinical or clinical evidence in the target condition
 - Reconciliation of the obsolete neurogenic bladder term with current terminology
-- Verification of the marketing authorisation record, including approved indication and dosage form
+- Verification of the UK product details, including approved indication and dosage form
+
+<!-- review:begin uk-lic-20261124d-cyclopentolate-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Verification of the marketing authorisation record, including approved indication and dosage form" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-cyclopentolate-2 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyclogyl (cyclopentolate hydrochloride) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d008c76-7210-4ace-90fa-7cd22762e12e) |
+| 2026-11-24 | Corrected: "The authorisation number above is as recorded in the compiled data and does not follow the usual PL format, so it should be verified against the MHRA register." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Verification of the marketing authorisation record, including approved indication and dosage form" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

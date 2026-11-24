@@ -6,7 +6,7 @@ nav_order: 223
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-11-24
-description: "Diethylstilbestrol: predicted new indication Amenorrhoea (evidence level L4). Approved use: Not available in the licence data"
+description: "Diethylstilbestrol: predicted new indication Amenorrhoea (evidence level L4). Approved use: Not available in the UK BNF prescribing code data"
 monitor_inn: "Diethylstilbestrol"
 predicted_indications: ["amenorrhea (disease)", "acne (disease)", "breast fibrocystic disease"]
 ---
@@ -54,13 +54,19 @@ The prediction is essentially model-derived, and the literature raises significa
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the licence data |
+| Original Indication | Not available in the UK BNF prescribing code data |
 | Predicted New Indication | Amenorrhoea |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-diethylstilbestrol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not available in the licence data" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-diethylstilbestrol-1 -->
 
 ---
 
@@ -179,6 +185,8 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL411 (diethylstilbestrol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL411) |
 | 2026-11-24 | Corrected: "Diethylstilbestrol (DES) is a synthetic non-steroidal oestrogen, and no approved indication text is available for its UK licence in the data compiled for this report." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "Approved indication text, dosage form and manufacturer details for the UK licence" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not available in the licence data &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Not available in the licence data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

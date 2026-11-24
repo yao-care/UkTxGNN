@@ -6,7 +6,7 @@ nav_order: 134
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-11-24
-description: "Carbocisteine: predicted new indication Gout (evidence level L5). Approved use: Not stated in the available authorisation data (the product is classe…"
+description: "Carbocisteine: predicted new indication Gout (evidence level L5). Approved use: Not stated in the available UK BNF prescribing code data (the product is classe…"
 monitor_inn: "Carbocisteine"
 predicted_indications: ["gout"]
 ---
@@ -51,13 +51,19 @@ The TxGNN model predicts it may be effective for **gout**, but there are current
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the available authorisation data (the product is classed as a mucolytic) |
+| Original Indication | Not stated in the available UK BNF prescribing code data (the product is classed as a mucolytic) |
 | Predicted New Indication | Gout |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (11 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 11 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-carbocisteine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not stated in the available authorisation data (the product is classed as a mucolytic)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-carbocisteine-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -130,6 +136,8 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Corrected: "Carbocisteine is a mucolytic agent marketed in the UK as a 375 mg capsule." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not stated in the available authorisation data (the product is classed as a mucolytic) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Not stated in the available authorisation data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

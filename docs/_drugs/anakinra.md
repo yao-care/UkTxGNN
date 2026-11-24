@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Anakinra"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Anakinra: predicted new indication Extracutaneous mastocytoma (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes"
 ---
 
@@ -90,7 +90,7 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-The licence number format does not follow the usual MHRA "PL" pattern, so it should be checked against the MHRA register.
+The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers; MHRA licence details should be checked in the MHRA register.
 
 <!-- review:begin uk-lic-20261106-anakinra-1 -->
 
@@ -123,7 +123,13 @@ No clinical trial or publication in the data compiled for this report studies an
 - Preclinical or mechanistic evidence for IL-1 involvement in extracutaneous mastocytoma
 - Literature review for case reports or studies in mast cell neoplasms
 - Mechanism of action data and product safety information from the SmPC
-- Clarification of the licence record and approved indication text
+- Clarification of the UK product details and approved indication text
+
+<!-- review:begin uk-lic-20261124d-anakinra-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Clarification of the licence record and approved indication text" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-anakinra-1 -->
 
 <!-- review:begin log -->
 
@@ -135,6 +141,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The local data hold one valid single-ingredient licence record" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Kineret (anakinra) prescribing information, Swedish Orphan Biovitrum AB (publ)](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9d74915-6606-4570-9c52-c4001d3177de) |
+| 2026-11-24 | Corrected: "Clarification of the licence record and approved indication text" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

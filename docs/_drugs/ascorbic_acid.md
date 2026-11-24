@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ascorbic acid"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "segmental odontomaxillary dysplasia", "perinatal disease", "florid cemento-osseous dysplasia", "disease by subcellular system affected"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ascorbic Acid: predicted new indication non-syndromic esophageal malformation (evidence level L5). In the UK: 104 NHSBSA BNF presentation codes"
 ---
 
@@ -99,7 +99,7 @@ Showing 20 of 104 BNF presentation codes. Source: NHSBSA BNF code information (N
 
 <!-- licenses:end -->
 
-The licence number is not in the usual MHRA PL format, so it should be checked against the MHRA register before relying on it.
+The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers; MHRA licence details should be checked in the MHRA register before relying on them.
 
 <!-- review:begin uk-lic-20261106-ascorbic_acid-1 -->
 

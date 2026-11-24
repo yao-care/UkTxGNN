@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Flumethasone: predicted new indication Alopecia areata (evidence level L5). Approved use: Inflammatory skin conditions (e.g. atopic eczema, contact dermatitis…"
 monitor_inn: "flumethasone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "hereditary hypotrichosis with recurrent skin vesicles", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "primary cutaneous B-cell lymphoma", "alopecia universalis onychodystrophy vitiligo"]
@@ -47,13 +47,19 @@ The TxGNN model predicts it may be effective for **alopecia areata**, but there 
 
 | Item | Content |
 |------|------|
-| Original Indication | Inflammatory skin conditions (e.g. atopic eczema, contact dermatitis, seborrhoeic dermatitis, discoid lupus erythematosus, primary cutaneous T-cell lymphoma); the licence records compiled for this report contain no indication text |
+| Original Indication | Inflammatory skin conditions (e.g. atopic eczema, contact dermatitis, seborrhoeic dermatitis, discoid lupus erythematosus, primary cutaneous T-cell lymphoma); the UK BNF presentation code records compiled for this report contain no indication text |
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-flumethasone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Inflammatory skin conditions (e.g. atopic eczema, contact dermatitis, seborrhoeic dermatitis, discoid lupus erythematosus, primary cutaneous T-cell lymphoma); the licence records compiled for this report contain no indication text" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-flumethasone-1 -->
 
 ---
 
@@ -128,6 +134,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "Both authorisations are valid single-ingredient records" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Inflammatory skin conditions (e.g. atopic eczema, contact dermatitis, seborrhoeic dermatitis, discoid lupus erythematosus, primary cutaneous T-cell lymphoma); the licence records compiled for this report contain no indication text &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

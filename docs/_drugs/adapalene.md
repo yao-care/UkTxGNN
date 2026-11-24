@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 26
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adapalene: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Acne (disease)"
 monitor_inn: "Adapalene"
 predicted_indications: ["zinc, elevated plasma"]
@@ -88,7 +88,7 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-The authorisation number shown is not in the standard UK "PL" format, and the dosage form and approved indication fields were blank, so the gel form is inferred from the product name. Please verify against the MHRA register and the BNF.
+The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers; dosage form and approved indication text are not included, so forms are taken from the product names. Please verify against the MHRA register and the BNF.
 
 <!-- review:begin uk-lic-20261106-adapalene-1 -->
 

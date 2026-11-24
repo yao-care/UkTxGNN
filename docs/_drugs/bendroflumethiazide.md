@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Bendroflumethiazide"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bendroflumethiazide: predicted new indication malignant hypertensive renal disease (evidence level L5). In the UK: 30 NHSBSA BNF presentation codes"
 ---
 
@@ -145,7 +145,13 @@ The prediction has no supporting trials or publications (evidence level L5). Mal
 - Published or registered studies that directly address malignant hypertensive renal disease
 - Mechanism-of-action data and a clearer pathophysiological rationale
 - Label-based safety review (SmPC/BNF), given the renal and metabolic contraindications listed above
-- Confirmation of the approved indication and dosage form from the licence records
+- Confirmation of the approved indication and dosage form from the MHRA register and SmPC
+
+<!-- review:begin uk-lic-20261124d-bendroflumethiazide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the approved indication and dosage form from the licence records" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-bendroflumethiazide-1 -->
 
 <!-- review:begin log -->
 
@@ -157,6 +163,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One valid single-ingredient authorisation is recorded, and no cancelled ones" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-20 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects the known pharmacology of the thiazide class" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [ChEMBL CHEMBL1684 (bendroflumethiazide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1684) |
+| 2026-11-24 | Corrected: "Confirmation of the approved indication and dosage form from the licence records" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

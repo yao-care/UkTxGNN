@@ -115,7 +115,7 @@ Showing 20 of 37 BNF presentation codes. Source: NHSBSA BNF code information (NH
 
 <!-- licenses:end -->
 
-The authorisation number in the compiled data does not follow the usual MHRA "PL" format, so it should be verified against the MHRA register. Dosage form and indication text are missing and should be confirmed against the current SmPC and BNF.
+The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers; MHRA licence details should be checked in the MHRA register. Dosage form and indication text are missing and should be confirmed against the current SmPC and BNF.
 
 <!-- review:begin uk-lic-20261106-ketoprofen-1 -->
 

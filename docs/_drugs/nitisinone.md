@@ -89,7 +89,7 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-The authorisation number appears to be a non-MHRA format, so it should be checked against the MHRA product database. Dosage form and indication text are missing. NICE appraisal and BNF classification information is not included in the compiled data.
+The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers; MHRA licence details should be checked in the MHRA product database. Dosage form and indication text are missing. NICE appraisal and BNF classification information is not included in the compiled data.
 
 <!-- review:begin uk-lic-20261106-nitisinone-1 -->
 

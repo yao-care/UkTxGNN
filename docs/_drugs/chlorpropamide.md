@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 160
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -123,7 +123,13 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model has not identified any repurposing candidates for chlorpropamide. Combined with the absence of UK marketing authorisations, the lack of mechanism of action data in the evidence pack, and the drug's known unfavourable safety profile relative to modern alternatives, there is no basis to advance this candidate at present.
+The TxGNN model has not identified any repurposing candidates for chlorpropamide. Combined with the lack of mechanism of action data in the evidence pack, and the drug's known unfavourable safety profile relative to modern alternatives, there is no basis to advance this candidate at present.
+
+<!-- review:begin uk-lic-20261124d-chlorpropamide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Combined with the absence of UK marketing authorisations, the lack of mechanism of action data in the evidence pack, and the drug's known unfavourable safety profile relative to modern alternatives, there is no basis to advance this candidate at present." Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-chlorpropamide-1 -->
 
 **To proceed, the following would be needed:**
 - TxGNN model predictions identifying at least one plausible new indication
@@ -146,6 +152,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "and the drug currently holds no marketing authorisation in the United Kingdom" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Removed: "Chlorpropamide holds no current marketing authorisations in the United Kingdom. No MHRA-authorised products are listed" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Combined with the absence of UK marketing authorisations, the lack of mechanism of action data in the evidence pack, and the drug's known unfavourable safety profile relative to modern alternatives, there is no basis to advance this candidate at present." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

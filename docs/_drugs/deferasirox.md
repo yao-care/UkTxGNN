@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Deferasirox"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Deferasirox: predicted new indication HIV infectious disease (evidence level L5). In the UK: 12 NHSBSA BNF presentation codes"
 ---
 
@@ -127,7 +127,13 @@ The prediction rests on a high model score and one indirect preclinical study. T
 - In vitro and in vivo studies testing deferasirox directly against HIV-1 replication
 - Mechanism-of-action data to clarify whether iron chelation would help or harm
 - Review of safety in people living with HIV, including interactions with antiretroviral therapy and renal and hepatic risk
-- Complete SmPC warnings and contraindications for the UK-licensed product
+- Complete SmPC warnings and contraindications for the UK products
+
+<!-- review:begin uk-lic-20261124d-deferasirox-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Complete SmPC warnings and contraindications for the UK-licensed product" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-deferasirox-1 -->
 
 <!-- review:begin log -->
 
@@ -139,6 +145,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One valid single-ingredient licence record is present in the local data (deferasirox dispersible tablet, 500 mg)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85) |
+| 2026-11-24 | Corrected: "Complete SmPC warnings and contraindications for the UK-licensed product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

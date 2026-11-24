@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 574
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Sorbitol: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "sorbitol"
 predicted_indications: ["exercise-induced malignant hyperthermia"]
@@ -119,10 +119,16 @@ The prediction is supported only by a model score, with no clinical trials, no l
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a documented mechanistic rationale linking sorbitol to ryanodine receptor or calcium handling
-- Confirmation of the original indication, dosage form and approved indication for the UK authorisation
+- Confirmation of the original indication, dosage form and approved indication for the UK product
 - Label-based warnings and contraindications from the SmPC and BNF
 - Preclinical or mechanistic studies to support any plausible biological link
 - Review of the Major interaction with tolevamer and the knowledge-graph peptic ulcer contraindication signal
+
+<!-- review:begin uk-lic-20261124d-sorbitol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the original indication, dosage form and approved indication for the UK authorisation" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-sorbitol-1 -->
 
 <!-- review:begin log -->
 
@@ -133,6 +139,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "The single authorisation is a combination lozenge product (mucin, xylitol and sorbitol)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Confirmation of the original indication, dosage form and approved indication for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

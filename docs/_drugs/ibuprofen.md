@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 331
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ibuprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Ibuprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In the UK: 205 NHSBSA BNF presentation codes"
@@ -111,7 +111,13 @@ Showing 20 of 205 BNF presentation codes. Source: NHSBSA BNF code information (N
 
 <!-- licenses:end -->
 
-Ibuprofen is classed in the BNF as a non-steroidal anti-inflammatory drug. The authorisation number above is in a format that does not look like a standard MHRA PL number, so it should be verified against the MHRA register. The wider UK ibuprofen product range, including NICE-appraised uses, was not captured in the data compiled for this report.
+Ibuprofen is classed in the BNF as a non-steroidal anti-inflammatory drug. The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers; MHRA licence details should be checked in the MHRA register. The wider UK ibuprofen product range, including NICE-appraised uses, was not captured in the data compiled for this report.
+
+<!-- review:begin uk-lic-20261124d-ibuprofen-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The authorisation number above is in a format that does not look like a standard MHRA PL number, so it should be verified against the MHRA register." Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-ibuprofen-1 -->
 
 ## Safety Considerations
 
@@ -150,11 +156,12 @@ The prediction is supported only by a model score. There are no trials or public
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Caldolor (ibuprofen) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1eaa7790-f1a1-4f51-b10a-cbbaf033f684) |
+| 2026-11-24 | Corrected: "The authorisation number above is in a format that does not look like a standard MHRA PL number, so it should be verified against the MHRA register." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

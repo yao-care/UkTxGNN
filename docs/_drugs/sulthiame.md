@@ -6,7 +6,7 @@ nav_order: 587
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-11-24
-description: "Sulthiame: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the available authorisation data"
+description: "Sulthiame: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the available UK BNF prescribing code data"
 monitor_inn: "sulthiame"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "neurocirculatory asthenia", "anaphylaxis", "food-dependent exercise-induced anaphylaxis", "familial mitral valve prolapse", "mitral valve prolapse (disease)", "MVP1", "autonomic nervous system disease"]
 ---
@@ -46,13 +46,19 @@ but there are **no clinical trials** and **no publications** supporting this pre
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the available authorisation data |
+| Original Indication | Not stated in the available UK BNF prescribing code data |
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-sulthiame-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not stated in the available authorisation data" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-sulthiame-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -140,6 +146,8 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "Both records are listed as valid single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL328560 (sulthiame): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL328560) |
 | 2026-11-24 | Corrected: "for both UK products" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not stated in the available authorisation data &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Not stated in the available authorisation data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

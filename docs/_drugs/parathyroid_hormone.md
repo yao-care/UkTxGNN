@@ -5,8 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 478
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
-description: "Parathyroid Hormone: predicted new indication Migraine disorder (evidence level L4). Approved use: Not specified in the available licence data"
+last_modified_at: 2026-11-24
+description: "Parathyroid Hormone: predicted new indication Migraine disorder (evidence level L4). Approved use: Not specified in the available UK BNF prescribing code data"
 monitor_inn: "Parathyroid hormone"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "amenorrhea (disease)", "Raynaud disease", "non-syndromic esophageal malformation", "esophageal disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "erectile dysfunction (disease)"]
 ---
@@ -47,13 +47,19 @@ Evidence Level: **L4** | Predicted Indications: **9**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the available licence data |
+| Original Indication | Not specified in the available UK BNF prescribing code data |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L4 (genetic and observational evidence only; no interventional studies) |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-parathyroid_hormone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not specified in the available licence data" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-parathyroid_hormone-1 -->
 
 ---
 
@@ -137,11 +143,13 @@ The prediction score is high, but support is limited to a genetic association an
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2108078 (parathyroid hormone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108078) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not specified in the available licence data &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Not specified in the available licence data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -129,7 +129,7 @@ Showing 20 of 21 BNF presentation codes. Source: NHSBSA BNF code information (NH
 
 <!-- licenses:end -->
 
-The authorisation number shown is as recorded in the compiled data and is not in the standard MHRA "PL" format, so it should be verified against the MHRA register. NICE appraisal information and the BNF classification were not available in the data compiled for this report.
+The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers; MHRA licence details should be checked in the MHRA register. NICE appraisal information and the BNF classification were not available in the data compiled for this report.
 
 <!-- review:begin uk-lic-20261106-prilocaine-1 -->
 

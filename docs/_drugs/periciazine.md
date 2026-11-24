@@ -45,13 +45,19 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia and other psychoses; short-term adjunctive management of severe anxiety, psychomotor agitation and violent or dangerously impulsive behaviour (the licence records compiled for this report contain no indication text, so this is taken from pharmacology data) |
+| Original Indication | Schizophrenia and other psychoses; short-term adjunctive management of severe anxiety, psychomotor agitation and violent or dangerously impulsive behaviour (the UK BNF presentation code records compiled for this report contain no indication text, so this is taken from pharmacology data) |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-periciazine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Schizophrenia and other psychoses; short-term adjunctive management of severe anxiety, psychomotor agitation and violent or dangerously impulsive behaviour (the licence records compiled for this report contain no indication text, so this is taken from pharmacology data)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-periciazine-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -134,6 +140,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Both products are valid single-ingredient authorisations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "and only oral tablets are recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Schizophrenia and other psychoses; short-term adjunctive management of severe anxiety, psychomotor agitation and violent or dangerously impulsive behaviour (the licence records compiled for this report contain no indication text, so this is taken from pharmacology data) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

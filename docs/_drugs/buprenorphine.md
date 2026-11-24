@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 115
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Buprenorphine: predicted new indication Acute intermittent porphyria (evidence level L4). Approved use: Opioid dependence"
 monitor_inn: "Buprenorphine"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
@@ -46,13 +46,19 @@ but there are **no registered clinical trials** and only **1 publication** (a 19
 
 | Item | Content |
 |------|------|
-| Original Indication | Opioid dependence (approved indication text not available in the licence record; taken from the drug's known indications: opioid dependence, substance abuse/dependence, morphine dependence) |
+| Original Indication | Opioid dependence (approved indication text not available in the UK BNF presentation code records; taken from the drug's known indications: opioid dependence, substance abuse/dependence, morphine dependence) |
 | Predicted New Indication | Acute intermittent porphyria |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L4 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (142 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 142 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-buprenorphine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Opioid dependence (approved indication text not available in the licence record; taken from the drug's known indications: opioid dependence, substance abuse/dependence, morphine dependence)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-buprenorphine-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -142,11 +148,12 @@ All were assessed as **Hold**:
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Opioid dependence (approved indication text not available in the licence record; taken from the drug's known indications: opioid dependence, substance abuse/dependence, morphine dependence) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

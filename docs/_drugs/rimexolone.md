@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 544
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Rimexolone"
 predicted_indications: ["seborrheic dermatitis", "dermatitis"]
 description: "Rimexolone: predicted new indication Seborrheic dermatitis (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes"
@@ -83,7 +83,7 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-Note: the licence number shown is as recorded in the compiled data and is not in the standard UK "PL XXXXX/XXXX" format; please verify it against the MHRA register.
+Note: The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers ("PL XXXXX/XXXX"); please check the MHRA register for licence details.
 
 <!-- review:begin uk-lic-20261106-rimexolone-1 -->
 

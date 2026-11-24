@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "Nefopam"
 predicted_indications: ["immature cataract", "mature cataract", "craniostenosis cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "diabetic cataract", "lumbar spinal stenosis"]
 last_modified_at: 2026-11-24
-description: "Nefopam: predicted new indication Immature cataract (evidence level L5). Approved use: Not stated in the licence record compiled for this report"
+description: "Nefopam: predicted new indication Immature cataract (evidence level L5). Approved use: Not stated in the UK BNF presentation code records compiled for this report"
 ---
 
 # Nefopam
@@ -52,13 +52,19 @@ Nefopam is a centrally acting non-opioid analgesic listed in the UK BNF prescrib
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence record compiled for this report |
+| Original Indication | Not stated in the UK BNF presentation code records compiled for this report |
 | Predicted New Indication | Immature cataract |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-nefopam-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not stated in the licence record compiled for this report" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-nefopam-1 -->
 
 ---
 
@@ -152,6 +158,8 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "This is a single-ingredient product with a valid status. The licence record contains no indication text, so the original approved indication" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "Nefopam is a centrally acting non-opioid analgesic that is currently marketed in the UK as a 30 mg tablet." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "The SmPC warnings and contraindications, and the licensed indication text, for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not stated in the licence record compiled for this report &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Not stated in the licence record compiled for this report" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

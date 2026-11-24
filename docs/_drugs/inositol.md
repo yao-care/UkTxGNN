@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 339
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "inositol"
 predicted_indications: ["idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "hepatic porphyria", "congestive heart failure", "acute pulmonary heart disease", "glycogen storage disease due to hepatic glycogen synthase deficiency"]
 description: "Inositol: predicted new indication Idiopathic copper-associated cirrhosis (evidence level L5). In the UK: 1 NHSBSA BNF presentation code"
@@ -141,9 +141,15 @@ The top-ranked prediction rests on a model score alone, with no trials, no publi
 **To proceed, the following is needed:**
 - Mechanism of action data for inositol (currently unavailable)
 - A biological rationale linking inositol to copper-associated cirrhosis, with preclinical or clinical evidence
-- Confirmation of the approved indication, dosage form and manufacturer for the UK authorisation
+- Confirmation of the approved indication, dosage form and manufacturer for the UK product
 - Label-based warnings and contraindications from the SmPC and BNF
 - If heart failure is pursued, work to establish whether raised myo-inositol is protective or harmful before considering any supplementation
+
+<!-- review:begin uk-lic-20261124d-inositol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the approved indication, dosage form and manufacturer for the UK authorisation" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-inositol-1 -->
 
 <!-- review:begin log -->
 
@@ -154,6 +160,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "Only one single-ingredient authorisation is recorded, and it is currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Confirmation of the approved indication, dosage form and manufacturer for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

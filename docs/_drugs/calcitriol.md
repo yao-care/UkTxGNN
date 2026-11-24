@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Calcitriol"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Calcitriol: predicted new indication obsolete vitamin D deficiency (evidence level L5). In the UK: 13 NHSBSA BNF presentation codes"
 ---
 
@@ -90,7 +90,7 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-No indication text or dosage-form details were recorded in the local licence data. Prescribers should check the current SmPC and the BNF entry for authorised uses and formulations.
+No indication text or dosage-form details were recorded in the UK BNF prescribing code data. Prescribers should check the current SmPC and the BNF entry for authorised uses and formulations.
 
 <!-- review:begin uk-lic-20261106-calcitriol-1 -->
 

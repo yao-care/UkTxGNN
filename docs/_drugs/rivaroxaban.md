@@ -6,7 +6,7 @@ nav_order: 548
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-11-24
-description: "Rivaroxaban: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the licence data compiled for this report (the product…"
+description: "Rivaroxaban: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the UK BNF prescribing code data compiled for this report (the product…"
 monitor_inn: "Rivaroxaban"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
 ---
@@ -44,13 +44,19 @@ Rivaroxaban is an oral direct Factor Xa inhibitor (anticoagulant). The TxGNN mod
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence data compiled for this report (the product is a 20 mg tablet, an anticoagulant) |
+| Original Indication | Not stated in the UK BNF prescribing code data compiled for this report (the product is a 20 mg tablet, an anticoagulant) |
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (16 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 16 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-rivaroxaban-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not stated in the licence data compiled for this report (the product is a 20 mg tablet, an anticoagulant)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-rivaroxaban-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -151,6 +157,8 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-06 | Removed: "The licence data are also incomplete, and" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610) |
 | 2026-11-24 | Corrected: "Licence details for the UK product (PL number, dosage form, approved indications) and the SmPC warnings and contraindications" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not stated in the licence data compiled for this report (the product is a 20 mg tablet, an anticoagulant) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Not stated in the licence data compiled for this report" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

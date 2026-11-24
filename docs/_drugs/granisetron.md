@@ -109,13 +109,19 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-Dosage form, manufacturer and approved indication text were not supplied for it. The authorisation number is shown exactly as supplied and does not follow the usual UK "PL" format, so it should be verified against the MHRA register. NICE appraisals and BNF classification were not included in the compiled data.
+Dosage form, manufacturer and approved indication text were not supplied for it. The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers; MHRA licence details should be checked in the MHRA register. NICE appraisals and BNF classification were not included in the compiled data.
 
 <!-- review:begin uk-lic-20261106-granisetron-1 -->
 
 > **Review correction (2026-11-24)**: Originally stated: "The compiled data lists one valid single-ingredient authorisation. Dosage form, manufacturer and approved indication text were not supplied for it." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261106-granisetron-1 -->
+
+<!-- review:begin uk-lic-20261124d-granisetron-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The authorisation number is shown exactly as supplied and does not follow the usual UK "PL" format, so it should be verified against the MHRA register." Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-granisetron-1 -->
 
 ---
 
@@ -162,6 +168,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sustol (granisetron) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7c7ffdd-8270-4030-bc1e-a1cb28a6de56) |
 | 2026-11-24 | Corrected: "Granisetron is a selective 5-HT3 receptor antagonist, marketed in the UK as a 1 mg tablet." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "The approved indication text and SmPC safety information for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "The authorisation number is shown exactly as supplied and does not follow the usual UK "PL" format, so it should be verified against the MHRA register." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

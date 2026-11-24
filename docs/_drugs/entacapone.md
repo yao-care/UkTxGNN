@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 251
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Entacapone: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Parkinson disease and related parkinsonian syndromes"
 monitor_inn: "Entacapone"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
@@ -46,13 +46,19 @@ but **no clinical trials and no publications** currently support this prediction
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson disease and related parkinsonian syndromes (the licence record in the compiled data has no indication text) |
+| Original Indication | Parkinson disease and related parkinsonian syndromes (the UK BNF presentation code records in the compiled data have no indication text) |
 | Predicted New Indication | PLA2G6-associated neurodegeneration |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (35 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 35 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-entacapone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Parkinson disease and related parkinsonian syndromes (the licence record in the compiled data has no indication text)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-entacapone-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -168,6 +174,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The compiled data lists one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Parkinson disease and related parkinsonian syndromes (the licence record in the compiled data has no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

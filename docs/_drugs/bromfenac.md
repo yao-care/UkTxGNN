@@ -6,7 +6,7 @@ nav_order: 112
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-11-24
-description: "Bromfenac: predicted new indication Eye disease (broad category) (evidence level L1). Approved use: Not stated in the licence data compiled for this report"
+description: "Bromfenac: predicted new indication Eye disease (broad category) (evidence level L1). Approved use: Not stated in the UK BNF prescribing code data compiled for this report"
 monitor_inn: "Bromfenac"
 predicted_indications: ["eye disease", "optic papillitis", "von Hippel anomaly", "mcpherson robertson cammarano syndrome", "vulvar inverted follicular keratosis", "lagophthalmos", "microblepharon-ablephara syndrome", "seborrheic keratosis", "conjunctival degeneration", "luxation of globe"]
 ---
@@ -48,13 +48,19 @@ The strongest evidence concerns inflammation and pain after cataract surgery, wh
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence data compiled for this report |
+| Original Indication | Not stated in the UK BNF prescribing code data compiled for this report |
 | Predicted New Indication | Eye disease (broad category) |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L1 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Proceed with Guardrails |
+
+<!-- review:begin uk-lic-20261124d-bromfenac-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not stated in the licence data compiled for this report" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-bromfenac-1 -->
 
 ---
 
@@ -169,6 +175,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-20 | "Detailed mechanism of action data were not available in the compiled data, so this description reflects the established pharmacology of the drug class" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Bromfenac Ophthalmic Solution, 0.07% (bromfenac sodium) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4246c669-3c2a-2a2b-3b1c-696deb4ab519) |
 | 2026-11-24 | Corrected: "Approved indication text, dosage form and manufacturer for the UK licence" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not stated in the licence data compiled for this report &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Not stated in the licence data compiled for this report" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

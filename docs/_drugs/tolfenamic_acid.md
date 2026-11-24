@@ -48,13 +48,19 @@ This prediction largely overlaps with the existing migraine use, so it is not a 
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute migraine (the licence record compiled for this report has no indication text; the migraine indication comes from pharmacology reference data) |
+| Original Indication | Acute migraine (the UK BNF presentation code records compiled for this report have no indication text; the migraine indication comes from pharmacology reference data) |
 | Predicted New Indication | Headache disorder |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 (several randomised double-blind studies, but none are registered Phase 3 trials; based on titles and abstracts only) |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Proceed with Guardrails |
+
+<!-- review:begin uk-lic-20261124d-tolfenamic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Acute migraine (the licence record compiled for this report has no indication text; the migraine indication comes from pharmacology reference data)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-tolfenamic_acid-1 -->
 
 ---
 
@@ -149,6 +155,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Corrected: "The licensed indication wording and the SmPC warnings and contraindications for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Acute migraine (the licence record compiled for this report has no indication text; the migraine indication comes from pharmacology reference data) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-24
 monitor_inn: "Flavoxate"
 predicted_indications: ["attention deficit hyperactivity disorder, inattentive type", "irritable bowel syndrome", "specific developmental disorder", "attention deficit-hyperactivity disorder", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "peptic ulcer disease"]
-description: "Flavoxate: predicted new indication Attention deficit hyperactivity disorder, inattentive type (evidence level L5). Approved use: Not stated in the available licence data (flavoxate is generally used"
+description: "Flavoxate: predicted new indication Attention deficit hyperactivity disorder, inattentive type (evidence level L5). Approved use: Not stated in the available UK BNF prescribing code data (flavoxate is generally used"
 ---
 
 # Flavoxate
@@ -51,13 +51,19 @@ The TxGNN model (deep learning) predicts it may be effective for **attention def
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the available licence data (flavoxate is generally used for urinary urgency, frequency and related bladder symptoms) |
+| Original Indication | Not stated in the available UK BNF prescribing code data (flavoxate is generally used for urinary urgency, frequency and related bladder symptoms) |
 | Predicted New Indication | Attention deficit hyperactivity disorder, inattentive type |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-flavoxate-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not stated in the available licence data (flavoxate is generally used for urinary urgency, frequency and related bladder symptoms)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-flavoxate-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -131,6 +137,8 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-19 | "Detailed mechanism of action data is not currently available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: flavoxate hydrochloride prescribing information, PuraCap Laboratories LLC dba Blu Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6a06eda-2480-4c0d-8d1e-9e3e89d3ee88) |
 | 2026-11-24 | Corrected: "marketed in the UK as a 200 mg tablet." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "SmPC-based indication, warning and contraindication data for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not stated in the available licence data (flavoxate is generally used for urinary urgency, frequency and related bladder symptoms) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Not stated in the available licence data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

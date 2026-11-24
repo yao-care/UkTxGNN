@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 380
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Lorazepam"
 predicted_indications: ["trigeminal nerve neoplasm"]
 description: "Lorazepam: predicted new indication Trigeminal nerve neoplasm (evidence level L5). In the UK: 22 NHSBSA BNF presentation codes"
@@ -175,10 +175,16 @@ The top-ranked prediction, trigeminal nerve neoplasm, has no trials, no literatu
 **To proceed, the following is needed:**
 - Label-based warnings and contraindications from the SmPC and BNF, which are currently missing and block safety screening
 - Mechanism of action data, from DrugBank or the SmPC
-- The UK licensed indications and dosage form for the recorded authorisation
+- The UK licensed indications and dosage form for the UK products
 - For insomnia: lorazepam-specific randomised evidence, and positioning against approved hypnotics, with attention to dependence and tolerance
 - For reflex seizure types: disease-specific case series or registry data
 - A decision on whether to deprioritise trigeminal nerve neoplasm entirely
+
+<!-- review:begin uk-lic-20261124d-lorazepam-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The UK licensed indications and dosage form for the recorded authorisation" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-lorazepam-1 -->
 
 <!-- review:begin log -->
 
@@ -190,6 +196,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Only one authorisation is recorded. The record contains no manufacturer, dosage form field or approved indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Loreev Xr (lorazepam) prescribing information, Almatica Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=227734c1-bf01-9607-73ea-5a1f38a89bd9) |
+| 2026-11-24 | Corrected: "The UK licensed indications and dosage form for the recorded authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -21,11 +21,11 @@
   "items_current": 11014
  },
  "reviews": {
-  "records": 1305,
-  "pages": 567,
-  "public_pages_with_records": 533,
+  "records": 1432,
+  "pages": 573,
+  "public_pages_with_records": 536,
   "by_action": {
-   "correct": 847,
+   "correct": 974,
    "mechanism": 458
   }
  },
@@ -40,7 +40,7 @@
    "l": "L5",
    "lt": 205,
    "lv": 205,
-   "r": 1,
+   "r": 2,
    "i": "acromesomelic dysplasia, Hunter-Thompson type"
   },
   {
@@ -76,7 +76,7 @@
    "l": "L4",
    "lt": 142,
    "lv": 142,
-   "r": 1,
+   "r": 2,
    "i": "acute intermittent porphyria"
   },
   {
@@ -111,6 +111,24 @@
  "no_current_more": 0,
  "most_reviewed": [
   {
+   "t": "Aspirin",
+   "u": "/drugs/aspirin/",
+   "l": "L5",
+   "lt": 78,
+   "lv": 78,
+   "r": 6,
+   "i": "atrophoderma vermiculata"
+  },
+  {
+   "t": "Dabigatran Etexilate",
+   "u": "/drugs/dabigatran-etexilate/",
+   "l": "L5",
+   "lt": 18,
+   "lv": 18,
+   "r": 6,
+   "i": "sclerosing cholangitis"
+  },
+  {
    "t": "Hyaluronidase",
    "u": "/drugs/hyaluronidase/",
    "l": "L5",
@@ -129,40 +147,22 @@
    "i": "headache disorder"
   },
   {
-   "t": "Aspirin",
-   "u": "/drugs/aspirin/",
+   "t": "Nalidixic Acid",
+   "u": "/drugs/nalidixic-acid/",
    "l": "L5",
-   "lt": 78,
-   "lv": 78,
-   "r": 5,
-   "i": "atrophoderma vermiculata"
+   "lt": 8,
+   "lv": 8,
+   "r": 6,
+   "i": "conjunctivitis"
   },
   {
-   "t": "Busulfan",
-   "u": "/drugs/busulfan/",
-   "l": "L1",
+   "t": "Sulthiame",
+   "u": "/drugs/sulthiame/",
+   "l": "L5",
    "lt": 7,
    "lv": 7,
-   "r": 5,
-   "i": "myelodysplastic syndrome"
-  },
-  {
-   "t": "Dabigatran Etexilate",
-   "u": "/drugs/dabigatran-etexilate/",
-   "l": "L5",
-   "lt": 18,
-   "lv": 18,
-   "r": 5,
-   "i": "sclerosing cholangitis"
-  },
-  {
-   "t": "Fulvestrant",
-   "u": "/drugs/fulvestrant/",
-   "l": "L4",
-   "lt": 2,
-   "lv": 2,
-   "r": 5,
-   "i": "HIV infectious disease"
+   "r": 6,
+   "i": "cauda equina syndrome"
   }
  ],
  "example": {
@@ -176,197 +176,197 @@
  },
  "recent_reviews": [
   {
-   "t": "Zonisamide",
-   "u": "/drugs/zonisamide/",
-   "s": "Corrected: \"Confirmation of the UK licence number, dosage form, and approved indication\"",
+   "t": "Ziprasidone",
+   "u": "/drugs/ziprasidone/",
+   "s": "Corrected: \"Ziprasidone is an atypical antipsychotic with a marketed UK product.\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Zolmitriptan",
-   "u": "/drugs/zolmitriptan/",
-   "s": "Corrected: \"Verification of the UK marketing authorisation record (number format, dosage form and approved…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Zanamivir",
-   "u": "/drugs/zanamivir/",
-   "s": "Corrected: \"Approved indication text and dosage form details from the UK licence record\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Verapamil",
-   "u": "/drugs/verapamil/",
-   "s": "Corrected: \"Confirmation of the UK marketing authorisation number, dosage form and licensed indications\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Vancomycin",
-   "u": "/drugs/vancomycin/",
-   "s": "Corrected: \"Note: the data compiled for this report contain no approved indication text for the UK product.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Valproic Acid",
-   "u": "/drugs/valproic-acid/",
-   "s": "Corrected: \"Approved indication text and dosage forms for the UK authorisation, confirmed against the MHRA…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Urofollitropin",
-   "u": "/drugs/urofollitropin/",
-   "s": "Corrected: \" Original Indication  Not stated in the UK authorisation data compiled for this report (generally…",
+   "t": "Tyrosine",
+   "u": "/drugs/tyrosine/",
+   "s": "Corrected: \"Not recorded in the available marketing authorisation data\"",
    "d": "2026-11-24"
   },
   {
    "t": "Tropicamide",
    "u": "/drugs/tropicamide/",
-   "s": "Corrected: \"Mechanism of action data from DrugBank, and SmPC warnings and contraindications for the UK…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Trimethoprim",
-   "u": "/drugs/trimethoprim/",
-   "s": "Corrected: \" Original Indication  Urinary tract infection (the UK licence record has no indication text, so…",
+   "s": "Corrected: \"Confirmation of the licence record, including dosage form and approved indication text\"",
    "d": "2026-11-24"
   },
   {
    "t": "Trihexyphenidyl",
    "u": "/drugs/trihexyphenidyl/",
-   "s": "Corrected: \"Verification of the UK marketing authorisation details (number, dosage form, licensed indication)\"",
+   "s": "Corrected: \"The marketing authorisation number above is as recorded in the compiled data and does not follow…",
    "d": "2026-11-24"
   },
   {
-   "t": "Trifluoperazine",
-   "u": "/drugs/trifluoperazine/",
-   "s": "Corrected: \"SmPC warnings and contraindications (currently missing), as well as the authorised indications…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Trandolapril",
-   "u": "/drugs/trandolapril/",
-   "s": "Corrected: \"Confirmation of the UK authorisation details (PL number, dosage form, licensed indications)\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Tramadol",
-   "u": "/drugs/tramadol/",
-   "s": "Corrected: \"The SmPC warnings and contraindications for the UK product, plus verified MHRA authorisation…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Topotecan",
-   "u": "/drugs/topotecan/",
-   "s": "Corrected: \"The full SmPC warnings and contraindications and the licence indication text for the UK product…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Topiramate",
-   "u": "/drugs/topiramate/",
-   "s": "Corrected: \"Mechanism of action data and SmPC warnings and contraindications for the UK product\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Tolvaptan",
-   "u": "/drugs/tolvaptan/",
-   "s": "Corrected: \"Confirmation of the approved indication text, dosage form and PL number for the UK authorisation\"",
+   "t": "Tretinoin",
+   "u": "/drugs/tretinoin/",
+   "s": "Corrected: \" Original Indication  Acne, acute promyelocytic leukaemia, acquired keratosis, palmoplantar…",
    "d": "2026-11-24"
   },
   {
    "t": "Tolfenamic Acid",
    "u": "/drugs/tolfenamic-acid/",
-   "s": "Corrected: \"The licensed indication wording and the SmPC warnings and contraindications for the UK product\"",
+   "s": "Corrected: \" Original Indication  Acute migraine (the licence record compiled for this report has no…",
    "d": "2026-11-24"
   },
   {
-   "t": "Tocofersolan",
-   "u": "/drugs/tocofersolan/",
-   "s": "Corrected: \"The approved indication and SmPC safety information (warnings, contraindications, interactions)…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Tinidazole",
-   "u": "/drugs/tinidazole/",
-   "s": "Corrected: \"Mechanism of action data and full SmPC and BNF safety information, including the missing…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Ticagrelor",
-   "u": "/drugs/ticagrelor/",
-   "s": "Corrected: \"Confirmation of the licensed indications on the UK authorisation\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Tiaprofenic Acid",
-   "u": "/drugs/tiaprofenic-acid/",
-   "s": "Corrected: \"Confirmation of the approved indication and dosage form for the UK authorisation\"",
+   "t": "Tolcapone",
+   "u": "/drugs/tolcapone/",
+   "s": "Corrected: \" Original Indication  Parkinson disease (the licence record held no approved indication text, so…",
    "d": "2026-11-24"
   },
   {
    "t": "Thioridazine",
    "u": "/drugs/thioridazine/",
-   "s": "Corrected: \"Licence and SmPC text (indications, warnings, contraindications) for the UK product\"",
+   "s": "Corrected: \" Original Indication  Not available (the single licence record contains no indication text) \"",
    "d": "2026-11-24"
   },
   {
-   "t": "Theophylline",
-   "u": "/drugs/theophylline/",
-   "s": "Corrected: \" Original Indication  Asthma, bronchitis, pulmonary emphysema and related airway diseases…",
+   "t": "Thiamine",
+   "u": "/drugs/thiamine/",
+   "s": "Corrected: \"Not stated in the licence record\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Terazosin",
-   "u": "/drugs/terazosin/",
-   "s": "Corrected: \"Approved indication text and dosage form for the UK authorisation\"",
+   "t": "Tenoxicam",
+   "u": "/drugs/tenoxicam/",
+   "s": "Corrected: \" Original Indication  Arthritic joint disease and arthropathy (relations recorded in the…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Sulthiame",
+   "u": "/drugs/sulthiame/",
+   "s": "Corrected: \"Not stated in the available authorisation data\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Sulindac",
+   "u": "/drugs/sulindac/",
+   "s": "Corrected: \"The authorisation identifier does not follow the usual PL format, so it should be checked against…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Sorbitol",
+   "u": "/drugs/sorbitol/",
+   "s": "Corrected: \"Confirmation of the original indication, dosage form and approved indication for the UK…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Rivaroxaban",
+   "u": "/drugs/rivaroxaban/",
+   "s": "Corrected: \"Not stated in the licence data compiled for this report\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Riluzole",
+   "u": "/drugs/riluzole/",
+   "s": "Corrected: \"The licence number shown is not in the usual MHRA \"PL\" format, and the dosage form and approved…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Ramipril",
+   "u": "/drugs/ramipril/",
+   "s": "Corrected: \"The authorisation number above is in the format supplied in the data and does not follow the…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Pregabalin",
+   "u": "/drugs/pregabalin/",
+   "s": "Corrected: \"UK licence details (approved indications and formulations) for the authorisation recorded\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Povidone",
+   "u": "/drugs/povidone/",
+   "s": "Corrected: \"Approved indication text and dosage form details for the UK authorisations\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Pimozide",
+   "u": "/drugs/pimozide/",
+   "s": "Corrected: \"A UK authorisation record with dosage form and approved indication\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Pimecrolimus",
+   "u": "/drugs/pimecrolimus/",
+   "s": "Corrected: \"Note: the authorisation identifier above is reproduced as recorded and does not follow the usual…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Phenol",
+   "u": "/drugs/phenol/",
+   "s": "Corrected: \"The data compiled for this report do not include the authorisation's dosage form or approved…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Periciazine",
+   "u": "/drugs/periciazine/",
+   "s": "Corrected: \" Original Indication  Schizophrenia and other psychoses; short-term adjunctive management of…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Pazopanib",
+   "u": "/drugs/pazopanib/",
+   "s": "Corrected: \"Review of the local licence record, which has no recorded indication text\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Parathyroid Hormone",
+   "u": "/drugs/parathyroid-hormone/",
+   "s": "Corrected: \"Not specified in the available licence data\"",
    "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Zonisamide",
-   "u": "/drugs/zonisamide/",
-   "s": "Corrected: \"Confirmation of the UK licence number, dosage form, and approved indication\"",
+   "t": "Ziprasidone",
+   "u": "/drugs/ziprasidone/",
+   "s": "Corrected: \"Ziprasidone is an atypical antipsychotic with a marketed UK product.\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Zolmitriptan",
-   "u": "/drugs/zolmitriptan/",
-   "s": "Corrected: \"Verification of the UK marketing authorisation record (number format, dosage form and approved…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Zanamivir",
-   "u": "/drugs/zanamivir/",
-   "s": "Corrected: \"Approved indication text and dosage form details from the UK licence record\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Verapamil",
-   "u": "/drugs/verapamil/",
-   "s": "Corrected: \"Confirmation of the UK marketing authorisation number, dosage form and licensed indications\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Vancomycin",
-   "u": "/drugs/vancomycin/",
-   "s": "Corrected: \"Note: the data compiled for this report contain no approved indication text for the UK product.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Valproic Acid",
-   "u": "/drugs/valproic-acid/",
-   "s": "Corrected: \"Approved indication text and dosage forms for the UK authorisation, confirmed against the MHRA…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Urofollitropin",
-   "u": "/drugs/urofollitropin/",
-   "s": "Corrected: \" Original Indication  Not stated in the UK authorisation data compiled for this report (generally…",
+   "t": "Tyrosine",
+   "u": "/drugs/tyrosine/",
+   "s": "Corrected: \"Not recorded in the available marketing authorisation data\"",
    "d": "2026-11-24"
   },
   {
    "t": "Tropicamide",
    "u": "/drugs/tropicamide/",
-   "s": "Corrected: \"Mechanism of action data from DrugBank, and SmPC warnings and contraindications for the UK…",
+   "s": "Corrected: \"Confirmation of the licence record, including dosage form and approved indication text\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Trihexyphenidyl",
+   "u": "/drugs/trihexyphenidyl/",
+   "s": "Corrected: \"The marketing authorisation number above is as recorded in the compiled data and does not follow…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Tretinoin",
+   "u": "/drugs/tretinoin/",
+   "s": "Corrected: \" Original Indication  Acne, acute promyelocytic leukaemia, acquired keratosis, palmoplantar…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Tolfenamic Acid",
+   "u": "/drugs/tolfenamic-acid/",
+   "s": "Corrected: \" Original Indication  Acute migraine (the licence record compiled for this report has no…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Tolcapone",
+   "u": "/drugs/tolcapone/",
+   "s": "Corrected: \" Original Indication  Parkinson disease (the licence record held no approved indication text, so…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Thioridazine",
+   "u": "/drugs/thioridazine/",
+   "s": "Corrected: \" Original Indication  Not available (the single licence record contains no indication text) \"",
    "d": "2026-11-24"
   }
  ],

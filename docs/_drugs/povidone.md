@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 508
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Povidone: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). Approved use: Dry eye syndrome"
 monitor_inn: "povidone"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
@@ -116,7 +116,13 @@ The prediction is supported only by a TxGNN model (deep learning) score. There a
 - Label warnings and contraindications from the SmPC and BNF, which are currently missing and block safety screening
 - Preclinical or literature evidence of benefit in ichthyosis models or patients
 - Assessment of route compatibility, as the current products are ophthalmic and no topical dermatological formulation has been identified
-- Approved indication text and dosage form details for the UK authorisations
+- Approved indication text and dosage form details for the UK products
+
+<!-- review:begin uk-lic-20261124d-povidone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Approved indication text and dosage form details for the UK authorisations" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-povidone-1 -->
 
 <!-- review:begin log -->
 
@@ -127,6 +133,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "Both listings are single-ingredient products with valid status" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Approved indication text and dosage form details for the UK authorisations" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

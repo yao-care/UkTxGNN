@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 396
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mesalazine: predicted new indication Congenital hypotrichosis with juvenile macular dystrophy (evidence level L5). Approved use: Ulcerative colitis, inflammatory bowel disease…"
 monitor_inn: "Mesalazine"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
@@ -47,13 +47,19 @@ The TxGNN model predicts it may be effective for **congenital hypotrichosis with
 
 | Item | Content |
 |------|------|
-| Original Indication | Ulcerative colitis, inflammatory bowel disease, ulcerative proctosigmoiditis (the licence record held no indication text) |
+| Original Indication | Ulcerative colitis, inflammatory bowel disease, ulcerative proctosigmoiditis (the UK BNF presentation code records held no indication text) |
 | Predicted New Indication | Congenital hypotrichosis with juvenile macular dystrophy |
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (59 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 59 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-mesalazine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Ulcerative colitis, inflammatory bowel disease, ulcerative proctosigmoiditis (the licence record held no indication text)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-mesalazine-1 -->
 
 ---
 
@@ -150,11 +156,12 @@ The score comes from the TxGNN model (deep learning) and may reflect similaritie
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Ulcerative colitis, inflammatory bowel disease, ulcerative proctosigmoiditis (the licence record held no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

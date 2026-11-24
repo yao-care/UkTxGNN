@@ -589,3 +589,15 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   description 用 correct＋`field: "description"`（`scripts/apply_drug_reviews.py` 新增：只改 description 那一行、不插框、只列在查核紀錄表）；另修 apply：replacement 含原句（product→products）且已套上時不再替換（不然重複執行會疊字）。
   改寫規則與逐句覆寫在本機產生器（scratchpad UkTxGNN-r3/gen.py、rules.py，未進 repo）。正文有變的 222 頁 last_modified_at 改 2026-11-24（另 29 頁本來就是當天）。
 - 驗證：改後同一支字樣偵測（the/its/this＋UK product／licence／authorisation 單數）只剩中性寫法（product details／records／information／data）與單一代碼 3 頁；另寫的寬偵測（a／one／single／only 等＋單數，排除查核框）另有約 10 句「with a UK marketing authorisation」「a marketed UK product」「A UK licence record with…」（olmesartan、oxitriptan、degarelix、ziprasidone、dabigatran_etexilate、chlorpropamide、pimozide、minoxidil、alprostadil、prednisone），屬許可存在說法、不在這次範圍，待用戶決定。checker 前後 0；gate exit 0。
+
+## 把 BNF 處方代碼講成 MHRA 許可的句子（2026-11-24 第四輪）
+
+用戶 2026-11-24 第四輪決定：第三輪寬偵測剩下的「with a UK marketing authorisation」「a marketed UK product」「A UK licence record with…」這類把 NHSBSA BNF 處方代碼講成 MHRA 許可的句子，改成 BNF 代碼口徑（不寫 licence／marketing authorisation、不寫死張數），待辦與理由只拿掉錯的前提。
+- 另寫一支更寬的獨立偵測（marketing authorisation／licen[cs]e／authorised／MHRA 等＋UK 語境，排除查核框、程式表、引文與查核紀錄表；含 noindex 頁）全量掃：1,515 句（633 頁），其中 581 句是程式維護的「UK Market Status」列；另掃「licence／authorisation data／record／entry」名詞片語 84 處。逐句標註後處理三類：
+  摘要把代碼講成許可或上市產品 5 句（olmesartan、oxitriptan、degarelix、dabigatran_etexilate、ziprasidone，改成「listed in the UK BNF prescribing codes as …」，劑型照快照程式表列）；
+  快速總覽原適應症格與 description 把資料叫成 licence／authorisation data／record（「Not stated in the licence data compiled for this report」「the licence record contains no indication text」等）61 處，改成「UK BNF prescribing code data」「UK BNF presentation code records」（description 18 筆用 `field: "description"`）；felodipine 多一列「Number of Approvals | 1 licence record」刪掉；
+  市場段落說明句把代碼叫成 authorisation／licence number 並要求「verify it against the MHRA register」約 40 句（含 noindex 的 capsaicin、phenothrin、retapamulin、somatotropin），改成「The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers; MHRA licence details should be checked in the MHRA register」，句中其他事實照留；
+  理由與待辦以許可紀錄為前提的 30 處（chlorpropamide「absence of UK marketing authorisations」、saline、ketorolac「products authorised in the UK」、alprostadil「the current urethral stick record」（程式表另有 500 microgram 輸注液）、minoxidil、pimozide「A UK licence record／authorisation record with…」、「for the UK authorisations／recorded authorisation」等），只拿掉錯的前提或改成 UK products。
+- 127 筆 `uk-lic-20261124d-<藥>-N`（100 頁，含 noindex 6 頁）＋19 筆同 id 重發（原句在 11-06、11-24 紀錄的更正文字裡；前版存 history），113 頁；正文有變的頁 last_modified_at 改 2026-11-24。產生器在本機 scratchpad UkTxGNN-r4（edits.py 逐句替換表、gen4.py），未進 repo。
+- 照留、不改：要求向 MHRA 取得許可資料的待辦（「a verified MHRA licence record」「Verification of the MHRA authorisation number」等，前提成立）、已正確說明代碼是 BNF-style code 的句子、「no licence indication text is available」（資料確實沒有 SmPC 適應症）、rufinamide 的已知 UK 適應症、cinnarizine 註記；摘要「X is (currently) marketed in the UK」約 45 句屬上市說法、不是許可字樣，沒處理（待用戶決定）。
+- 驗證：同一支寬偵測改後只剩上述照留類；名詞片語偵測剩 5 處，全是向 MHRA 取得紀錄的待辦或 cinnarizine 註記；checker 全量前後 0；gate exit 0；正文張數改寫 0 頁。

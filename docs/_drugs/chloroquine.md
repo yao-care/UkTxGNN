@@ -143,10 +143,16 @@ The TxGNN score is very high, but there are no clinical trials and no direct chl
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data
-- Label-level warnings and contraindications from the SmPC/BNF, and approved indication text and PL numbers for the UK authorisations
+- Label-level warnings and contraindications from the SmPC/BNF, and approved indication text and PL numbers for the UK products
 - Controlled efficacy data (or a systematic review) for chloroquine in polyarticular JIA, compared with current standard care
 - A paediatric dosing and safety monitoring plan, including retinal screening and cardiac (ECG) assessment
 - A review of the main interacting drugs likely to be co-prescribed in JIA, such as methotrexate
+
+<!-- review:begin uk-lic-20261124d-chloroquine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Label-level warnings and contraindications from the SmPC/BNF, and approved indication text and PL numbers for the UK authorisations" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-chloroquine-1 -->
 
 <!-- review:begin log -->
 
@@ -159,6 +165,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "Both entries are single-ingredient authorisations with valid status" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: chloroquine phosphate prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c69e2b-211b-4746-9f3a-f86d36520570) |
 | 2026-11-24 | Corrected: "*Note: the original indications are taken from the TxGNN model (deep learning), as no approved indication text was available in the UK licence data." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Label-level warnings and contraindications from the SmPC/BNF, and approved indication text and PL numbers for the UK authorisations" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 202
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dactinomycin: predicted new indication Relapsing-remitting multiple sclerosis (evidence level L5). Approved use: Ewing sarcoma, testicular germ cell tumours…"
 monitor_inn: "Dactinomycin"
 predicted_indications: ["relapsing-remitting multiple sclerosis", "liver sarcoma", "upper aerodigestive tract neoplasm", "head and neck cancer"]
@@ -146,17 +146,24 @@ Label-based warnings and contraindications were not available. Please refer to t
 - The MHRA SmPC indication text, warnings and contraindications to confirm which predicted sarcoma sites are already covered
 - Dactinomycin-specific outcome data, as distinct from combination-regimen data, for the sarcoma subtypes
 - A hepatic and haematological monitoring plan, especially for liver involvement and adult patients
-- Confirmation of the licence record, including the PL number and dosage form
+- Confirmation of the UK product details, including the PL number and dosage form
+
+<!-- review:begin uk-lic-20261124d-dactinomycin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the licence record, including the PL number and dosage form" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-dactinomycin-1 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: dactinomycin prescribing information, Eugia US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5da55538-2602-4704-a9da-603c9f7ff7dc) |
+| 2026-11-24 | Corrected: "Confirmation of the licence record, including the PL number and dosage form" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

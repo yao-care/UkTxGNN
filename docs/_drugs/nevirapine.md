@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 440
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nevirapine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infection"
 monitor_inn: "Nevirapine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -45,13 +45,19 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infection; AIDS (the licence record holds no approved indication text) |
+| Original Indication | HIV infection; AIDS (the UK BNF presentation code records hold no approved indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L4 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 10 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-nevirapine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / HIV infection; AIDS (the licence record holds no approved indication text)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-nevirapine-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -160,6 +166,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The record gives a BNF-style product code rather than a PL number, and no dosage form or indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; HIV infection; AIDS (the licence record holds no approved indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

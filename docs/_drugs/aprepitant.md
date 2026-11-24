@@ -6,7 +6,7 @@ nav_order: 69
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-11-24
-description: "Aprepitant: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the licence data compiled for this report (aprepitant i…"
+description: "Aprepitant: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the UK BNF prescribing code data compiled for this report (aprepitant i…"
 monitor_inn: "Aprepitant"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "hypertrichosis (disease)", "pulmonary hypertension", "leprosy", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "kyphoscoliotic heart disease", "syndrome with a Dandy-Walker malformation as major feature", "subarachnoid hemorrhage (disease)", "isolated genetic hair shaft abnormality"]
 ---
@@ -51,13 +51,19 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence data compiled for this report (aprepitant is an NK1 antagonist antiemetic) |
+| Original Indication | Not stated in the UK BNF prescribing code data compiled for this report (aprepitant is an NK1 antagonist antiemetic) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (11 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 11 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-aprepitant-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not stated in the licence data compiled for this report (aprepitant is an NK1 antagonist antiemetic)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-aprepitant-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -132,6 +138,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cinvanti (aprepitant) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4) |
 | 2026-11-24 | Corrected: "The data compiled for this report do not list an approved indication for the UK licence, so the original use is inferred from the drug class (antiemetic)." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not stated in the licence data compiled for this report (aprepitant is an NK1 antagonist antiemetic) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Not stated in the licence data compiled for this report" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

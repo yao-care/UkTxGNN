@@ -83,7 +83,7 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-The licence number above is as recorded in the source data and does not follow the standard MHRA "PL" format, so it should be verified against the MHRA register before any reliance is placed on it.
+The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers; MHRA licence details should be checked in the MHRA register before any reliance is placed on them.
 
 <!-- review:begin uk-lic-20261106-auranofin-1 -->
 

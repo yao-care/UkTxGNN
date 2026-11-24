@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 498
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pimozide: predicted new indication Trichotillomania (evidence level L3). Approved use: Tourette syndrome"
 monitor_inn: "Pimozide"
 predicted_indications: ["trichotillomania", "manic bipolar affective disorder", "insomnia (disease)", "major affective disorder", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "Malan overgrowth syndrome", "attention deficit hyperactivity disorder, inattentive type", "agoraphobia", "benign paroxysmal torticollis of infancy"]
@@ -116,9 +116,15 @@ The TxGNN score is very high, but the evidence is limited to reviews, one small 
 
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA) and the SmPC warnings and contraindications
-- A UK authorisation record with dosage form and approved indication
+- The dosage form and approved indication of the UK products from the MHRA register and SmPC
 - A randomised, controlled trial or well-designed prospective study in trichotillomania, compared against established options (such as habit reversal therapy and SRIs)
 - An ECG and electrolyte monitoring plan, with a CYP2D6/CYP3A4 interaction management strategy
+
+<!-- review:begin uk-lic-20261124d-pimozide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "A UK authorisation record with dosage form and approved indication" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-pimozide-1 -->
 
 ---
 
@@ -128,11 +134,12 @@ The TxGNN score is very high, but the evidence is limited to reviews, one small 
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: pimozide prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=70b079e2-a1f7-4a93-8685-d60a4d7c1280) |
+| 2026-11-24 | Corrected: "A UK authorisation record with dosage form and approved indication" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

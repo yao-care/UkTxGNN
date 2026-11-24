@@ -99,7 +99,13 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-Note that this authorisation number is not in the standard UK PL format, and the dosage form and approved indication are not recorded in the compiled data. Please verify against the MHRA register, the SmPC and the BNF.
+Note that the codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers, and the dosage form and approved indication are not recorded in the compiled data. Please verify against the MHRA register, the SmPC and the BNF.
+
+<!-- review:begin uk-lic-20261124d-gemfibrozil-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Note that this authorisation number is not in the standard UK PL format, and the dosage form and approved indication are not recorded in the compiled data." Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-gemfibrozil-1 -->
 
 ---
 
@@ -145,6 +151,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: gemfibrozil prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5501438d-5247-4f2a-8e15-085276d01725) |
 | 2026-11-24 | Corrected: "Verified UK SmPC warnings and contraindications, as well as the approved indication text for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Note that this authorisation number is not in the standard UK PL format, and the dosage form and approved indication are not recorded in the compiled data." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dorzolamide: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). In the UK: 21 NHSBSA BNF presentation codes"
 ---
 
@@ -98,7 +98,7 @@ Showing 20 of 21 BNF presentation codes. Source: NHSBSA BNF code information (NH
 
 <!-- licenses:end -->
 
-The approved indication text is not recorded in the local data, and no dosage form is listed in the licence record. Please check the current SmPC and BNF entry for the authorised use and the product details.
+The approved indication text is not recorded in the local data, and no dosage form field is listed in the BNF presentation code records. Please check the current SmPC and BNF entry for the authorised use and the product details.
 
 <!-- review:begin uk-lic-20261106-dorzolamide-1 -->
 

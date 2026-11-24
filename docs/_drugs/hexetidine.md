@@ -6,7 +6,7 @@ nav_order: 323
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-11-24
-description: "Hexetidine: predicted new indication Interventricular septum aneurysm (evidence level L5). Approved use: Not stated in the available authorisation data (the product is a 0.1%…"
+description: "Hexetidine: predicted new indication Interventricular septum aneurysm (evidence level L5). Approved use: Not stated in the available UK BNF prescribing code data (the product is a 0.1%…"
 monitor_inn: "Hexetidine"
 predicted_indications: ["interventricular septum aneurysm", "pulmonary valve disease", "orofacial clefting syndrome", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "disorder of fucoglycosan synthesis", "partial deletion of the long arm of chromosome 22", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 7", "Jeune syndrome situs inversus"]
 ---
@@ -46,13 +46,19 @@ but there are **no clinical trials** and **no relevant publications** supporting
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the available authorisation data (the product is a 0.1% sugar-free mouthwash) |
+| Original Indication | Not stated in the available UK BNF prescribing code data (the product is a 0.1% sugar-free mouthwash) |
 | Predicted New Indication | Interventricular septum aneurysm |
 | TxGNN Prediction Score | 0.9916 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (3 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 3 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-hexetidine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not stated in the available authorisation data (the product is a 0.1% sugar-free mouthwash)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-hexetidine-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -121,6 +127,8 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Corrected: "The approved indication text and dosage form for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not stated in the available authorisation data (the product is a 0.1% sugar-free mouthwash) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Not stated in the available authorisation data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

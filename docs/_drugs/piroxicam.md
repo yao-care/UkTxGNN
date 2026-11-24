@@ -116,7 +116,7 @@ Showing 20 of 21 BNF presentation codes. Source: NHSBSA BNF code information (NH
 
 <!-- licenses:end -->
 
-The authorisation number, dosage form and indication text should be verified against the MHRA register and the current SmPC. The BNF classification should also be checked.
+The PL number, dosage form and indication text should be checked in the MHRA register and the current SmPC. The BNF classification should also be checked.
 
 <!-- review:begin uk-lic-20261106-piroxicam-1 -->
 

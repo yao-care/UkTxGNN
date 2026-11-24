@@ -92,7 +92,13 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-The identifier above is a BNF-style product code (BNF section 6.7.4 area), not a standard MHRA PL number. The authorisation number, dosage form detail and indication text should be verified against the MHRA register and the current SmPC.
+The identifier above is a BNF-style product code (BNF section 6.7.4 area), not a standard MHRA PL number. The PL number, dosage form detail and indication text should be checked in the MHRA register and the current SmPC.
+
+<!-- review:begin uk-lic-20261124d-mecasermin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The authorisation number, dosage form detail and indication text should be verified against the MHRA register and the current SmPC." Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-mecasermin-1 -->
 
 ---
 
@@ -142,6 +148,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Increlex (mecasermin) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d5b2b0e1-c523-468d-9a0b-4ae4e4a8dbce) |
 | 2026-11-24 | Corrected: "The approved indication text and a verified MHRA authorisation record for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "The authorisation number, dosage form detail and indication text should be verified against the MHRA register and the current SmPC." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

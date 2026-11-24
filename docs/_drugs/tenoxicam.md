@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Tenoxicam"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "trigeminal autonomic cephalalgia", "alopecia"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Tenoxicam: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Arthritic joint disease and arthropathy"
 ---
 
@@ -48,13 +48,19 @@ There are currently **no clinical trials** and **no publications** supporting th
 
 | Item | Content |
 |------|------|
-| Original Indication | Arthritic joint disease and arthropathy (relations recorded in the knowledge graph; no approved indication text is available in the licence record) |
+| Original Indication | Arthritic joint disease and arthropathy (relations recorded in the knowledge graph; no approved indication text is available in the UK BNF presentation code records) |
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-tenoxicam-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Arthritic joint disease and arthropathy (relations recorded in the knowledge graph; no approved indication text is available in the licence record)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-tenoxicam-1 -->
 
 ---
 
@@ -134,6 +140,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "The licence record contains no approved indication text, dosage form or manufacturer, so the authorised indications cannot be confirmed from" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Arthritic joint disease and arthropathy (relations recorded in the knowledge graph; no approved indication text is available in the licence record) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

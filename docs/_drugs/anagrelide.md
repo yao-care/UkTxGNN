@@ -99,7 +99,13 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-Note: The authorisation number shown is as held in the compiled data and is not in the standard MHRA "PL XXXXX/XXXX" format. It should be verified against the MHRA record.
+Note: The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers ("PL XXXXX/XXXX"). MHRA licence details should be checked in the MHRA register.
+
+<!-- review:begin uk-lic-20261124d-anagrelide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Note: The authorisation number shown is as held in the compiled data and is not in the standard MHRA "PL XXXXX/XXXX" format. It should be verified against the MHRA record." Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-anagrelide-1 -->
 
 ## Cytotoxicity
 
@@ -147,6 +153,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Agrylin (anagrelide hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb960074-99c1-4a73-941f-f0644a7ec219) |
 | 2026-11-24 | Corrected: "&#124; Original Indication &#124; Thrombocythaemia; familial thrombocytosis (the UK authorisation record holds no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "Verification of the UK authorisation record, including the licence number, dosage form and approved indication" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Note: The authorisation number shown is as held in the compiled data and is not in the standard MHRA "PL XXXXX/XXXX" format. It should be verified against the MHRA record." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

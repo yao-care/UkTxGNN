@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 476
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Pantoprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). In the UK: 9 NHSBSA BNF presentation codes"
@@ -126,11 +126,17 @@ Warnings and contraindications from the product label are not available in the d
 The evidence supports pantoprazole in active peptic ulcer disease: a completed Phase 3 randomised trial (n=323) plus several randomised comparisons against ranitidine and omeprazole. Because this is an existing indication, the main issue is confirming the licence and safety documentation rather than proving efficacy.
 
 **To proceed, the following is needed:**
-- Confirmation of the approved indication text, dosage form and PL number from the MHRA register, as these are missing from the licence record
+- Confirmation of the approved indication text, dosage form and PL number from the MHRA register, as these are missing from the UK BNF prescribing code data
 - SmPC warnings and contraindications to complete the safety review, as label-based safety data are missing
 - Verification of the NCT02084420 comparator and population, as the trial title is truncated
 - Review of long-term use risks (bone health, vitamin B12 status) and the major interactions (atazanavir, acalabrutinib)
 - Mechanism of action data from an authoritative source
+
+<!-- review:begin uk-lic-20261124d-pantoprazole-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the approved indication text, dosage form and PL number from the MHRA register, as these are missing from the licence record" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-pantoprazole-1 -->
 
 <!-- review:begin log -->
 
@@ -142,6 +148,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One valid single-ingredient authorisation is recorded, with no cancelled authorisations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b) |
+| 2026-11-24 | Corrected: "Confirmation of the approved indication text, dosage form and PL number from the MHRA register, as these are missing from the licence record" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

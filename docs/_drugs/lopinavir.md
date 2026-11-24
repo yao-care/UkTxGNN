@@ -48,13 +48,19 @@ Currently there are **0 clinical trials** and **3 publications** (all preclinica
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease; AIDS (the marketing authorisation records compiled for this report contain no indication text) |
+| Original Indication | HIV infectious disease; AIDS (the UK BNF presentation code records compiled for this report contain no indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L4 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-lopinavir-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / HIV infectious disease; AIDS (the marketing authorisation records compiled for this report contain no indication text)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-lopinavir-1 -->
 
 ---
 
@@ -103,7 +109,7 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-The authorisation numbers shown are as listed in the data compiled for this report and are not in the standard MHRA PL format, so they should be verified against the MHRA register. Please check the BNF (section 5.3.1, HIV infection) and the relevant NICE guidance for the current approved indications.
+The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers; MHRA licence details should be checked in the MHRA register. Please check the BNF (section 5.3.1, HIV infection) and the relevant NICE guidance for the current approved indications.
 
 <!-- review:begin uk-lic-20261106-lopinavir-1 -->
 
@@ -163,6 +169,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "Both authorisations are valid single-ingredient records" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
 | 2026-11-24 | Corrected: "for the two listed products" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; HIV infectious disease; AIDS (the marketing authorisation records compiled for this report contain no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

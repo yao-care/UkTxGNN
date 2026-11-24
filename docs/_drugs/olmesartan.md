@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 460
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Olmesartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not stated in the data compiled for this report (olmesartan is an ARB…"
 monitor_inn: "Olmesartan"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
@@ -38,7 +38,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Olmesartan is an angiotensin II receptor blocker (ARB) with a UK marketing authorisation for its tablet formulation. The TxGNN model predicts it may be effective for **Prinzmetal angina**, but **no clinical trials and no publications** were found for this specific prediction, so it rests on model output alone.
+Olmesartan is an angiotensin II receptor blocker (ARB) listed in the UK BNF prescribing codes as tablets, alone and in combination with amlodipine and/or hydrochlorothiazide, and as an oral liquid. The TxGNN model predicts it may be effective for **Prinzmetal angina**, but **no clinical trials and no publications** were found for this specific prediction, so it rests on model output alone.
+
+<!-- review:begin uk-lic-20261124d-olmesartan-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Olmesartan is an angiotensin II receptor blocker (ARB) with a UK marketing authorisation for its tablet formulation." Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-olmesartan-1 -->
 
 ---
 
@@ -148,6 +154,19 @@ The Prinzmetal angina prediction is supported only by the TxGNN model score and 
 - Confirmation of the licensed indication and product details from the MHRA register and the SmPC
 - Detailed mechanism of action data and warnings/contraindications from the SmPC and BNF
 - For a more evidence-supported direction, consider prioritising **migraine prevention** (class-level evidence, including candesartan RCTs) or **pulmonary hypertension** (preclinical data) as research questions, with olmesartan-specific data needed in either case
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "Olmesartan is an angiotensin II receptor blocker (ARB) with a UK marketing authorisation for its tablet formulation." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

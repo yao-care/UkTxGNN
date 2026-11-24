@@ -47,13 +47,19 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertensive disorder / hypertension (the approved indication text is not recorded in the licence data compiled for this report) |
+| Original Indication | Hypertensive disorder / hypertension (the approved indication text is not recorded in the UK BNF prescribing code data compiled for this report) |
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9908 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (19 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 19 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-labetalol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Hypertensive disorder / hypertension (the approved indication text is not recorded in the licence data compiled for this report)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-labetalol-1 -->
 
 ---
 
@@ -119,7 +125,7 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-The licence identifier is not in the standard MHRA "PL" format, so the number, form and indication should be verified against the MHRA records and the BNF before any decision relies on them.
+The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers, so the PL number, form and indication should be checked in the MHRA records and the BNF before any decision relies on them.
 
 <!-- review:begin uk-lic-20261106-labetalol-1 -->
 
@@ -181,6 +187,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "One valid single-ingredient authorisation is recorded, with no cancelled authorisations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Labetalol Hcl In Dextrose (labetalol hydrochloride) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=99a715a0-4579-410c-b102-7ef6fab8db55) |
 | 2026-11-24 | Corrected: "The licensed indication text and dosage form for the UK authorisation, verified against MHRA records" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Hypertensive disorder / hypertension (the approved indication text is not recorded in the licence data compiled for this report) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

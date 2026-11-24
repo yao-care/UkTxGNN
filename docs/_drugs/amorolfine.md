@@ -104,7 +104,13 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-Note: the authorisation number above is shown as it appears in the compiled data and is not in the standard MHRA "PL XXXXX/XXXX" format, so it should be verified against the MHRA register. Please also confirm the NICE and BNF classification (BNF section on antifungal nail preparations) directly from the BNF.
+Note: the codes above are NHSBSA BNF presentation codes, not MHRA "PL XXXXX/XXXX" numbers; MHRA licence details should be checked in the MHRA register. Please also confirm the NICE and BNF classification (BNF section on antifungal nail preparations) directly from the BNF.
+
+<!-- review:begin uk-lic-20261124d-amorolfine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Note: the authorisation number above is shown as it appears in the compiled data and is not in the standard MHRA "PL XXXXX/XXXX" format, so it should be verified against the MHRA register." Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-amorolfine-1 -->
 
 ---
 
@@ -140,6 +146,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Corrected: "&#124; Original Indication &#124; Onychomycosis (fungal nail infection); the UK authorisation record compiled for this report contains no indication text &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Note: the authorisation number above is shown as it appears in the compiled data and is not in the standard MHRA "PL XXXXX/XXXX" format, so it should be verified against the MHRA register." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

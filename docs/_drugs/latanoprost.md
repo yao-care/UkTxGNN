@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 363
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Latanoprost"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
 description: "Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). In the UK: 19 NHSBSA BNF presentation codes"
@@ -99,7 +99,7 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-The authorisation number appears not to follow the standard MHRA "PL" format, so it should be checked against the MHRA register. Please refer to the BNF (ophthalmic preparations, glaucoma) and relevant NICE guidance for the current licensed indications.
+The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers; MHRA licence details should be checked in the MHRA register. Please refer to the BNF (ophthalmic preparations, glaucoma) and relevant NICE guidance for the current licensed indications.
 
 <!-- review:begin uk-lic-20261106-latanoprost-1 -->
 
@@ -125,8 +125,14 @@ The prediction rests on model output alone (L5). There are no trials or publicat
 - Review of the SmPC and BNF safety information (label warnings and contraindications are missing from the compiled data)
 - Mechanism of action data
 - A systematic literature search for latanoprost in paediatric, congenital and juvenile glaucoma
-- Verification of the licence record (indication text, dosage form, manufacturer, authorisation number) against the MHRA register
+- Verification of the UK product details (indication text, dosage form, manufacturer, PL number) against the MHRA register
 - If hair-growth indications are of interest, a separate assessment drawing on prostaglandin analogue evidence in hypotrichosis
+
+<!-- review:begin uk-lic-20261124d-latanoprost-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Verification of the licence record (indication text, dosage form, manufacturer, authorisation number) against the MHRA register" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-latanoprost-1 -->
 
 <!-- review:begin log -->
 
@@ -138,6 +144,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Only one valid single-ingredient authorisation is recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xelpros (latanoprost) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34ad5cf6-4df0-4104-bddd-4c7631133ded) |
+| 2026-11-24 | Corrected: "Verification of the licence record (indication text, dosage form, manufacturer, authorisation number) against the MHRA register" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

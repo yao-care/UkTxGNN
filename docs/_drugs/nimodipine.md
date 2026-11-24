@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 446
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nimodipine: predicted new indication Homozygous familial hypercholesterolaemia (evidence level L5). Approved use: Subarachnoid haemorrhage (aneurysmal)"
 monitor_inn: "Nimodipine"
 predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -85,7 +85,7 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-The authorisation identifier above is not in standard MHRA PL format and the approved indication text is not available, so it should be verified against the MHRA register, the SmPC and the BNF.
+The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers, and the approved indication text is not available, so the products should be checked in the MHRA register, the SmPC and the BNF.
 
 <!-- review:begin uk-lic-20261106-nimodipine-1 -->
 

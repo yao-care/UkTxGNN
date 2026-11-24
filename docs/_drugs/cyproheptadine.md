@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Cyproheptadine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cyproheptadine: predicted new indication Nasal cavity disease (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes"
 ---
 
@@ -92,7 +92,7 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-The authorisation number is not in the MHRA "PL" format, so the record should be verified against MHRA sources.
+The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers, so MHRA licence details should be checked in MHRA sources.
 
 <!-- review:begin uk-lic-20261106-cyproheptadine-1 -->
 
@@ -125,7 +125,13 @@ The prediction is for a broad, non-specific category, and no trials or publicati
 - Define a specific nasal disease (for example a particular type of rhinitis) in place of "nasal cavity disease"
 - Search for clinical trials and literature on that specific disease
 - Obtain mechanism of action data
-- Retrieve the SmPC warnings and contraindications, and verify the licence record against MHRA data
+- Retrieve the SmPC warnings and contraindications, and verify the UK product details against MHRA data
+
+<!-- review:begin uk-lic-20261124d-cyproheptadine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Retrieve the SmPC warnings and contraindications, and verify the licence record against MHRA data" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-cyproheptadine-1 -->
 
 <!-- review:begin log -->
 
@@ -137,6 +143,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The data compiled for this report show one valid single-ingredient licence record" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyproheptadine Hydrochloride Solution (cyproheptadine hydrochloride) prescribing information, Method Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1acfd050-6c07-a269-e063-6394a90a77e8) |
+| 2026-11-24 | Corrected: "Retrieve the SmPC warnings and contraindications, and verify the licence record against MHRA data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

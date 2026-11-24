@@ -98,7 +98,7 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-The authorisation number is shown as it appears in the data and is not in standard MHRA "PL" format, so the authorisation details should be verified against the MHRA register.
+The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers, so the authorisation details should be checked in the MHRA register.
 
 <!-- review:begin uk-lic-20261124-levamisole-1 -->
 
@@ -142,7 +142,7 @@ Below is the review log for this page: statements checked against the official d
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-24 | Removed: "This is a single-ingredient product record. The list is complete (1 of 1)." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Removed: "This is a single-ingredient product record. The list is complete (1 of 1)." | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "&#124; Original Indication &#124; Ascaridiasis and ancylostomiasis (relations recorded in the knowledge graph; no approved indication text is available in the UK licence record) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->

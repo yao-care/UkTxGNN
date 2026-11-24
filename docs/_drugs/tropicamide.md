@@ -94,7 +94,13 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-The licence number above is as it appears in the compiled data and is not in the standard MHRA "PL" format, so it should be verified against the MHRA register.
+The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers; MHRA licence details should be checked in the MHRA register.
+
+<!-- review:begin uk-lic-20261124d-tropicamide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The licence number above is as it appears in the compiled data and is not in the standard MHRA "PL" format, so it should be verified against the MHRA register." Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-tropicamide-1 -->
 
 ## Safety Considerations
 
@@ -117,7 +123,7 @@ The predictions rest solely on TxGNN scores (Evidence Level L5), with no trials 
 
 **To proceed, the following is needed:**
 - Mechanism of action data from DrugBank, and SmPC warnings and contraindications for the UK products (a blocking gap for safety screening)
-- Confirmation of the licence record, including dosage form and approved indication text
+- Confirmation of the UK product details, including dosage form and approved indication text
 - Mapping of the obsolete neurogenic bladder term to current terminology
 - Evidence of a feasible systemic or alternative route of administration
 - A literature and trial search targeted at antimuscarinics in neurogenic bladder, IBS and cauda equina syndrome, to establish whether tropicamide adds anything over existing agents
@@ -127,6 +133,12 @@ The predictions rest solely on TxGNN scores (Evidence Level L5), with no trials 
 > **Review correction (2026-11-24)**: Originally stated: "Mechanism of action data from DrugBank, and SmPC warnings and contraindications for the UK product (a blocking gap for safety screening)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261124c-tropicamide-1 -->
+
+<!-- review:begin uk-lic-20261124d-tropicamide-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the licence record, including dosage form and approved indication text" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-tropicamide-2 -->
 
 <!-- review:begin log -->
 
@@ -138,6 +150,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mydriacyl (tropicamide) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4f4a2e-eb00-4c65-b3fa-baf5738d468d) |
 | 2026-11-24 | Corrected: "Mechanism of action data from DrugBank, and SmPC warnings and contraindications for the UK product (a blocking gap for safety screening)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "The licence number above is as it appears in the compiled data and is not in the standard MHRA "PL" format, so it should be verified against the MHRA register." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Confirmation of the licence record, including dosage form and approved indication text" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

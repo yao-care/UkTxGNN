@@ -5,8 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 647
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
-description: "Tyrosine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the available marketing authorisation data"
+last_modified_at: 2026-11-24
+description: "Tyrosine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the available UK BNF prescribing code data"
 monitor_inn: "Tyrosine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma"]
 ---
@@ -45,13 +45,19 @@ The TxGNN model ranks **cauda equina syndrome** as its top prediction, but **no 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the available marketing authorisation data |
+| Original Indication | Not recorded in the available UK BNF prescribing code data |
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-tyrosine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not recorded in the available marketing authorisation data" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-tyrosine-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -147,6 +153,8 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "This record is a single valid single-ingredient authorisation. Its number does not follow the standard MHRA "PL XXXXX/XXXX" format, so the p" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not recorded in the available marketing authorisation data &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Not recorded in the available marketing authorisation data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

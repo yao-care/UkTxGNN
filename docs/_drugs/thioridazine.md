@@ -47,13 +47,19 @@ The TxGNN model predicts it may be effective for **manic bipolar affective disor
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (the single licence record contains no indication text) |
+| Original Indication | Not available (the UK BNF presentation code records contain no indication text) |
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (18 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 18 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-thioridazine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not available (the single licence record contains no indication text)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-thioridazine-1 -->
 
 *Note on evidence level:* the publications retrieved are mostly class-level antipsychotic reviews, interaction reports and safety papers. The only thioridazine-specific items are a single-patient observation of a woman with schizoaffective disorder on thioridazine maintenance (1993), a 1964 French report of thioridazine combined with a barbiturate and electroconvulsive therapy for manic reactions, and a 1980 study of pimozide in mania that compares it with thioridazine. None is a controlled study of thioridazine in this disease, so the level is capped at L5.
 
@@ -200,6 +206,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "and the licence record carries no indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: thioridazine hydrochloride prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56b3f4c2-52af-4947-b225-6808ae9f26f5) |
 | 2026-11-24 | Corrected: "Licence and SmPC text (indications, warnings, contraindications) for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not available (the single licence record contains no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

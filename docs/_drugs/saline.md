@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 560
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -79,7 +79,13 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-No TxGNN predictions were generated for SALINE, and all foundational data elements — DrugBank identifier, mechanism of action, original indications, and UK marketing authorisations — are absent. A drug repurposing evaluation cannot be meaningfully conducted without these inputs.
+No TxGNN predictions were generated for SALINE, and all foundational data elements — DrugBank identifier, mechanism of action and original indications — are absent (the UK data are NHSBSA BNF prescribing codes, which do not include MHRA licence status). A drug repurposing evaluation cannot be meaningfully conducted without these inputs.
+
+<!-- review:begin uk-lic-20261124d-saline-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "No TxGNN predictions were generated for SALINE, and all foundational data elements — DrugBank identifier, mechanism of action, original indications, and UK marketing authorisations — are absent." Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-saline-1 -->
 
 **To proceed, the following is needed:**
 - Confirm whether "SALINE" is the intended drug name or a data entry error
@@ -103,6 +109,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Obtain MHRA marketing authorisation data if the compound is authorised in the UK under a different name" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "No TxGNN predictions were generated for SALINE, and all foundational data elements — DrugBank identifier, mechanism of action, original indications, and UK marketing authorisations — are absent." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

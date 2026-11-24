@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 352
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
 description: "Ketorolac: predicted new indication Headache disorder (evidence level L1). In the UK: 8 NHSBSA BNF presentation codes"
@@ -152,7 +152,13 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple completed Phase 2 to 4 trials, systematic reviews and guideline assessments support parenteral and intranasal ketorolac in acute migraine and tension-type headache. However, the evidence concerns routes and settings that differ from the oral and ophthalmic products authorised in the UK, and the safety profile in this population needs careful control.
+Multiple completed Phase 2 to 4 trials, systematic reviews and guideline assessments support parenteral and intranasal ketorolac in acute migraine and tension-type headache. However, the evidence concerns routes and settings that differ from the oral and ophthalmic products listed in the UK BNF prescribing codes, and the safety profile in this population needs careful control.
+
+<!-- review:begin uk-lic-20261124d-ketorolac-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "However, the evidence concerns routes and settings that differ from the oral and ophthalmic products authorised in the UK, and the safety profile in this population needs careful control." Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-ketorolac-1 -->
 
 **To proceed, the following is needed:**
 - Confirmation of the approved indications and SmPC warnings and contraindications for the UK products, as these were not available for this report
@@ -172,6 +178,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The three authorisations below are listed in the data compiled for this report" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Toronova Ii Suik (ketorolac tromethamine) prescribing information, Advanced Rx of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49dd153c-10e8-505b-e063-6394a90a595f) |
+| 2026-11-24 | Corrected: "However, the evidence concerns routes and settings that differ from the oral and ophthalmic products authorised in the UK, and the safety profile in this population needs careful control." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

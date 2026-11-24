@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 477
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Paraldehyde: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Not available"
 monitor_inn: "Paraldehyde"
 predicted_indications: ["irritable bowel syndrome", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "neurocirculatory asthenia", "rhinitis", "insomnia (disease)"]
@@ -47,13 +47,19 @@ The TxGNN model predicts it may be effective for **irritable bowel syndrome**, b
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (no approved indication text recorded in the marketing authorisation data) |
+| Original Indication | Not available (no approved indication text recorded in the UK BNF prescribing code data) |
 | Predicted New Indication | Irritable bowel syndrome |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-paraldehyde-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not available (no approved indication text recorded in the marketing authorisation data)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-paraldehyde-1 -->
 
 ---
 
@@ -138,6 +144,19 @@ The prediction for irritable bowel syndrome rests only on a score from the TxGNN
 - Approved indication and full safety text (warnings and contraindications) from the SmPC and BNF
 - Any preclinical or clinical evidence linking paraldehyde to irritable bowel syndrome
 - A review of whether the insomnia prediction (L4) is worth pursuing as a historical or mechanistic research question only, not as a development candidate
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not available (no approved indication text recorded in the marketing authorisation data) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

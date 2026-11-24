@@ -120,7 +120,13 @@ Showing 20 of 36 BNF presentation codes. Source: NHSBSA BNF code information (NH
 
 <!-- licenses:end -->
 
-The authorisation number above is in the format supplied in the data and does not follow the usual MHRA "PL" format. It should be verified against the MHRA register. Ramipril is classified in the BNF under ACE inhibitors (cardiovascular system).
+The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers. MHRA licence details should be checked in the MHRA register. Ramipril is classified in the BNF under ACE inhibitors (cardiovascular system).
+
+<!-- review:begin uk-lic-20261124d-ramipril-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The authorisation number above is in the format supplied in the data and does not follow the usual MHRA "PL" format. It should be verified against the MHRA register." Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-ramipril-1 -->
 
 ## Safety Considerations
 
@@ -162,6 +168,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59) |
 | 2026-11-24 | Corrected: "Approved indication text and dosage form details for the UK marketing authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "The authorisation number above is in the format supplied in the data and does not follow the usual MHRA "PL" format. It should be verified against the MHRA register." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

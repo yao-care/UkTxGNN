@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 470
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Oxybutynin"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
 description: "Oxybutynin: predicted new indication Restless legs syndrome (evidence level L5). In the UK: 30 NHSBSA BNF presentation codes"
@@ -147,8 +147,14 @@ The prediction for restless legs syndrome rests only on a score from the TxGNN m
 - A documented mechanistic rationale linking muscarinic antagonism to restless legs syndrome
 - Preclinical or early clinical data in restless legs syndrome
 - Detailed mechanism of action data
-- Approved indication text and SmPC safety information for the UK authorisations
+- Approved indication text and SmPC safety information for the UK products
 - A review of the contraindication associations against the SmPC, particularly given the interaction burden with other anticholinergics
+
+<!-- review:begin uk-lic-20261124d-oxybutynin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Approved indication text and SmPC safety information for the UK authorisations" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-oxybutynin-1 -->
 
 <!-- review:begin log -->
 
@@ -160,6 +166,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Both authorisations are valid single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67) |
+| 2026-11-24 | Corrected: "Approved indication text and SmPC safety information for the UK authorisations" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

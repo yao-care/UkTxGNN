@@ -6,7 +6,7 @@ nav_order: 32
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-11-24
-description: "Alfentanil: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the licence data compiled for this report (general use:…"
+description: "Alfentanil: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the UK BNF prescribing code data compiled for this report (general use:…"
 monitor_inn: "Alfentanil"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 ---
@@ -46,13 +46,19 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence data compiled for this report (general use: anaesthesia and analgesia) |
+| Original Indication | Not stated in the UK BNF prescribing code data compiled for this report (general use: anaesthesia and analgesia) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (9 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 9 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-alfentanil-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not stated in the licence data compiled for this report (general use: anaesthesia and analgesia)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-alfentanil-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -135,6 +141,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Corrected: "- Assessment of route compatibility, since alfentanil is available only as an injection in the data compiled" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "Licensed indication text and dosage form for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not stated in the licence data compiled for this report (general use: anaesthesia and analgesia) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Not stated in the licence data compiled for this report" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

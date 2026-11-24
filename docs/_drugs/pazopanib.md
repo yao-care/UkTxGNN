@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 480
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Pazopanib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 description: "Pazopanib: predicted new indication Liposarcoma (evidence level L2). In the UK: 4 NHSBSA BNF presentation codes"
@@ -155,7 +155,13 @@ Two completed phase 2 trials of pazopanib in advanced liposarcoma (NCT01506596 a
 - Confirmatory evidence, ideally from a randomised study, in defined liposarcoma subtypes
 - Mechanism of action data to support subtype selection
 - A safety monitoring plan based on the SmPC, including management of the interactions listed above
-- Review of the local licence record, which has no recorded indication text
+- Approved indication text for the UK products, which is not recorded in the UK BNF prescribing code data
+
+<!-- review:begin uk-lic-20261124d-pazopanib-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Review of the local licence record, which has no recorded indication text" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-pazopanib-1 -->
 
 <!-- review:begin log -->
 
@@ -167,6 +173,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "At least one valid licence is recorded for pazopanib, and its market status is Marketed" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7) |
+| 2026-11-24 | Corrected: "Review of the local licence record, which has no recorded indication text" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

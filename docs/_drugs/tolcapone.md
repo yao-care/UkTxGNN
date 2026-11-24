@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 625
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tolcapone: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease"
 monitor_inn: "Tolcapone"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "Lewy body dementia", "X-linked intellectual disability-ataxia-apraxia syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "X-linked intellectual disability-cerebellar hypoplasia syndrome", "paralysis agitans, juvenile, of Hunt"]
@@ -46,13 +46,19 @@ but there are currently **no clinical trials and no publications** supporting th
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson disease (the licence record held no approved indication text, so this is taken from the drug's known indications) |
+| Original Indication | Parkinson disease (the UK BNF presentation code records held no approved indication text, so this is taken from the drug's known indications) |
 | Predicted New Indication | Rasmussen subacute encephalitis |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-tolcapone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Parkinson disease (the licence record held no approved indication text, so this is taken from the drug's known indications)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-tolcapone-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -132,6 +138,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The data compiled for this report show one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tasmar (tolcapone) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0e47a9d-78e7-4523-983a-aa259f221736) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Parkinson disease (the licence record held no approved indication text, so this is taken from the drug's known indications) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

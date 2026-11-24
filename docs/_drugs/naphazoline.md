@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 433
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Naphazoline: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Temporary relief of eye redness"
 monitor_inn: "naphazoline"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "open-angle glaucoma", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -48,13 +48,19 @@ but there are **no clinical trials and no publications** supporting this predict
 
 | Item | Content |
 |------|------|
-| Original Indication | Temporary relief of eye redness (vasoconstrictor eye drops; the authorisation record contains no indication text) |
+| Original Indication | Temporary relief of eye redness (vasoconstrictor eye drops; the UK BNF presentation code records contain no indication text) |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-naphazoline-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Temporary relief of eye redness (vasoconstrictor eye drops; the authorisation record contains no indication text)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-naphazoline-1 -->
 
 ---
 
@@ -141,6 +147,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is a single-ingredient authorisation record for a witch hazel (hamamelis) and naphazoline eye drop product" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Temporary relief of eye redness (vasoconstrictor eye drops; the authorisation record contains no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

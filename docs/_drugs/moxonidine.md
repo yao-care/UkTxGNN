@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 426
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Moxonidine"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "primary hereditary glaucoma"]
 description: "Moxonidine: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). In the UK: 9 NHSBSA BNF presentation codes"
@@ -96,13 +96,19 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-The authorisation number above is the identifier in the compiled record and is not in the standard MHRA "PL" format. It should be verified against the MHRA register.
+The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers. MHRA licence details should be checked in the MHRA register.
 
 <!-- review:begin uk-lic-20261106-moxonidine-1 -->
 
 > **Review correction (2026-11-24)**: Originally stated: "It should be verified against the MHRA register. The record contains no dosage form, manufacturer or approved indication text." Removed: it conflicted with the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261106-moxonidine-1 -->
+
+<!-- review:begin uk-lic-20261124d-moxonidine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The authorisation number above is the identifier in the compiled record and is not in the standard MHRA "PL" format." Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-moxonidine-1 -->
 
 ## Safety Considerations
 
@@ -135,6 +141,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The record contains no dosage form, manufacturer or approved indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL19236 (moxonidine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL19236) |
+| 2026-11-24 | Corrected: "The authorisation number above is the identifier in the compiled record and is not in the standard MHRA "PL" format." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

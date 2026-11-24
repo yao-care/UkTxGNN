@@ -8,7 +8,7 @@ indication_count: 7
 drugbank_id: DB00945
 monitor_inn: "Acetylsalicylic acid"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aspirin: predicted new indication Atrophoderma vermiculata (evidence level L5). In the UK: 78 NHSBSA BNF presentation codes"
 ---
 
@@ -102,7 +102,13 @@ Showing 20 of 78 BNF presentation codes. Source: NHSBSA BNF code information (NH
 
 <!-- licenses:end -->
 
-No licence reviewed for this report lists atrophoderma vermiculata as an approved use.
+None of the UK BNF presentation code records compiled for this report lists atrophoderma vermiculata as an approved use.
+
+<!-- review:begin uk-lic-20261124d-aspirin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "No licence reviewed for this report lists atrophoderma vermiculata as an approved use." Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-aspirin-1 -->
 
 ## Safety Considerations
 
@@ -135,6 +141,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-06 | Removed: "**Re-query MHRA Product Licence database** to populate UK marketing authorisation records" | No longer present after the report was regenerated (2026-11-16: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "A re-query against the MHRA Product Licence database is strongly recommended before proceeding" | No longer present after the report was regenerated (2026-11-16: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data for this drug is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aspirin And Extended - Release Dipyridamole Capsules, 25 Mg / 200 Mg (aspirin and extended - release dipyridamole) prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6e652e1-b2e4-47ba-bed2-c5e902f8b8f1) |
+| 2026-11-24 | Corrected: "No licence reviewed for this report lists atrophoderma vermiculata as an approved use." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

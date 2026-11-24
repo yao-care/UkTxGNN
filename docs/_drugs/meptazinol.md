@@ -66,7 +66,13 @@ The evidence rests on the model prediction alone.
 
 ## Why is This Prediction Reasonable?
 
-ChEMBL (EMBL-EBI) records the mechanism of action of meptazinol as: Mu opioid receptor partial agonist ([ChEMBL CHEMBL314437 (meptazinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL314437), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, meptazinol is a partial mu-opioid agonist with additional cholinergic activity. It is used as an analgesic, although its approved indication is not recorded in the authorisation data available here.
+ChEMBL (EMBL-EBI) records the mechanism of action of meptazinol as: Mu opioid receptor partial agonist ([ChEMBL CHEMBL314437 (meptazinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL314437), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, meptazinol is a partial mu-opioid agonist with additional cholinergic activity. It is used as an analgesic, although its approved indication is not recorded in the UK BNF prescribing code data available here.
+
+<!-- review:begin uk-lic-20261124d-meptazinol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "It is used as an analgesic, although its approved indication is not recorded in the authorisation data available here." Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-meptazinol-1 -->
 
 A mechanistic rationale for insomnia is weak. Sedation is a side effect of opioids, not a therapeutic rationale, and opioids can disrupt sleep architecture. The high TxGNN score (0.9963) should therefore be treated as a hypothesis-generating signal only.
 
@@ -155,6 +161,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "One valid single-ingredient authorisation is recorded. The record does not include manufacturer, dosage form detail or indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available from the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL314437 (meptazinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL314437) |
 | 2026-11-24 | Corrected: "marketed in the UK as a tablet;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "It is used as an analgesic, although its approved indication is not recorded in the authorisation data available here." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -161,10 +161,22 @@ The predicted "aortic malformation" overlaps heavily with alprostadil's establis
 
 **To proceed, the following is needed:**
 - Mechanism of action data, to support the mechanistic-link analysis
-- SmPC and BNF warnings and contraindications for the UK-licensed product, which are required before safety screening
-- A clear UK authorisation record, including the PL number, dosage form and approved indication (the current urethral stick record is unlikely to cover neonatal ductal-dependent use)
+- SmPC and BNF warnings and contraindications for the UK products, which are required before safety screening
+- The PL number, dosage form and approved indication of the UK products from the MHRA register and SmPC (the UK BNF prescribing codes include a 500 microgram/1 ml solution for infusion as well as urethral sticks, cream and injections for erectile dysfunction)
 - A defined, narrower target population within ductal-dependent lesions, with prospective or well-designed observational data
 - A safety monitoring plan for prolonged neonatal infusion (gastric outlet obstruction, apnoea, electrolyte disturbance)
+
+<!-- review:begin uk-lic-20261124d-alprostadil-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "A clear UK authorisation record, including the PL number, dosage form and approved indication (the current urethral stick record is unlikely to cover neonatal ductal-dependent use)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-alprostadil-1 -->
+
+<!-- review:begin uk-lic-20261124d-alprostadil-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "SmPC and BNF warnings and contraindications for the UK-licensed product, which are required before safety screening" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-alprostadil-2 -->
 
 <!-- review:begin log -->
 
@@ -177,6 +189,8 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "Only one authorisation record was found. It is a BNF classification code rather than a standard MHRA PL number, and the manufacturer and ind" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98) |
 | 2026-11-24 | Corrected: "&#124; Original Indication &#124; Erectile dysfunction; congenital heart defects such as tricuspid atresia, aortic coarctation and tetralogy of Fallot (the UK authorisation record has no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "A clear UK authorisation record, including the PL number, dosage form and approved indication (the current urethral stick record is unlikely to cover neonatal ductal-dependent use)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "SmPC and BNF warnings and contraindications for the UK-licensed product, which are required before safety screening" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

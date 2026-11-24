@@ -111,7 +111,13 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-The data compiled for this report do not include the authorisation's dosage form or approved indication text. The authorisation number is not in standard MHRA PL format, so it should be verified.
+The data compiled for this report do not include the products' dosage forms or approved indication text. The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers, so MHRA licence details should be checked separately.
+
+<!-- review:begin uk-lic-20261124d-phenol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The data compiled for this report do not include the authorisation's dosage form or approved indication text. The authorisation number is not in standard MHRA PL format, so it should be verified." Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-phenol-1 -->
 
 ---
 
@@ -157,6 +163,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Corrected: "Verification of the UK authorisation details" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "The data compiled for this report do not include the authorisation's dosage form or approved indication text. The authorisation number is not in standard MHRA PL format, so it should be verified." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

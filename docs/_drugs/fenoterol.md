@@ -6,7 +6,7 @@ nav_order: 284
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-11-24
-description: "Fenoterol: predicted new indication Multiple system atrophy (evidence level L5). Approved use: Not stated in the licence data compiled for this report (fenoterol is…"
+description: "Fenoterol: predicted new indication Multiple system atrophy (evidence level L5). Approved use: Not stated in the UK BNF prescribing code data compiled for this report (fenoterol is…"
 monitor_inn: "fenoterol"
 predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease"]
 ---
@@ -46,13 +46,19 @@ The prediction is computational only, and the mechanistic rationale is weak and 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence data compiled for this report (fenoterol is generally used as a bronchodilator) |
+| Original Indication | Not stated in the UK BNF prescribing code data compiled for this report (fenoterol is generally used as a bronchodilator) |
 | Predicted New Indication | Multiple system atrophy |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 10 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-fenoterol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not stated in the licence data compiled for this report (fenoterol is generally used as a bronchodilator)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-fenoterol-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -128,10 +134,16 @@ All eight predictions are supported only by a computational score, with no trial
 **To proceed, the following is needed:**
 - Complete safety data from the SmPC and BNF (warnings and contraindications), which are currently missing and block safety screening
 - Detailed mechanism of action data
-- Approved indication text and dosage form for the UK authorisations
+- Approved indication text and dosage form for the UK products
 - A systematic literature and trial search, with Raynaud disease as the priority candidate
 - A mechanistic and safety review of cardiovascular effects (orthostatic hypotension, tachycardia, arrhythmia) before considering any neurological or cardiac indication
 - Assessment of route compatibility, since current products are inhaled or nebulised
+
+<!-- review:begin uk-lic-20261124d-fenoterol-3 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Approved indication text and dosage form for the UK authorisations" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-fenoterol-3 -->
 
 <!-- review:begin log -->
 
@@ -143,6 +155,9 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800) |
 | 2026-11-24 | Corrected: "Both products are classed under BNF section 3.1.4 (bronchodilators) based on the code prefix." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not stated in the licence data compiled for this report (fenoterol is generally used as a bronchodilator) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Not stated in the licence data compiled for this report" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Approved indication text and dosage form for the UK authorisations" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

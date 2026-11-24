@@ -5,8 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 212
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
-description: "Degarelix: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not stated in the available authorisation data"
+last_modified_at: 2026-11-24
+description: "Degarelix: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not stated in the available UK BNF prescribing code data"
 monitor_inn: "Degarelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "malformation syndrome with odontal and/or periodontal component", "isolated genetic hair shaft abnormality", "allergic urticaria", "cold urticaria", "familial male-limited precocious puberty", "centra precocious puberty 1", "familial isolated trichomegaly"]
 ---
@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Degarelix is a gonadotropin-releasing hormone (GnRH) receptor antagonist, with a UK marketing authorisation on record but no approved indication text in the data compiled for this report.
+Degarelix is a gonadotropin-releasing hormone (GnRH) receptor antagonist, listed in the UK BNF prescribing codes as injection vials, but with no approved indication text in the data compiled for this report.
 The TxGNN model predicts it may be effective for **hypertrichosis**, but there are **no registered clinical trials** and **no publications** supporting this direction.
 This is a model-only prediction with a weak mechanistic rationale.
+
+<!-- review:begin uk-lic-20261124d-degarelix-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Degarelix is a gonadotropin-releasing hormone (GnRH) receptor antagonist, with a UK marketing authorisation on record but no approved indication text in the data compiled for this report." Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-degarelix-1 -->
 
 ---
 
@@ -48,13 +54,19 @@ This is a model-only prediction with a weak mechanistic rationale.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the available authorisation data |
+| Original Indication | Not stated in the available UK BNF prescribing code data |
 | Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-degarelix-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not stated in the available authorisation data" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-degarelix-2 -->
 
 ---
 
@@ -141,6 +153,9 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The data compiled for this report list one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Firmagon (degarelix) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ab11dd8a-0fd9-4013-89ab-e114557c7e4b) |
+| 2026-11-24 | Corrected: "Degarelix is a gonadotropin-releasing hormone (GnRH) receptor antagonist, with a UK marketing authorisation on record but no approved indication text in the data compiled for this report." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not stated in the available authorisation data &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Not stated in the available authorisation data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

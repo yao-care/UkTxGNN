@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
 description: "Mupirocin: predicted new indication Pleural empyema (disease) (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes"
@@ -111,7 +111,7 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-The authorisation number above is not in the usual MHRA PL format, so please verify it against the MHRA register. Please also check the BNF and the current SmPC for the licensed indications and NICE guidance on topical antibacterials.
+The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers; please check the MHRA register for licence details. Please also check the BNF and the current SmPC for the licensed indications and NICE guidance on topical antibacterials.
 
 <!-- review:begin uk-lic-20261106-mupirocin-1 -->
 

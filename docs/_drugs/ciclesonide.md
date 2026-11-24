@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 163
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ciclesonide: predicted new indication Atopic eczema (evidence level L5). Approved use: Asthma, intrinsic asthma, allergic asthma, allergic rhinitis…"
 monitor_inn: "Ciclesonide"
 predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis"]
@@ -45,13 +45,19 @@ The TxGNN model predicts it may be effective for **atopic eczema**, but this res
 
 | Item | Content |
 |------|------|
-| Original Indication | Asthma, intrinsic asthma, allergic asthma, allergic rhinitis, vasomotor rhinitis (the licence record held no indication text) |
+| Original Indication | Asthma, intrinsic asthma, allergic asthma, allergic rhinitis, vasomotor rhinitis (the UK BNF presentation code records held no indication text) |
 | Predicted New Indication | Atopic eczema |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-ciclesonide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Asthma, intrinsic asthma, allergic asthma, allergic rhinitis, vasomotor rhinitis (the licence record held no indication text)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-ciclesonide-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -131,7 +137,13 @@ All predicted indications rest on model scores with no supporting trials. Atopic
 - Merging of the duplicate atopic eczema and atopic dermatitis entries
 - Preclinical or early clinical evidence of benefit in atopic eczema
 - Comparison with existing topical corticosteroids and a review of the contact allergy cross-reactivity risk
-- Completion of the licence record, including dosage form, manufacturer and approved indication text
+- The dosage form, manufacturer and approved indication text of the UK products
+
+<!-- review:begin uk-lic-20261124d-ciclesonide-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Completion of the licence record, including dosage form, manufacturer and approved indication text" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-ciclesonide-2 -->
 
 <!-- review:begin log -->
 
@@ -143,6 +155,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One authorisation is recorded, and it is a single-ingredient product" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Alvesco (ciclesonide) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6112fb-78ef-43cf-8ae3-36370eb45468) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Asthma, intrinsic asthma, allergic asthma, allergic rhinitis, vasomotor rhinitis (the licence record held no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Completion of the licence record, including dosage form, manufacturer and approved indication text" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

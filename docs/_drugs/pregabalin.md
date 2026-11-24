@@ -148,8 +148,14 @@ The very high model score is a computational signal only. No trials or tendiniti
 **To proceed, the following is needed:**
 - Controlled studies of pregabalin in tendinopathy or tendinitis, with pain and function outcomes
 - Mechanism-of-action data and SmPC-based warnings and contraindications
-- UK licence details (approved indications and formulations) for the authorisation recorded
+- UK licence details (approved indications and formulations) for the UK products
 - Review of the muscle-related contraindication signals and the major opioid interaction
+
+<!-- review:begin uk-lic-20261124d-pregabalin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "UK licence details (approved indications and formulations) for the authorisation recorded" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-pregabalin-1 -->
 
 **Note on other predictions:** In the same candidate list, **migraine disorder** has stronger support (evidence level L2). It has randomised trials in paediatric migraine prophylaxis against propranolol and sodium valproate, and a network meta-analysis. The only Phase 3 registration (NCT00447369) was withdrawn and provides no data. Migraine may merit a separate evaluation.
 
@@ -163,6 +169,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd) |
 | 2026-11-24 | Corrected: "&#124; Original Indication &#124; Anxiety disorder, fibromyalgia, myofascial pain syndrome, postherpetic neuralgia (from the TxGNN knowledge graph, as no indication text is recorded in the UK licence data) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "UK licence details (approved indications and formulations) for the authorisation recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

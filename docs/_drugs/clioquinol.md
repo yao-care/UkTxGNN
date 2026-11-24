@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "clioquinol"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clioquinol: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Tinea pedis, tinea corporis, tinea infection…"
 ---
 
@@ -47,13 +47,19 @@ The TxGNN model predicts it may be useful for **ectothrix infectious disease** (
 
 | Item | Content |
 |------|------|
-| Original Indication | Tinea pedis, tinea corporis, tinea infection, dermatophytosis of groin and perianal area (relations recorded in the knowledge graph; the licence records compiled for this report contain no indication text) |
+| Original Indication | Tinea pedis, tinea corporis, tinea infection, dermatophytosis of groin and perianal area (relations recorded in the knowledge graph; the UK BNF presentation code records compiled for this report contain no indication text) |
 | Predicted New Indication | Ectothrix infectious disease |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (17 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 17 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-clioquinol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Tinea pedis, tinea corporis, tinea infection, dermatophytosis of groin and perianal area (relations recorded in the knowledge graph; the licence records compiled for this report contain no indication text)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-clioquinol-1 -->
 
 ---
 
@@ -155,6 +161,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The records compiled for this report list five single-ingredient clioquinol authorisations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Tinea pedis, tinea corporis, tinea infection, dermatophytosis of groin and perianal area (relations recorded in the knowledge graph; the licence records compiled for this report contain no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

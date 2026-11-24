@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 469
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Oxitriptan: predicted new indication insomnia (disease) (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Oxitriptan"
 predicted_indications: ["insomnia (disease)"]
@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Oxitriptan (5-hydroxytryptophan, 5-HTP) is the immediate precursor of serotonin, and a UK marketing authorisation exists for a 50 mg capsule, but no approved indication text was available in the data compiled for this report.
+Oxitriptan (5-hydroxytryptophan, 5-HTP) is the immediate precursor of serotonin, and it is listed in the UK BNF prescribing codes as capsules and tablets, including 50 mg capsules, but no approved indication text was available in the data compiled for this report.
 The TxGNN model predicts it may be effective for **insomnia**, with **no clinical trials** and **no publications** currently supporting this specific prediction.
 The evidence is a computational prediction only.
+
+<!-- review:begin uk-lic-20261124d-oxitriptan-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Oxitriptan (5-hydroxytryptophan, 5-HTP) is the immediate precursor of serotonin, and a UK marketing authorisation exists for a 50 mg capsule, but no approved indication text was available in the data compiled for this report." Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-oxitriptan-1 -->
 
 ## Quick Overview
 
@@ -117,6 +123,19 @@ The insomnia prediction has a high model score but no supporting trials or publi
 - Mechanism of action data (for example from DrugBank)
 - A literature and trial search specific to oxitriptan/5-HTP in insomnia and sleep disorders
 - A review of the serotonergic and 5-HT3 antagonist interactions, with a monitoring plan
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "Oxitriptan (5-hydroxytryptophan, 5-HTP) is the immediate precursor of serotonin, and a UK marketing authorisation exists for a 50 mg capsule, but no approved indication text was available in the data compiled for this report." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

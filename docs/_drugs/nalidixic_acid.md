@@ -6,7 +6,7 @@ nav_order: 432
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-11-24
-description: "Nalidixic Acid: predicted new indication Conjunctivitis (evidence level L5). Approved use: Not recorded in the compiled data (the authorisation entry has no ind…"
+description: "Nalidixic Acid: predicted new indication Conjunctivitis (evidence level L5). Approved use: Not recorded in the compiled data (the BNF presentation code records have no ind…"
 monitor_inn: "Nalidixic acid"
 predicted_indications: ["conjunctivitis", "sclerosing cholangitis", "rheumatoid arthritis", "infectious otitis media"]
 ---
@@ -53,13 +53,19 @@ The TxGNN model predicts it may be effective for **conjunctivitis**, but there a
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the compiled data (the authorisation entry has no indication text) |
+| Original Indication | Not recorded in the compiled data (the UK BNF presentation code records have no indication text) |
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-nalidixic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not recorded in the compiled data (the authorisation entry has no indication text)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-nalidixic_acid-1 -->
 
 ---
 
@@ -175,6 +181,8 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "The compiled data show one valid single-ingredient product" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data are not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL5 (nalidixic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5) |
 | 2026-11-24 | Corrected: "It is marketed in the UK as an oral suspension," | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not recorded in the compiled data (the authorisation entry has no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "(the authorisation entry has no ind" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

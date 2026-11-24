@@ -64,13 +64,19 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-The authorisation number is in a format that does not look like a standard MHRA "PL" number, and the dosage form and indication are not recorded. The status and indications of the UK products should be verified against the MHRA register, the SmPC and the BNF.
+The codes shown are NHSBSA BNF presentation codes, not MHRA PL numbers, and the dosage form and indication are not recorded. The status and indications of the UK products should be verified against the MHRA register, the SmPC and the BNF.
 
 <!-- review:begin uk-lic-20261124c-capsaicin-1 -->
 
 > **Review correction (2026-11-24)**: Originally stated: "The UK authorisation status and indication should be verified against the MHRA register, the SmPC and the BNF." Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261124c-capsaicin-1 -->
+
+<!-- review:begin uk-lic-20261124d-capsaicin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The authorisation number is in a format that does not look like a standard MHRA "PL" number, and the dosage form and indication are not recorded." Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-capsaicin-1 -->
 
 ## Safety Considerations
 
@@ -89,6 +95,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Corrected: "The UK authorisation status and indication should be verified against the MHRA register, the SmPC and the BNF." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "The authorisation number is in a format that does not look like a standard MHRA "PL" number, and the dosage form and indication are not recorded." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

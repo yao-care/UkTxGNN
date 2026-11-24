@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 62
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Amylmetacresol: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Amylmetacresol"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "ciliary body disease", "panuveitis (disease)", "iris disease", "infectious anterior uveitis", "uveitis", "ciliary body cancer", "benign neoplasm of ciliary body"]
@@ -44,13 +44,19 @@ Amylmetacresol is a topical antiseptic, used in throat lozenges. The TxGNN model
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the data compiled for this report (the licence record contains no indication text) |
+| Original Indication | Not stated in the data compiled for this report (the UK BNF presentation code records contain no indication text) |
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (25 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 25 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-amylmetacresol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not stated in the data compiled for this report (the licence record contains no indication text)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-amylmetacresol-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -136,6 +142,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "The record lists one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not stated in the data compiled for this report (the licence record contains no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

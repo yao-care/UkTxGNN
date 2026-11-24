@@ -46,13 +46,19 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis; psoriatic arthritis (the licence record has no indication text) |
+| Original Indication | Rheumatoid arthritis; psoriatic arthritis (the UK BNF presentation code records have no indication text) |
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124d-leflunomide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Rheumatoid arthritis; psoriatic arthritis (the licence record has no indication text)" Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-leflunomide-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -144,6 +150,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "Only one valid single-ingredient authorisation is recorded. The record does not give a dosage form or approved indication text, and the numb" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52) |
 | 2026-11-24 | Corrected: "Verification of the UK marketing authorisation details (number, dosage form, approved indication) against MHRA records" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Rheumatoid arthritis; psoriatic arthritis (the licence record has no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -95,7 +95,13 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-Note: the authorisation identifier above is reproduced as recorded and does not follow the usual MHRA "PL xxxxx/xxxx" format; it should be verified against the MHRA register. NICE appraisal status and BNF classification were not included in the data compiled for this report.
+Note: the codes above are NHSBSA BNF presentation codes, not MHRA "PL xxxxx/xxxx" numbers; MHRA licence details should be checked in the MHRA register. NICE appraisal status and BNF classification were not included in the data compiled for this report.
+
+<!-- review:begin uk-lic-20261124d-pimecrolimus-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Note: the authorisation identifier above is reproduced as recorded and does not follow the usual MHRA "PL xxxxx/xxxx" format; it should be verified against the MHRA register." Corrected wording only: the text described this site's UK market data as MHRA licences, marketing authorisations, licence numbers or licence records, or rested on a UK licence status. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): these are NHS prescribing codes, not MHRA licences, they carry no indication text, and MHRA licence status is not included. The wording was changed to BNF prescribing codes (or the unsupported premise was removed); the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124d-pimecrolimus-1 -->
 
 ## Cytotoxicity
 
@@ -145,6 +151,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Corrected: "Verification of the UK authorisation record and NICE/BNF positioning" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Note: the authorisation identifier above is reproduced as recorded and does not follow the usual MHRA "PL xxxxx/xxxx" format; it should be verified against the MHRA register." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 
