@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 180
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Clobetasol: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L3). Approved use: Not available in the data compiled for this report"
 monitor_inn: "clobetasol"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -38,9 +38,15 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Clobetasol is a super-potent topical corticosteroid, here represented by a clobetasol/neomycin/nystatin ointment product marketed in the UK.
+Clobetasol is a super-potent topical corticosteroid, listed in the UK BNF prescribing codes in many forms, including a clobetasol/neomycin/nystatin ointment product.
 The TxGNN model predicts it may be effective for **primary cutaneous T-cell lymphoma** (mainly early-stage mycosis fungoides),
 with **no registered clinical trials** but **14 publications**, including several cohort studies and clinical series, currently supporting this direction.
+
+<!-- review:begin uk-lic-20261125-clobetasol-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Clobetasol is a super-potent topical corticosteroid, here represented by a clobetasol/neomycin/nystatin ointment product marketed in the UK." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-clobetasol-1 -->
 
 ## Quick Overview
 
@@ -149,6 +155,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069) |
 | 2026-11-24 | Corrected: "The authorisation number shown is not in standard MHRA PL format, so please verify it against the MHRA register." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Corrected: "Clobetasol is a super-potent topical corticosteroid, here represented by a clobetasol/neomycin/nystatin ointment product marketed in the UK." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

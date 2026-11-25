@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 482
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-25
 description: "Penciclovir: predicted new indication Fascioliasis (evidence level L5). Approved use: Herpes labialis"
 monitor_inn: "Penciclovir"
 predicted_indications: ["fascioliasis"]
@@ -88,13 +88,19 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-Penciclovir is marketed in the UK as a single-ingredient topical product. Please verify the authorisation details against the MHRA register and the BNF.
+Penciclovir is listed in the UK BNF prescribing codes as a single-ingredient topical product. Please verify the authorisation details against the MHRA register and the BNF.
 
 <!-- review:begin uk-lic-20261106-penciclovir-1 -->
 
 > **Review correction (2026-11-24)**: Originally stated: "The data compiled for this report contain only one authorisation, and its record is incomplete (no dosage form, manufacturer or indication text). Please verify the authorisation details against the MHRA register and the BNF." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261106-penciclovir-1 -->
+
+<!-- review:begin uk-lic-20261125-penciclovir-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Penciclovir is marketed in the UK as a single-ingredient topical product." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-penciclovir-1 -->
 
 ## Safety Considerations
 
@@ -124,6 +130,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The data compiled for this report contain only one authorisation, and its record is incomplete (no dosage form, manufacturer or indication t" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Denavir (penciclovir) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=61229829-55a0-4d6f-a423-4b48a2b4d8e5) |
+| 2026-11-25 | Corrected: "Penciclovir is marketed in the UK as a single-ingredient topical product." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

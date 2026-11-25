@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "allantoin"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "hydroa vacciniforme, familial", "exanthem (disease)"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-25
 description: "Allantoin: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). In the UK: 10 NHSBSA BNF presentation codes"
 ---
 
@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Allantoin is a topical skin-protectant and keratolytic agent, available in the UK in a coal tar extract and allantoin cream.
+Allantoin is a topical skin-protectant and keratolytic agent, listed in the UK BNF prescribing codes in combination products, including a coal tar extract and allantoin cream.
 The TxGNN model predicts it may be relevant to **severe nonproliferative diabetic retinopathy**, but there are currently **no clinical trials and no publications** supporting this prediction, so it rests on a computational prediction alone.
+
+<!-- review:begin uk-lic-20261125-allantoin-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Allantoin is a topical skin-protectant and keratolytic agent, available in the UK in a coal tar extract and allantoin cream." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-allantoin-1 -->
 
 ## Quick Overview
 
@@ -124,6 +130,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "The local licence record lists one valid authorisation, for a combination product containing coal tar extract and allantoin (cream, 5%/2%). " | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Corrected: "Allantoin is a topical skin-protectant and keratolytic agent, available in the UK in a coal tar extract and allantoin cream." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

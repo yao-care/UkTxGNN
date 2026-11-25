@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 304
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Formaldehyde"
 predicted_indications: ["leishmaniasis, diffuse cutaneous", "cardioencephalomyopathy, fatal infantile, due to cytochrome c oxidase deficiency", "mucocutaneous leishmaniasis", "pyelonephritis", "streptococcal pneumonia", "X-linked lymphoproliferative syndrome", "trigonitis", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "Plasmodium falciparum malaria"]
 description: "Formaldehyde: predicted new indication Leishmaniasis, diffuse cutaneous (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes"
@@ -134,8 +134,14 @@ The prediction rests on a model score alone (evidence level L5), with no trials 
 **To proceed, the following is needed:**
 - Any in vitro or in vivo evidence of activity against *Leishmania* at tolerable concentrations
 - Mechanism of action data and a clear rationale for the route of administration (topical use would need separate justification)
-- Complete safety information from the SmPC and BNF for the marketed gel, including contraindications and warnings
+- Complete safety information from the SmPC and BNF for the UK gel products, including contraindications and warnings
 - A review of whether less toxic, established anti-leishmanial options already address the clinical need
+
+<!-- review:begin uk-lic-20261125-formaldehyde-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Complete safety information from the SmPC and BNF for the marketed gel, including contraindications and warnings" Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-formaldehyde-1 -->
 
 <!-- review:begin log -->
 
@@ -147,6 +153,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Corrected: "and is marketed in the UK as a topical gel." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "The identifier above is as recorded in the compiled licence data and is not in the standard MHRA "PL" format. Please verify it against the MHRA register before relying on it." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Corrected: "Complete safety information from the SmPC and BNF for the marketed gel, including contraindications and warnings" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

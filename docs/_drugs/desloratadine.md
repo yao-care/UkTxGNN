@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Desloratadine"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-25
 description: "Desloratadine: predicted new indication nasal cavity disease (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes"
 ---
 
@@ -38,7 +38,13 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Desloratadine is an oral antihistamine tablet marketed in the UK. The TxGNN model predicts it may be useful for **nasal cavity disease**, a broad and non-specific category. The supporting evidence is limited to **2 preclinical publications** and **no clinical trials**.
+Desloratadine is an oral antihistamine tablet listed in the UK BNF prescribing codes. The TxGNN model predicts it may be useful for **nasal cavity disease**, a broad and non-specific category. The supporting evidence is limited to **2 preclinical publications** and **no clinical trials**.
+
+<!-- review:begin uk-lic-20261125-desloratadine-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Desloratadine is an oral antihistamine tablet marketed in the UK." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-desloratadine-1 -->
 
 ## Quick Overview
 
@@ -113,11 +119,12 @@ The prediction score is high, but the predicted category is too broad to evaluat
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f) |
+| 2026-11-25 | Corrected: "Desloratadine is an oral antihistamine tablet marketed in the UK." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

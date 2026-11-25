@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Chlorpromazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-25
 description: "Chlorpromazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). In the UK: 25 NHSBSA BNF presentation codes"
 ---
 
@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Chlorpromazine is a phenothiazine antipsychotic medicine marketed in the UK.
+Chlorpromazine is a phenothiazine antipsychotic medicine listed in the UK BNF prescribing codes.
 The TxGNN model predicts it may be relevant to **retinal dystrophy with or without extraocular anomalies**, but there are **0 clinical trials** and only **1 publication** (a 1967 report of a drug-induced adverse effect, not a therapeutic benefit).
+
+<!-- review:begin uk-lic-20261125-chlorpromazine-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Chlorpromazine is a phenothiazine antipsychotic medicine marketed in the UK." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-chlorpromazine-1 -->
 
 ## Quick Overview
 
@@ -138,6 +144,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The licence records compiled for this report show one valid single-ingredient authorisation (product: Chlorpromazine HCl tablets 25 mg)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: chlorpromazine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd02d051-2a34-4cd3-a137-b965c0381267) |
+| 2026-11-25 | Corrected: "Chlorpromazine is a phenothiazine antipsychotic medicine marketed in the UK." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -21,11 +21,11 @@
   "items_current": 11014
  },
  "reviews": {
-  "records": 1432,
-  "pages": 573,
-  "public_pages_with_records": 536,
+  "records": 1513,
+  "pages": 575,
+  "public_pages_with_records": 537,
   "by_action": {
-   "correct": 974,
+   "correct": 1055,
    "mechanism": 458
   }
  },
@@ -85,7 +85,7 @@
    "l": "L5",
    "lt": 119,
    "lv": 119,
-   "r": 2,
+   "r": 3,
    "i": "migraine disorder"
   },
   {
@@ -116,8 +116,17 @@
    "l": "L5",
    "lt": 78,
    "lv": 78,
-   "r": 6,
+   "r": 7,
    "i": "atrophoderma vermiculata"
+  },
+  {
+   "t": "Sulthiame",
+   "u": "/drugs/sulthiame/",
+   "l": "L5",
+   "lt": 7,
+   "lv": 7,
+   "r": 7,
+   "i": "cauda equina syndrome"
   },
   {
    "t": "Dabigatran Etexilate",
@@ -127,6 +136,15 @@
    "lv": 18,
    "r": 6,
    "i": "sclerosing cholangitis"
+  },
+  {
+   "t": "Fenoterol",
+   "u": "/drugs/fenoterol/",
+   "l": "L5",
+   "lt": 10,
+   "lv": 10,
+   "r": 6,
+   "i": "multiple system atrophy"
   },
   {
    "t": "Hyaluronidase",
@@ -145,24 +163,6 @@
    "lv": 27,
    "r": 6,
    "i": "headache disorder"
-  },
-  {
-   "t": "Nalidixic Acid",
-   "u": "/drugs/nalidixic-acid/",
-   "l": "L5",
-   "lt": 8,
-   "lv": 8,
-   "r": 6,
-   "i": "conjunctivitis"
-  },
-  {
-   "t": "Sulthiame",
-   "u": "/drugs/sulthiame/",
-   "l": "L5",
-   "lt": 7,
-   "lv": 7,
-   "r": 6,
-   "i": "cauda equina syndrome"
   }
  ],
  "example": {
@@ -171,203 +171,203 @@
   "l": "L1",
   "lt": 64,
   "lv": 64,
-  "r": 3,
+  "r": 4,
   "i": "seborrheic dermatitis"
  },
  "recent_reviews": [
   {
-   "t": "Ziprasidone",
-   "u": "/drugs/ziprasidone/",
-   "s": "Corrected: \"Ziprasidone is an atypical antipsychotic with a marketed UK product.\"",
-   "d": "2026-11-24"
+   "t": "Zonisamide",
+   "u": "/drugs/zonisamide/",
+   "s": "Corrected: \"Zonisamide is an antiseizure medication marketed in the UK, and its original use is in epilepsy.\"",
+   "d": "2026-11-25"
   },
   {
-   "t": "Tyrosine",
-   "u": "/drugs/tyrosine/",
-   "s": "Corrected: \"Not recorded in the available marketing authorisation data\"",
-   "d": "2026-11-24"
+   "t": "Zafirlukast",
+   "u": "/drugs/zafirlukast/",
+   "s": "Corrected: \"Zafirlukast is a cysteinyl leukotriene receptor antagonist that is currently marketed in the UK.\"",
+   "d": "2026-11-25"
   },
   {
-   "t": "Tropicamide",
-   "u": "/drugs/tropicamide/",
-   "s": "Corrected: \"Confirmation of the licence record, including dosage form and approved indication text\"",
-   "d": "2026-11-24"
+   "t": "Yohimbine",
+   "u": "/drugs/yohimbine/",
+   "s": "Corrected: \"Yohimbine is a selective alpha-2 adrenoceptor antagonist marketed in the UK as a 5 mg tablet…",
+   "d": "2026-11-25"
   },
   {
-   "t": "Trihexyphenidyl",
-   "u": "/drugs/trihexyphenidyl/",
-   "s": "Corrected: \"The marketing authorisation number above is as recorded in the compiled data and does not follow…",
-   "d": "2026-11-24"
+   "t": "Valsartan",
+   "u": "/drugs/valsartan/",
+   "s": "Corrected: \"Valsartan is an angiotensin II receptor blocker (ARB) that is marketed in the UK.\"",
+   "d": "2026-11-25"
   },
   {
-   "t": "Tretinoin",
-   "u": "/drugs/tretinoin/",
-   "s": "Corrected: \" Original Indication  Acne, acute promyelocytic leukaemia, acquired keratosis, palmoplantar…",
-   "d": "2026-11-24"
+   "t": "Tryptophan",
+   "u": "/drugs/tryptophan/",
+   "s": "Corrected: \"The current UK approved indication, SmPC, and warnings/contraindication text for the marketed…",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Travoprost",
+   "u": "/drugs/travoprost/",
+   "s": "Corrected: \"Assessment of whether a systemically relevant route or formulation would be needed, since only…",
+   "d": "2026-11-25"
   },
   {
    "t": "Tolfenamic Acid",
    "u": "/drugs/tolfenamic-acid/",
-   "s": "Corrected: \" Original Indication  Acute migraine (the licence record compiled for this report has no…",
-   "d": "2026-11-24"
+   "s": "Corrected: \"Several randomised, double-blind studies support tolfenamic acid for acute and prophylactic…",
+   "d": "2026-11-25"
   },
   {
-   "t": "Tolcapone",
-   "u": "/drugs/tolcapone/",
-   "s": "Corrected: \" Original Indication  Parkinson disease (the licence record held no approved indication text, so…",
-   "d": "2026-11-24"
+   "t": "Tocofersolan",
+   "u": "/drugs/tocofersolan/",
+   "s": "Corrected: \"The drug is a marketed vitamin E formulation, but its approved indication and safety data are…",
+   "d": "2026-11-25"
   },
   {
-   "t": "Thioridazine",
-   "u": "/drugs/thioridazine/",
-   "s": "Corrected: \" Original Indication  Not available (the single licence record contains no indication text) \"",
-   "d": "2026-11-24"
+   "t": "Tiotropium",
+   "u": "/drugs/tiotropium/",
+   "s": "Corrected: \"Tiotropium is an inhaled long-acting anticholinergic bronchodilator marketed in the UK.\"",
+   "d": "2026-11-25"
   },
   {
-   "t": "Thiamine",
-   "u": "/drugs/thiamine/",
-   "s": "Corrected: \"Not stated in the licence record\"",
-   "d": "2026-11-24"
+   "t": "Terlipressin",
+   "u": "/drugs/terlipressin/",
+   "s": "Corrected: \"Terlipressin is a vasopressin analogue (V1 receptor agonist) listed in the BNF and marketed in…",
+   "d": "2026-11-25"
   },
   {
-   "t": "Tenoxicam",
-   "u": "/drugs/tenoxicam/",
-   "s": "Corrected: \" Original Indication  Arthritic joint disease and arthropathy (relations recorded in the…",
-   "d": "2026-11-24"
+   "t": "Tapentadol",
+   "u": "/drugs/tapentadol/",
+   "s": "Corrected: \"Tapentadol is an opioid analgesic that is currently marketed in the UK, although the data…",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Tacrolimus",
+   "u": "/drugs/tacrolimus/",
+   "s": "Corrected: \"The product is already marketed in the UK for atopic eczema.\"",
+   "d": "2026-11-25"
   },
   {
    "t": "Sulthiame",
    "u": "/drugs/sulthiame/",
-   "s": "Corrected: \"Not stated in the available authorisation data\"",
-   "d": "2026-11-24"
+   "s": "Corrected: \"Sulthiame is a carbonic anhydrase inhibitor that is marketed in the UK, but the data compiled for…",
+   "d": "2026-11-25"
   },
   {
-   "t": "Sulindac",
-   "u": "/drugs/sulindac/",
-   "s": "Corrected: \"The authorisation identifier does not follow the usual PL format, so it should be checked against…",
-   "d": "2026-11-24"
+   "t": "Stanozolol",
+   "u": "/drugs/stanozolol/",
+   "s": "Corrected: \"Stanozolol is an oral anabolic-androgenic steroid that is currently marketed in the UK.\"",
+   "d": "2026-11-25"
   },
   {
-   "t": "Sorbitol",
-   "u": "/drugs/sorbitol/",
-   "s": "Corrected: \"Confirmation of the original indication, dosage form and approved indication for the UK…",
-   "d": "2026-11-24"
+   "t": "Stannous Fluoride",
+   "u": "/drugs/stannous-fluoride/",
+   "s": "Corrected: \"Stannous fluoride is a topical dental agent, available in the UK as a 0.4% gel.\"",
+   "d": "2026-11-25"
   },
   {
-   "t": "Rivaroxaban",
-   "u": "/drugs/rivaroxaban/",
-   "s": "Corrected: \"Not stated in the licence data compiled for this report\"",
-   "d": "2026-11-24"
+   "t": "Sirolimus",
+   "u": "/drugs/sirolimus/",
+   "s": "Corrected: \"Sirolimus is an mTOR inhibitor that is marketed in the UK.\"",
+   "d": "2026-11-25"
   },
   {
-   "t": "Riluzole",
-   "u": "/drugs/riluzole/",
-   "s": "Corrected: \"The licence number shown is not in the usual MHRA \"PL\" format, and the dosage form and approved…",
-   "d": "2026-11-24"
+   "t": "Salbutamol",
+   "u": "/drugs/salbutamol/",
+   "s": "Corrected: \"Salbutamol is an established beta-2 adrenergic agonist marketed in the UK.\"",
+   "d": "2026-11-25"
   },
   {
-   "t": "Ramipril",
-   "u": "/drugs/ramipril/",
-   "s": "Corrected: \"The authorisation number above is in the format supplied in the data and does not follow the…",
-   "d": "2026-11-24"
+   "t": "Ropivacaine",
+   "u": "/drugs/ropivacaine/",
+   "s": "Corrected: \"Ropivacaine is a long-acting amide local anaesthetic, marketed in the UK as an injectable…",
+   "d": "2026-11-25"
   },
   {
-   "t": "Pregabalin",
-   "u": "/drugs/pregabalin/",
-   "s": "Corrected: \"UK licence details (approved indications and formulations) for the authorisation recorded\"",
-   "d": "2026-11-24"
+   "t": "Ranolazine",
+   "u": "/drugs/ranolazine/",
+   "s": "Corrected: \"Ranolazine is a modified-release tablet marketed in the UK; the data compiled for this report do…",
+   "d": "2026-11-25"
   },
   {
-   "t": "Povidone",
-   "u": "/drugs/povidone/",
-   "s": "Corrected: \"Approved indication text and dosage form details for the UK authorisations\"",
-   "d": "2026-11-24"
+   "t": "Piperacillin",
+   "u": "/drugs/piperacillin/",
+   "s": "Corrected: \"Piperacillin is a beta-lactam antibiotic, marketed in the UK as an injectable (including the…",
+   "d": "2026-11-25"
   },
   {
-   "t": "Pimozide",
-   "u": "/drugs/pimozide/",
-   "s": "Corrected: \"A UK authorisation record with dosage form and approved indication\"",
-   "d": "2026-11-24"
+   "t": "Peppermint Oil",
+   "u": "/drugs/peppermint-oil/",
+   "s": "Corrected: \"Peppermint oil is a long-established product marketed in the UK, but no approved indication text…",
+   "d": "2026-11-25"
   },
   {
-   "t": "Pimecrolimus",
-   "u": "/drugs/pimecrolimus/",
-   "s": "Corrected: \"Note: the authorisation identifier above is reproduced as recorded and does not follow the usual…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Phenol",
-   "u": "/drugs/phenol/",
-   "s": "Corrected: \"The data compiled for this report do not include the authorisation's dosage form or approved…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Periciazine",
-   "u": "/drugs/periciazine/",
-   "s": "Corrected: \" Original Indication  Schizophrenia and other psychoses; short-term adjunctive management of…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Pazopanib",
-   "u": "/drugs/pazopanib/",
-   "s": "Corrected: \"Review of the local licence record, which has no recorded indication text\"",
-   "d": "2026-11-24"
+   "t": "Penciclovir",
+   "u": "/drugs/penciclovir/",
+   "s": "Corrected: \"Penciclovir is marketed in the UK as a single-ingredient topical product.\"",
+   "d": "2026-11-25"
   },
   {
    "t": "Parathyroid Hormone",
    "u": "/drugs/parathyroid-hormone/",
-   "s": "Corrected: \"Not specified in the available licence data\"",
-   "d": "2026-11-24"
+   "s": "Corrected: \"Parathyroid hormone is a peptide hormone product marketed in the UK as a prefilled-cartridge…",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Oxitriptan",
+   "u": "/drugs/oxitriptan/",
+   "s": "Corrected: \"SmPC or BNF warnings and contraindications for the marketed product\"",
+   "d": "2026-11-25"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Ziprasidone",
-   "u": "/drugs/ziprasidone/",
-   "s": "Corrected: \"Ziprasidone is an atypical antipsychotic with a marketed UK product.\"",
-   "d": "2026-11-24"
+   "t": "Zonisamide",
+   "u": "/drugs/zonisamide/",
+   "s": "Corrected: \"Zonisamide is an antiseizure medication marketed in the UK, and its original use is in epilepsy.\"",
+   "d": "2026-11-25"
   },
   {
-   "t": "Tyrosine",
-   "u": "/drugs/tyrosine/",
-   "s": "Corrected: \"Not recorded in the available marketing authorisation data\"",
-   "d": "2026-11-24"
+   "t": "Zafirlukast",
+   "u": "/drugs/zafirlukast/",
+   "s": "Corrected: \"Zafirlukast is a cysteinyl leukotriene receptor antagonist that is currently marketed in the UK.\"",
+   "d": "2026-11-25"
   },
   {
-   "t": "Tropicamide",
-   "u": "/drugs/tropicamide/",
-   "s": "Corrected: \"Confirmation of the licence record, including dosage form and approved indication text\"",
-   "d": "2026-11-24"
+   "t": "Yohimbine",
+   "u": "/drugs/yohimbine/",
+   "s": "Corrected: \"Yohimbine is a selective alpha-2 adrenoceptor antagonist marketed in the UK as a 5 mg tablet…",
+   "d": "2026-11-25"
   },
   {
-   "t": "Trihexyphenidyl",
-   "u": "/drugs/trihexyphenidyl/",
-   "s": "Corrected: \"The marketing authorisation number above is as recorded in the compiled data and does not follow…",
-   "d": "2026-11-24"
+   "t": "Valsartan",
+   "u": "/drugs/valsartan/",
+   "s": "Corrected: \"Valsartan is an angiotensin II receptor blocker (ARB) that is marketed in the UK.\"",
+   "d": "2026-11-25"
   },
   {
-   "t": "Tretinoin",
-   "u": "/drugs/tretinoin/",
-   "s": "Corrected: \" Original Indication  Acne, acute promyelocytic leukaemia, acquired keratosis, palmoplantar…",
-   "d": "2026-11-24"
+   "t": "Tryptophan",
+   "u": "/drugs/tryptophan/",
+   "s": "Corrected: \"The current UK approved indication, SmPC, and warnings/contraindication text for the marketed…",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Travoprost",
+   "u": "/drugs/travoprost/",
+   "s": "Corrected: \"Assessment of whether a systemically relevant route or formulation would be needed, since only…",
+   "d": "2026-11-25"
   },
   {
    "t": "Tolfenamic Acid",
    "u": "/drugs/tolfenamic-acid/",
-   "s": "Corrected: \" Original Indication  Acute migraine (the licence record compiled for this report has no…",
-   "d": "2026-11-24"
+   "s": "Corrected: \"Several randomised, double-blind studies support tolfenamic acid for acute and prophylactic…",
+   "d": "2026-11-25"
   },
   {
-   "t": "Tolcapone",
-   "u": "/drugs/tolcapone/",
-   "s": "Corrected: \" Original Indication  Parkinson disease (the licence record held no approved indication text, so…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Thioridazine",
-   "u": "/drugs/thioridazine/",
-   "s": "Corrected: \" Original Indication  Not available (the single licence record contains no indication text) \"",
-   "d": "2026-11-24"
+   "t": "Tocofersolan",
+   "u": "/drugs/tocofersolan/",
+   "s": "Corrected: \"The drug is a marketed vitamin E formulation, but its approved indication and safety data are…",
+   "d": "2026-11-25"
   }
  ],
  "files": {

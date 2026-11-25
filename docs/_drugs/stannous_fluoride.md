@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 576
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Stannous Fluoride: predicted new indication Meningococcal infection (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Stannous fluoride"
 predicted_indications: ["meningococcal infection"]
@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Stannous fluoride is a topical dental agent, available in the UK as a 0.4% gel.
+Stannous fluoride is a topical dental agent, listed in the UK BNF prescribing codes as a 0.4% dental gel.
 The TxGNN model predicts it may be effective for **meningococcal infection**, but **no clinical trials and no publications** currently support this direction. The prediction rests on the model score alone.
+
+<!-- review:begin uk-lic-20261125-stannous_fluoride-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Stannous fluoride is a topical dental agent, available in the UK as a 0.4% gel." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-stannous_fluoride-1 -->
 
 ## Quick Overview
 
@@ -125,6 +131,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The authorisation is recorded as valid and as a single-ingredient product" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "The licensed indication and labelled warnings and contraindications for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Corrected: "Stannous fluoride is a topical dental agent, available in the UK as a 0.4% gel." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

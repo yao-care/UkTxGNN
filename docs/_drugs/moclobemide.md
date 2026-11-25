@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 422
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Moclobemide"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
 description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). In the UK: 6 NHSBSA BNF presentation codes"
@@ -110,7 +110,13 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Two randomised controlled trials in panic disorder with or without agoraphobia support this direction, and moclobemide is already marketed in the UK for related anxiety conditions. However, there are no registered trials specific to agoraphobia, and the available trials are older and enrol mixed panic disorder populations. This is best treated as a research question rather than a ready-to-use indication.
+Two randomised controlled trials in panic disorder with or without agoraphobia support this direction, and moclobemide is already listed in the UK BNF prescribing codes and is used for related anxiety conditions. However, there are no registered trials specific to agoraphobia, and the available trials are older and enrol mixed panic disorder populations. This is best treated as a research question rather than a ready-to-use indication.
+
+<!-- review:begin uk-lic-20261125-moclobemide-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Two randomised controlled trials in panic disorder with or without agoraphobia support this direction, and moclobemide is already marketed in the UK for related anxiety conditions." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-moclobemide-1 -->
 
 **To proceed, the following is needed:**
 - Review of the two RCTs for agoraphobia-specific outcomes
@@ -137,6 +143,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL86304 (moclobemide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL86304) |
 | 2026-11-24 | Corrected: "Approved indication text and dosage form for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Corrected: "Two randomised controlled trials in panic disorder with or without agoraphobia support this direction, and moclobemide is already marketed in the UK for related anxiety conditions." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 308
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Fulvestrant: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not stated in the UK BNF prescribing code data compiled for this report"
 monitor_inn: "Fulvestrant"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -38,13 +38,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Fulvestrant is an oestrogen receptor antagonist and degrader. It is marketed in the UK as an injectable product, and its established use is in hormone receptor-positive breast cancer (this is from general knowledge, as the UK data compiled for this report contain no indication text).
+Fulvestrant is an oestrogen receptor antagonist and degrader. It is listed in the UK BNF prescribing codes as an injectable product, and its established use is in hormone receptor-positive breast cancer (this is from general knowledge, as the UK data compiled for this report contain no indication text).
 The TxGNN model predicts it may be effective for **HIV infectious disease**, but there are **no registered clinical trials** and only **2 publications**, both preclinical or indirect.
 This is a model-generated hypothesis supported mainly by one in vitro study, and not a validated repurposing signal.
 
 <!-- review:begin uk-lic-20261106-fulvestrant-2 -->
 
-> **Review correction (2026-11-24)**: Originally stated: "It is marketed in the UK as an injectable product, and its established use is in hormone receptor-positive breast cancer (this is from general knowledge, as the UK licence data compiled for this report contain no indication text)." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+> **Review correction (2026-11-25)**: Originally stated: "It is marketed in the UK as an injectable product, and its established use is in hormone receptor-positive breast cancer (this is from general knowledge, as the UK licence data compiled for this report contain no indication text)." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261106-fulvestrant-2 -->
 
@@ -163,7 +163,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "Only one authorisation was identified" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
-| 2026-11-24 | Removed: "licence" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Removed: "licence" | Corrected (revised 2026-11-25; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a) |
 | 2026-11-24 | Corrected: "Approved use: Not stated in the UK licence data compiled for this report" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not stated in the UK licence data compiled for this report &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |

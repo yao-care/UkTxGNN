@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Dipyridamole"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-25
 description: "Dipyridamole: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). In the UK: 32 NHSBSA BNF presentation codes"
 ---
 
@@ -38,7 +38,13 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Dipyridamole is an antiplatelet medicine that is currently marketed in the UK. The TxGNN model predicts it may be relevant to **sick sinus syndrome 2, autosomal dominant**. No clinical trials or publications support this prediction, so it rests on the model score alone.
+Dipyridamole is an antiplatelet medicine that is listed in the UK BNF prescribing codes. The TxGNN model predicts it may be relevant to **sick sinus syndrome 2, autosomal dominant**. No clinical trials or publications support this prediction, so it rests on the model score alone.
+
+<!-- review:begin uk-lic-20261125-dipyridamole-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Dipyridamole is an antiplatelet medicine that is currently marketed in the UK." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-dipyridamole-1 -->
 
 ## Quick Overview
 
@@ -137,6 +143,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One single-ingredient authorisation is recorded, and it is valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: dipyridamole prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=226099e2-70bb-4b9b-bb52-c20fbca2aec5) |
+| 2026-11-25 | Corrected: "Dipyridamole is an antiplatelet medicine that is currently marketed in the UK." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

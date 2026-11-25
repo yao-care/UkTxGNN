@@ -4188,8 +4188,8 @@
    "file": "carbidopa.md",
    "action": "correct",
    "claim": "It is commercially available only in fixed-dose combination products (e.g., co-careldopa / Sinemet®, and co-careldopa + entacapone / Stalevo®). The Evidence Pack reflects the absence of a standalone MHRA marketing authorisation, which is consistent with clinical practice.",
-   "replacement": "It is commercially available only in fixed-dose combination products (e.g., co-careldopa / Sinemet®, and co-careldopa + entacapone / Stalevo®).",
-   "note": "Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences.",
+   "replacement": "Most of these are fixed-dose combination products (e.g., co-careldopa / Sinemet®, and co-careldopa + entacapone / Stalevo®); Carbidopa 25 mg tablets are also listed.",
+   "note": "Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences. Revised 2026-11-25: the remaining wording follows the UK BNF prescribing codes, which list mostly fixed-dose combination products and also Carbidopa 25 mg tablets.",
    "finding": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；說證據包反映「沒有單方 MHRA 上市許可」，把清單資料說成許可資料，與事實不符；整句刪（前兩句的產品說明保留，2026-11-06）",
    "sources": [
     {
@@ -4198,9 +4198,33 @@
      "accessed": "2026-11-06"
     }
    ],
-   "checked": "2026-11-06",
+   "checked": "2026-11-25",
    "summary": "Removed: \"The Evidence Pack reflects the absence of a standalone MHRA marketing authorisation, which is consistent with clinical practice\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：3461c7400（2026-11-06）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：3461c7400（2026-11-06）",
+   "history": [
+    {
+     "id": "uk-lic-20261106-carbidopa-1",
+     "drug": "carbidopa",
+     "file": "carbidopa.md",
+     "action": "correct",
+     "claim": "It is commercially available only in fixed-dose combination products (e.g., co-careldopa / Sinemet®, and co-careldopa + entacapone / Stalevo®). The Evidence Pack reflects the absence of a standalone MHRA marketing authorisation, which is consistent with clinical practice.",
+     "replacement": "It is commercially available only in fixed-dose combination products (e.g., co-careldopa / Sinemet®, and co-careldopa + entacapone / Stalevo®).",
+     "note": "Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences.",
+     "finding": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；說證據包反映「沒有單方 MHRA 上市許可」，把清單資料說成許可資料，與事實不符；整句刪（前兩句的產品說明保留，2026-11-06）",
+     "sources": [
+      {
+       "title": "NHSBSA BNF code information",
+       "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Removed: \"The Evidence Pack reflects the absence of a standalone MHRA marketing authorisation, which is consistent with clinical practice\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：3461c7400（2026-11-06）",
+     "retired": "2026-11-25",
+     "reason": "把 BNF 處方代碼講成在英國上市的字樣改成 BNF 代碼口徑（2026-11-25 第五輪，用戶決定）"
+    }
+   ]
   },
   {
    "id": "uk-lic-20261106-carvedilol-1",
@@ -4866,7 +4890,7 @@
    "file": "charcoal.md",
    "action": "correct",
    "claim": "No marketing authorisations are recorded for **Charcoal** in this Evidence Pack. This is likely a data collection artefact: activated charcoal formulations **are** commercially available in the United Kingdom under several brand names (e.g., CharcoAid, Actidose-Aqua). The automated pull may have failed to match the queried drug name to MHRA product records.",
-   "replacement": "Activated charcoal formulations **are** commercially available in the United Kingdom under several brand names (e.g., CharcoAid, Actidose-Aqua).",
+   "replacement": "Activated charcoal formulations **are** listed in the UK BNF prescribing codes, including several brands (e.g., Actidose-Aqua, Carbomix, Charcodote).",
    "note": "Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes.",
    "finding": "本站資料是 NHSBSA BNF 處方代碼（依成分重建），不含 MHRA 許可狀態；舊證據包頁說本地資料查不到（search artefact、failed lookup、gap in the evidence pack），重建後清單有紀錄，與事實矛盾（2026-11-06 第三輪）；只刪「data collection artefact」片段，品牌與上市說明保留",
    "sources": [
@@ -4876,7 +4900,7 @@
      "accessed": "2026-11-06"
     }
    ],
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "summary": "Removed: \"No marketing authorisations are recorded for **Charcoal** in this Evidence Pack. This is likely a data collection artefact: The automated pu\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：7cf28e811（2026-11-06）、67acd88de（2026-11-06）",
    "history": [
@@ -4901,6 +4925,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：7cf28e811（2026-11-06）、67acd88de（2026-11-06）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：說明裡寫死的 BNF presentation code 筆數改成不寫數字（更正的事實內容不變）"
+    },
+    {
+     "id": "uk-lic-20261106-charcoal-2",
+     "drug": "charcoal",
+     "file": "charcoal.md",
+     "action": "correct",
+     "claim": "No marketing authorisations are recorded for **Charcoal** in this Evidence Pack. This is likely a data collection artefact: activated charcoal formulations **are** commercially available in the United Kingdom under several brand names (e.g., CharcoAid, Actidose-Aqua). The automated pull may have failed to match the queried drug name to MHRA product records.",
+     "replacement": "Activated charcoal formulations **are** commercially available in the United Kingdom under several brand names (e.g., CharcoAid, Actidose-Aqua).",
+     "note": "Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes.",
+     "finding": "本站資料是 NHSBSA BNF 處方代碼（依成分重建），不含 MHRA 許可狀態；舊證據包頁說本地資料查不到（search artefact、failed lookup、gap in the evidence pack），重建後清單有紀錄，與事實矛盾（2026-11-06 第三輪）；只刪「data collection artefact」片段，品牌與上市說明保留",
+     "sources": [
+      {
+       "title": "NHSBSA BNF code information",
+       "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Removed: \"No marketing authorisations are recorded for **Charcoal** in this Evidence Pack. This is likely a data collection artefact: The automated pu\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：7cf28e811（2026-11-06）、67acd88de（2026-11-06）",
+     "retired": "2026-11-25",
+     "reason": "把 BNF 處方代碼講成在英國上市的字樣改成 BNF 代碼口徑（2026-11-25 第五輪，用戶決定）"
     }
    ]
   },
@@ -9879,7 +9925,7 @@
    "file": "fulvestrant.md",
    "action": "correct",
    "claim": "It is marketed in the UK as an injectable product, and its established use is in hormone receptor-positive breast cancer (this is from general knowledge, as the UK licence data compiled for this report contain no indication text).",
-   "replacement": "It is marketed in the UK as an injectable product, and its established use is in hormone receptor-positive breast cancer (this is from general knowledge, as the UK data compiled for this report contain no indication text).",
+   "replacement": "It is listed in the UK BNF prescribing codes as an injectable product, and its established use is in hormone receptor-positive breast cancer (this is from general knowledge, as the UK data compiled for this report contain no indication text).",
    "note": "Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes.",
    "finding": "本站資料是 NHSBSA BNF 處方代碼清單，不是 MHRA 許可證；只拿掉把資料說成許可資料的字（licence），其餘保留",
    "sources": [
@@ -9889,7 +9935,7 @@
      "accessed": "2026-11-06"
     }
    ],
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "summary": "Removed: \"licence\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：2c2697644（2026-11-06）",
    "history": [
@@ -9914,6 +9960,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：2c2697644（2026-11-06）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：說明裡寫死的 BNF presentation code 筆數改成不寫數字（更正的事實內容不變）"
+    },
+    {
+     "id": "uk-lic-20261106-fulvestrant-2",
+     "drug": "fulvestrant",
+     "file": "fulvestrant.md",
+     "action": "correct",
+     "claim": "It is marketed in the UK as an injectable product, and its established use is in hormone receptor-positive breast cancer (this is from general knowledge, as the UK licence data compiled for this report contain no indication text).",
+     "replacement": "It is marketed in the UK as an injectable product, and its established use is in hormone receptor-positive breast cancer (this is from general knowledge, as the UK data compiled for this report contain no indication text).",
+     "note": "Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes.",
+     "finding": "本站資料是 NHSBSA BNF 處方代碼清單，不是 MHRA 許可證；只拿掉把資料說成許可資料的字（licence），其餘保留",
+     "sources": [
+      {
+       "title": "NHSBSA BNF code information",
+       "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Removed: \"licence\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：2c2697644（2026-11-06）",
+     "retired": "2026-11-25",
+     "reason": "把 BNF 處方代碼講成在英國上市的字樣改成 BNF 代碼口徑（2026-11-25 第五輪，用戶決定）"
     }
    ]
   },
@@ -37754,7 +37822,7 @@
    "file": "pramocaine.md",
    "action": "correct",
    "claim": "The available UK product is a rectal combination with a corticosteroid, and ocular use raises a real corneal safety concern.",
-   "replacement": "The available UK products are rectal combinations with a corticosteroid, and ocular use raises a real corneal safety concern.",
+   "replacement": "The UK BNF-listed products are rectal combinations with a corticosteroid, and ocular use raises a real corneal safety concern.",
    "note": "Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
    "finding": "單數泛稱「the UK product／UK licence／UK authorisation」：本藥 BNF 代碼不只 1 個、且是 BNF 處方代碼不是 MHRA 許可，改成複數或 BNF 代碼寫法，句子其他文字不動（2026-11-24 第三輪，用戶決定）",
    "sources": [
@@ -37764,9 +37832,33 @@
      "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "summary": "Corrected: \"The available UK product is a rectal combination with a corticosteroid, and ocular use raises a real corneal safety concern.\"",
-   "method": "2026-11-24 程式比對字樣（the/its/this ＋ UK product／licence／authorisation 單數）後逐句檢查，對照快照 snapshots/uk_licenses.json.gz（證據包 Release data-20261116-160902）的 BNF 代碼數"
+   "method": "2026-11-24 程式比對字樣（the/its/this ＋ UK product／licence／authorisation 單數）後逐句檢查，對照快照 snapshots/uk_licenses.json.gz（證據包 Release data-20261116-160902）的 BNF 代碼數",
+   "history": [
+    {
+     "id": "uk-lic-20261124c-pramocaine-1",
+     "drug": "pramocaine",
+     "file": "pramocaine.md",
+     "action": "correct",
+     "claim": "The available UK product is a rectal combination with a corticosteroid, and ocular use raises a real corneal safety concern.",
+     "replacement": "The available UK products are rectal combinations with a corticosteroid, and ocular use raises a real corneal safety concern.",
+     "note": "Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+     "finding": "單數泛稱「the UK product／UK licence／UK authorisation」：本藥 BNF 代碼不只 1 個、且是 BNF 處方代碼不是 MHRA 許可，改成複數或 BNF 代碼寫法，句子其他文字不動（2026-11-24 第三輪，用戶決定）",
+     "sources": [
+      {
+       "title": "NHSBSA BNF code information",
+       "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+       "accessed": "2026-11-24"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Corrected: \"The available UK product is a rectal combination with a corticosteroid, and ocular use raises a real corneal safety concern.\"",
+     "method": "2026-11-24 程式比對字樣（the/its/this ＋ UK product／licence／authorisation 單數）後逐句檢查，對照快照 snapshots/uk_licenses.json.gz（證據包 Release data-20261116-160902）的 BNF 代碼數",
+     "retired": "2026-11-25",
+     "reason": "把 BNF 處方代碼講成在英國上市的字樣改成 BNF 代碼口徑（2026-11-25 第五輪，用戶決定）"
+    }
+   ]
   },
   {
    "id": "uk-lic-20261124c-pramocaine-2",
@@ -41907,6 +41999,1627 @@
    "checked": "2026-11-24",
    "summary": "Corrected: \"Confirmation of the original indication, dosage form and approved indication for the UK authorisation\"",
    "method": "2026-11-24 另寫寬偵測（marketing authorisation／licen[cs]e／authorised／MHRA 等＋UK 語境，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；事實對照快照 snapshots/uk_licenses.json.gz 的 BNF 代碼列"
+  },
+  {
+   "id": "uk-lic-20261125-aceclofenac-1",
+   "drug": "aceclofenac",
+   "file": "aceclofenac.md",
+   "action": "correct",
+   "claim": "Aceclofenac is a non-steroidal anti-inflammatory drug (NSAID) that is currently marketed in the UK.",
+   "replacement": "Aceclofenac is a non-steroidal anti-inflammatory drug (NSAID) that is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Aceclofenac is a non-steroidal anti-inflammatory drug (NSAID) that is currently marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-adalimumab-1",
+   "drug": "adalimumab",
+   "file": "adalimumab.md",
+   "action": "correct",
+   "claim": "Adalimumab is currently marketed in the UK.",
+   "replacement": "Adalimumab is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Adalimumab is currently marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-adefovir_dipivoxil-1",
+   "drug": "adefovir_dipivoxil",
+   "file": "adefovir_dipivoxil.md",
+   "action": "correct",
+   "claim": "Adefovir dipivoxil is an oral nucleotide analogue antiviral that is marketed in the UK.",
+   "replacement": "Adefovir dipivoxil is an oral nucleotide analogue antiviral that is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Adefovir dipivoxil is an oral nucleotide analogue antiviral that is marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-ambrisentan-1",
+   "drug": "ambrisentan",
+   "file": "ambrisentan.md",
+   "action": "correct",
+   "claim": "Ambrisentan is an endothelin receptor antagonist that is currently marketed in the United Kingdom.",
+   "replacement": "Ambrisentan is an endothelin receptor antagonist that is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Ambrisentan is an endothelin receptor antagonist that is currently marketed in the United Kingdom.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-artemether-1",
+   "drug": "artemether",
+   "file": "artemether.md",
+   "action": "correct",
+   "claim": "Artemether is an artemisinin-derivative antimalarial that is marketed in the UK.",
+   "replacement": "Artemether is an artemisinin-derivative antimalarial that is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Artemether is an artemisinin-derivative antimalarial that is marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-asenapine-1",
+   "drug": "asenapine",
+   "file": "asenapine.md",
+   "action": "correct",
+   "claim": "Asenapine is marketed in the United Kingdom.",
+   "replacement": "Asenapine is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Asenapine is marketed in the United Kingdom.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-azapropazone-1",
+   "drug": "azapropazone",
+   "file": "azapropazone.md",
+   "action": "correct",
+   "claim": "Azapropazone is a non-steroidal anti-inflammatory drug (NSAID) that is currently marketed in the United Kingdom.",
+   "replacement": "Azapropazone is a non-steroidal anti-inflammatory drug (NSAID) that is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Azapropazone is a non-steroidal anti-inflammatory drug (NSAID) that is currently marketed in the United Kingdom.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-cabergoline-1",
+   "drug": "cabergoline",
+   "file": "cabergoline.md",
+   "action": "correct",
+   "claim": "Cabergoline is a dopamine D2 receptor agonist that is currently marketed in the UK.",
+   "replacement": "Cabergoline is a dopamine D2 receptor agonist that is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Cabergoline is a dopamine D2 receptor agonist that is currently marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-cabergoline-2",
+   "drug": "cabergoline",
+   "file": "cabergoline.md",
+   "action": "correct",
+   "claim": "Cabergoline is marketed in the UK.",
+   "replacement": "Cabergoline is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Cabergoline is marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-celecoxib-1",
+   "drug": "celecoxib",
+   "file": "celecoxib.md",
+   "action": "correct",
+   "claim": "Celecoxib is a selective COX-2 inhibitor (an NSAID) marketed in the UK.",
+   "replacement": "Celecoxib is a selective COX-2 inhibitor (an NSAID) listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Celecoxib is a selective COX-2 inhibitor (an NSAID) marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-chlorpromazine-1",
+   "drug": "chlorpromazine",
+   "file": "chlorpromazine.md",
+   "action": "correct",
+   "claim": "Chlorpromazine is a phenothiazine antipsychotic medicine marketed in the UK.",
+   "replacement": "Chlorpromazine is a phenothiazine antipsychotic medicine listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Chlorpromazine is a phenothiazine antipsychotic medicine marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-citalopram-1",
+   "drug": "citalopram",
+   "file": "citalopram.md",
+   "action": "correct",
+   "claim": "Citalopram is a selective serotonin reuptake inhibitor (SSRI) marketed in the UK.",
+   "replacement": "Citalopram is a selective serotonin reuptake inhibitor (SSRI) listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Citalopram is a selective serotonin reuptake inhibitor (SSRI) marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-clofazimine-1",
+   "drug": "clofazimine",
+   "file": "clofazimine.md",
+   "action": "correct",
+   "claim": "Clofazimine is an antimycobacterial medicine marketed in the UK.",
+   "replacement": "Clofazimine is an antimycobacterial medicine listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Clofazimine is an antimycobacterial medicine marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-clonidine-1",
+   "drug": "clonidine",
+   "file": "clonidine.md",
+   "action": "correct",
+   "claim": "Clonidine is a centrally acting alpha-2 adrenergic agonist that is marketed in the UK.",
+   "replacement": "Clonidine is a centrally acting alpha-2 adrenergic agonist that is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Clonidine is a centrally acting alpha-2 adrenergic agonist that is marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-cyproheptadine-1",
+   "drug": "cyproheptadine",
+   "file": "cyproheptadine.md",
+   "action": "correct",
+   "claim": "Cyproheptadine is an antihistamine with serotonin-antagonist activity that is marketed in the United Kingdom.",
+   "replacement": "Cyproheptadine is an antihistamine with serotonin-antagonist activity that is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Cyproheptadine is an antihistamine with serotonin-antagonist activity that is marketed in the United Kingdom.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-danazol-1",
+   "drug": "danazol",
+   "file": "danazol.md",
+   "action": "correct",
+   "claim": "Danazol is a synthetic steroid with antigonadotropin activity that is marketed in the UK.",
+   "replacement": "Danazol is a synthetic steroid with antigonadotropin activity that is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Danazol is a synthetic steroid with antigonadotropin activity that is marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-dapoxetine-1",
+   "drug": "dapoxetine",
+   "file": "dapoxetine.md",
+   "action": "correct",
+   "claim": "Dapoxetine is a short-acting selective serotonin reuptake inhibitor (SSRI) marketed in the UK.",
+   "replacement": "Dapoxetine is a short-acting selective serotonin reuptake inhibitor (SSRI) listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Dapoxetine is a short-acting selective serotonin reuptake inhibitor (SSRI) marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-desloratadine-1",
+   "drug": "desloratadine",
+   "file": "desloratadine.md",
+   "action": "correct",
+   "claim": "Desloratadine is an oral antihistamine tablet marketed in the UK.",
+   "replacement": "Desloratadine is an oral antihistamine tablet listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Desloratadine is an oral antihistamine tablet marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-diflunisal-1",
+   "drug": "diflunisal",
+   "file": "diflunisal.md",
+   "action": "correct",
+   "claim": "Diflunisal is a salicylate-derived non-steroidal anti-inflammatory drug (NSAID) that is currently marketed in the UK.",
+   "replacement": "Diflunisal is a salicylate-derived non-steroidal anti-inflammatory drug (NSAID) that is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Diflunisal is a salicylate-derived non-steroidal anti-inflammatory drug (NSAID) that is currently marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-dipyridamole-1",
+   "drug": "dipyridamole",
+   "file": "dipyridamole.md",
+   "action": "correct",
+   "claim": "Dipyridamole is an antiplatelet medicine that is currently marketed in the UK.",
+   "replacement": "Dipyridamole is an antiplatelet medicine that is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Dipyridamole is an antiplatelet medicine that is currently marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-donepezil-1",
+   "drug": "donepezil",
+   "file": "donepezil.md",
+   "action": "correct",
+   "claim": "Donepezil is a cholinesterase inhibitor that is marketed in the UK.",
+   "replacement": "Donepezil is a cholinesterase inhibitor that is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Donepezil is a cholinesterase inhibitor that is marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-doxycycline-1",
+   "drug": "doxycycline",
+   "file": "doxycycline.md",
+   "action": "correct",
+   "claim": "Doxycycline is marketed in the UK.",
+   "replacement": "Doxycycline is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Doxycycline is marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-dutasteride-1",
+   "drug": "dutasteride",
+   "file": "dutasteride.md",
+   "action": "correct",
+   "claim": "Dutasteride is marketed in the United Kingdom.",
+   "replacement": "Dutasteride is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Dutasteride is marketed in the United Kingdom.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-indoramin-1",
+   "drug": "indoramin",
+   "file": "indoramin.md",
+   "action": "correct",
+   "claim": "Indoramin is a selective alpha-1 adrenoceptor antagonist marketed in the UK.",
+   "replacement": "Indoramin is a selective alpha-1 adrenoceptor antagonist listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Indoramin is a selective alpha-1 adrenoceptor antagonist marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-lactic_acid-1",
+   "drug": "lactic_acid",
+   "file": "lactic_acid.md",
+   "action": "correct",
+   "claim": "Lactic acid is an endogenous metabolite marketed in the UK, but the data compiled for this report contain no approved indication text for it.",
+   "replacement": "Lactic acid is an endogenous metabolite listed in the UK BNF prescribing codes, but the data compiled for this report contain no approved indication text for it.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Lactic acid is an endogenous metabolite marketed in the UK, but the data compiled for this report contain no approved indication text for it.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-methysergide-1",
+   "drug": "methysergide",
+   "file": "methysergide.md",
+   "action": "correct",
+   "claim": "Methysergide is a serotonin receptor antagonist that is currently marketed in the UK.",
+   "replacement": "Methysergide is a serotonin receptor antagonist that is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Methysergide is a serotonin receptor antagonist that is currently marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-peppermint_oil-1",
+   "drug": "peppermint_oil",
+   "file": "peppermint_oil.md",
+   "action": "correct",
+   "claim": "Peppermint oil is a long-established product marketed in the UK, but no approved indication text is available in the data compiled for this report.",
+   "replacement": "Peppermint oil is a long-established product listed in the UK BNF prescribing codes, but no approved indication text is available in the data compiled for this report.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Peppermint oil is a long-established product marketed in the UK, but no approved indication text is available in the data compiled for this report.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-ranolazine-1",
+   "drug": "ranolazine",
+   "file": "ranolazine.md",
+   "action": "correct",
+   "claim": "Ranolazine is a modified-release tablet marketed in the UK; the data compiled for this report do not state its approved indication.",
+   "replacement": "Ranolazine is a modified-release tablet listed in the UK BNF prescribing codes; the data compiled for this report do not state its approved indication.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Ranolazine is a modified-release tablet marketed in the UK; the data compiled for this report do not state its approved indication.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-salbutamol-1",
+   "drug": "salbutamol",
+   "file": "salbutamol.md",
+   "action": "correct",
+   "claim": "Salbutamol is an established beta-2 adrenergic agonist marketed in the UK.",
+   "replacement": "Salbutamol is an established beta-2 adrenergic agonist listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Salbutamol is an established beta-2 adrenergic agonist marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-sirolimus-1",
+   "drug": "sirolimus",
+   "file": "sirolimus.md",
+   "action": "correct",
+   "claim": "Sirolimus is an mTOR inhibitor that is marketed in the UK.",
+   "replacement": "Sirolimus is an mTOR inhibitor that is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Sirolimus is an mTOR inhibitor that is marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-stanozolol-1",
+   "drug": "stanozolol",
+   "file": "stanozolol.md",
+   "action": "correct",
+   "claim": "Stanozolol is an oral anabolic-androgenic steroid that is currently marketed in the UK.",
+   "replacement": "Stanozolol is an oral anabolic-androgenic steroid that is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Stanozolol is an oral anabolic-androgenic steroid that is currently marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-sulthiame-1",
+   "drug": "sulthiame",
+   "file": "sulthiame.md",
+   "action": "correct",
+   "claim": "Sulthiame is a carbonic anhydrase inhibitor that is marketed in the UK, but the data compiled for this report do not state its original indication.",
+   "replacement": "Sulthiame is a carbonic anhydrase inhibitor that is listed in the UK BNF prescribing codes, but the data compiled for this report do not state its original indication.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Sulthiame is a carbonic anhydrase inhibitor that is marketed in the UK, but the data compiled for this report do not state its original indication.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-tapentadol-1",
+   "drug": "tapentadol",
+   "file": "tapentadol.md",
+   "action": "correct",
+   "claim": "Tapentadol is an opioid analgesic that is currently marketed in the UK, although the data compiled for this report do not include an approved indication text.",
+   "replacement": "Tapentadol is an opioid analgesic that is listed in the UK BNF prescribing codes, although the data compiled for this report do not include an approved indication text.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Tapentadol is an opioid analgesic that is currently marketed in the UK, although the data compiled for this report do not include an approved indication text.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-tiotropium-1",
+   "drug": "tiotropium",
+   "file": "tiotropium.md",
+   "action": "correct",
+   "claim": "Tiotropium is an inhaled long-acting anticholinergic bronchodilator marketed in the UK.",
+   "replacement": "Tiotropium is an inhaled long-acting anticholinergic bronchodilator listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Tiotropium is an inhaled long-acting anticholinergic bronchodilator marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-valsartan-1",
+   "drug": "valsartan",
+   "file": "valsartan.md",
+   "action": "correct",
+   "claim": "Valsartan is an angiotensin II receptor blocker (ARB) that is marketed in the UK.",
+   "replacement": "Valsartan is an angiotensin II receptor blocker (ARB) that is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Valsartan is an angiotensin II receptor blocker (ARB) that is marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-zafirlukast-1",
+   "drug": "zafirlukast",
+   "file": "zafirlukast.md",
+   "action": "correct",
+   "claim": "Zafirlukast is a cysteinyl leukotriene receptor antagonist that is currently marketed in the UK.",
+   "replacement": "Zafirlukast is a cysteinyl leukotriene receptor antagonist that is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Zafirlukast is a cysteinyl leukotriene receptor antagonist that is currently marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-zonisamide-1",
+   "drug": "zonisamide",
+   "file": "zonisamide.md",
+   "action": "correct",
+   "claim": "Zonisamide is an antiseizure medication marketed in the UK, and its original use is in epilepsy.",
+   "replacement": "Zonisamide is an antiseizure medication listed in the UK BNF prescribing codes, and its original use is in epilepsy.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Zonisamide is an antiseizure medication marketed in the UK, and its original use is in epilepsy.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-dasatinib-1",
+   "drug": "dasatinib",
+   "file": "dasatinib.md",
+   "action": "correct",
+   "claim": "The Src/FAK rationale is biologically plausible, and dasatinib is already marketed in the UK.",
+   "replacement": "The Src/FAK rationale is biologically plausible, and dasatinib is already listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"The Src/FAK rationale is biologically plausible, and dasatinib is already marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-nepafenac-1",
+   "drug": "nepafenac",
+   "file": "nepafenac.md",
+   "action": "correct",
+   "claim": "For the core ocular inflammation, pain and macular oedema setting, multiple completed Phase 3 trials (including large studies of 800 to 2,000 participants) support efficacy, and the drug is already marketed in the UK.",
+   "replacement": "For the core ocular inflammation, pain and macular oedema setting, multiple completed Phase 3 trials (including large studies of 800 to 2,000 participants) support efficacy, and the drug is already listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"For the core ocular inflammation, pain and macular oedema setting, multiple completed Phase 3 trials (including large studies of 800 to 2,000 participants) support efficacy, and the drug is already marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-tolfenamic_acid-1",
+   "drug": "tolfenamic_acid",
+   "file": "tolfenamic_acid.md",
+   "action": "correct",
+   "claim": "Several randomised, double-blind studies support tolfenamic acid for acute and prophylactic migraine treatment, and the drug is already marketed in the UK.",
+   "replacement": "Several randomised, double-blind studies support tolfenamic acid for acute and prophylactic migraine treatment, and the drug is already listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Several randomised, double-blind studies support tolfenamic acid for acute and prophylactic migraine treatment, and the drug is already marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-acyclovir-1",
+   "drug": "acyclovir",
+   "file": "acyclovir.md",
+   "action": "correct",
+   "claim": "Aciclovir is an antiviral nucleoside analogue that is marketed in the UK in oral suspension and topical cream products.",
+   "replacement": "Aciclovir is an antiviral nucleoside analogue that is listed in the UK BNF prescribing codes in several forms, including oral suspension and topical cream products.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Aciclovir is an antiviral nucleoside analogue that is marketed in the UK in oral suspension and topical cream products.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-aspirin-1",
+   "drug": "aspirin",
+   "file": "aspirin.md",
+   "action": "correct",
+   "claim": "Aspirin is a long-established cyclooxygenase inhibitor with antiplatelet activity, marketed in the UK in many single-ingredient products.",
+   "replacement": "Aspirin is a long-established cyclooxygenase inhibitor with antiplatelet activity, listed in the UK BNF prescribing codes in many single-ingredient products.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Aspirin is a long-established cyclooxygenase inhibitor with antiplatelet activity, marketed in the UK in many single-ingredient products.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-bacitracin-1",
+   "drug": "bacitracin",
+   "file": "bacitracin.md",
+   "action": "correct",
+   "claim": "Bacitracin is a topical polypeptide antibacterial that is marketed in the UK in ointment products.",
+   "replacement": "Bacitracin is a topical polypeptide antibacterial that is listed in the UK BNF prescribing codes in ointment products.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Bacitracin is a topical polypeptide antibacterial that is marketed in the UK in ointment products.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-clobetasol-1",
+   "drug": "clobetasol",
+   "file": "clobetasol.md",
+   "action": "correct",
+   "claim": "Clobetasol is a super-potent topical corticosteroid, here represented by a clobetasol/neomycin/nystatin ointment product marketed in the UK.",
+   "replacement": "Clobetasol is a super-potent topical corticosteroid, listed in the UK BNF prescribing codes in many forms, including a clobetasol/neomycin/nystatin ointment product.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Clobetasol is a super-potent topical corticosteroid, here represented by a clobetasol/neomycin/nystatin ointment product marketed in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-dexketoprofen-1",
+   "drug": "dexketoprofen",
+   "file": "dexketoprofen.md",
+   "action": "correct",
+   "claim": "Dexketoprofen is a non-steroidal anti-inflammatory drug (NSAID) marketed in the UK as a 25 mg tablet.",
+   "replacement": "Dexketoprofen is a non-steroidal anti-inflammatory drug (NSAID) listed in the UK BNF prescribing codes as 25 mg tablets.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Dexketoprofen is a non-steroidal anti-inflammatory drug (NSAID) marketed in the UK as a 25 mg tablet.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-dihydrocodeine-1",
+   "drug": "dihydrocodeine",
+   "file": "dihydrocodeine.md",
+   "action": "correct",
+   "claim": "Dihydrocodeine is an opioid analgesic and cough suppressant that is marketed in the UK, mostly in combination products for cold, flu and pain relief.",
+   "replacement": "Dihydrocodeine is an opioid analgesic and cough suppressant that is listed in the UK BNF prescribing codes, mostly in combination products with paracetamol for pain relief.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Dihydrocodeine is an opioid analgesic and cough suppressant that is marketed in the UK, mostly in combination products for cold, flu and pain relief.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-dorzolamide-1",
+   "drug": "dorzolamide",
+   "file": "dorzolamide.md",
+   "action": "correct",
+   "claim": "Dorzolamide is a topical carbonic anhydrase inhibitor, marketed in the UK as an eye drop (2%).",
+   "replacement": "Dorzolamide is a topical carbonic anhydrase inhibitor, listed in the UK BNF prescribing codes as eye drops (2%).",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Dorzolamide is a topical carbonic anhydrase inhibitor, marketed in the UK as an eye drop (2%).\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-felypressin-1",
+   "drug": "felypressin",
+   "file": "felypressin.md",
+   "action": "correct",
+   "claim": "Felypressin is a vasopressin analogue (a V1 receptor agonist) used as a vasoconstrictor alongside local anaesthetics, and in the UK it is marketed in combination with prilocaine.",
+   "replacement": "Felypressin is a vasopressin analogue (a V1 receptor agonist) used as a vasoconstrictor alongside local anaesthetics, and in the UK BNF prescribing codes it is listed in combination with prilocaine.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Felypressin is a vasopressin analogue (a V1 receptor agonist) used as a vasoconstrictor alongside local anaesthetics, and in the UK it is marketed in combination with prilocaine.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-felypressin-2",
+   "drug": "felypressin",
+   "file": "felypressin.md",
+   "action": "correct",
+   "claim": "| Original Indication | Not stated in the data compiled for this report (marketed as a prilocaine/felypressin local anaesthetic injection) |",
+   "replacement": "| Original Indication | Not stated in the data compiled for this report (listed in the UK BNF prescribing codes as a prilocaine/felypressin local anaesthetic injection) |",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"| Original Indication | Not stated in the data compiled for this report (marketed as a prilocaine/felypressin local anaesthetic injection) |\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-felypressin-3",
+   "drug": "felypressin",
+   "file": "felypressin.md",
+   "action": "correct",
+   "claim": "(marketed as a priloc…",
+   "replacement": "(UK BNF-listed as a priloc…",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）；description 只改這個字樣（只列在查核紀錄表、不插查核框）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"(marketed as a priloc…\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）",
+   "field": "description"
+  },
+  {
+   "id": "uk-lic-20261125-fenoterol-1",
+   "drug": "fenoterol",
+   "file": "fenoterol.md",
+   "action": "correct",
+   "claim": "Fenoterol is a selective beta-2 adrenergic agonist used as a bronchodilator, and it is marketed in the UK in combination with ipratropium.",
+   "replacement": "Fenoterol is a selective beta-2 adrenergic agonist used as a bronchodilator, and it is listed in the UK BNF prescribing codes in combination with ipratropium.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Fenoterol is a selective beta-2 adrenergic agonist used as a bronchodilator, and it is marketed in the UK in combination with ipratropium.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-hydroquinone-1",
+   "drug": "hydroquinone",
+   "file": "hydroquinone.md",
+   "action": "correct",
+   "claim": "Hydroquinone is a topical depigmenting agent that inhibits tyrosinase, and a 4% cream is marketed in the UK for skin lightening.",
+   "replacement": "Hydroquinone is a topical depigmenting agent that inhibits tyrosinase, and a 4% cream for skin lightening is among the creams listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Hydroquinone is a topical depigmenting agent that inhibits tyrosinase, and a 4% cream is marketed in the UK for skin lightening.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-hydroquinone-2",
+   "drug": "hydroquinone",
+   "file": "hydroquinone.md",
+   "action": "correct",
+   "claim": "Product label information (approved indication, warnings and contraindications) for the UK-marketed product",
+   "replacement": "Product label information (approved indication, warnings and contraindications) for the UK products",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Product label information (approved indication, warnings and contraindications) for the UK-marketed product\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-memantine-1",
+   "drug": "memantine",
+   "file": "memantine.md",
+   "action": "correct",
+   "claim": "Memantine is an NMDA receptor antagonist marketed in the UK in oral solution and tablet forms.",
+   "replacement": "Memantine is an NMDA receptor antagonist listed in the UK BNF prescribing codes in oral solution and tablet forms.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Memantine is an NMDA receptor antagonist marketed in the UK in oral solution and tablet forms.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-methyl_aminolevulinate-1",
+   "drug": "methyl_aminolevulinate",
+   "file": "methyl_aminolevulinate.md",
+   "action": "correct",
+   "claim": "Methyl aminolevulinate (MAL) is a topical photosensitiser prodrug used in photodynamic therapy (PDT) of the skin, marketed in the UK as Metvix cream 16%.",
+   "replacement": "Methyl aminolevulinate (MAL) is a topical photosensitiser prodrug used in photodynamic therapy (PDT) of the skin, listed in the UK BNF prescribing codes as Metvix cream 16%.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Methyl aminolevulinate (MAL) is a topical photosensitiser prodrug used in photodynamic therapy (PDT) of the skin, marketed in the UK as Metvix cream 16%.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-moclobemide-1",
+   "drug": "moclobemide",
+   "file": "moclobemide.md",
+   "action": "correct",
+   "claim": "Two randomised controlled trials in panic disorder with or without agoraphobia support this direction, and moclobemide is already marketed in the UK for related anxiety conditions.",
+   "replacement": "Two randomised controlled trials in panic disorder with or without agoraphobia support this direction, and moclobemide is already listed in the UK BNF prescribing codes and is used for related anxiety conditions.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Two randomised controlled trials in panic disorder with or without agoraphobia support this direction, and moclobemide is already marketed in the UK for related anxiety conditions.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-penciclovir-1",
+   "drug": "penciclovir",
+   "file": "penciclovir.md",
+   "action": "correct",
+   "claim": "Penciclovir is marketed in the UK as a single-ingredient topical product.",
+   "replacement": "Penciclovir is listed in the UK BNF prescribing codes as a single-ingredient topical product.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Penciclovir is marketed in the UK as a single-ingredient topical product.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-piperacillin-1",
+   "drug": "piperacillin",
+   "file": "piperacillin.md",
+   "action": "correct",
+   "claim": "Piperacillin is a beta-lactam antibiotic, marketed in the UK as an injectable (including the piperacillin/tazobactam combination product Tazocin).",
+   "replacement": "Piperacillin is a beta-lactam antibiotic, listed in the UK BNF prescribing codes as an injectable (including the piperacillin/tazobactam combination product Tazocin).",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Piperacillin is a beta-lactam antibiotic, marketed in the UK as an injectable (including the piperacillin/tazobactam combination product Tazocin).\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-ropivacaine-1",
+   "drug": "ropivacaine",
+   "file": "ropivacaine.md",
+   "action": "correct",
+   "claim": "Ropivacaine is a long-acting amide local anaesthetic, marketed in the UK as an injectable product.",
+   "replacement": "Ropivacaine is a long-acting amide local anaesthetic, listed in the UK BNF prescribing codes as an injectable product.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Ropivacaine is a long-acting amide local anaesthetic, marketed in the UK as an injectable product.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-tacrolimus-1",
+   "drug": "tacrolimus",
+   "file": "tacrolimus.md",
+   "action": "correct",
+   "claim": "The product is already marketed in the UK for atopic eczema.",
+   "replacement": "The product is already listed in the UK BNF prescribing codes and is used for atopic eczema.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"The product is already marketed in the UK for atopic eczema.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-terlipressin-1",
+   "drug": "terlipressin",
+   "file": "terlipressin.md",
+   "action": "correct",
+   "claim": "Terlipressin is a vasopressin analogue (V1 receptor agonist) listed in the BNF and marketed in the UK as an injection.",
+   "replacement": "Terlipressin is a vasopressin analogue (V1 receptor agonist) listed in the UK BNF prescribing codes as an injection.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Terlipressin is a vasopressin analogue (V1 receptor agonist) listed in the BNF and marketed in the UK as an injection.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-tocofersolan-1",
+   "drug": "tocofersolan",
+   "file": "tocofersolan.md",
+   "action": "correct",
+   "claim": "Tocofersolan is a water-soluble form of vitamin E (alpha-tocopherol) that is marketed in the UK as an oral solution.",
+   "replacement": "Tocofersolan is a water-soluble form of vitamin E (alpha-tocopherol) that is listed in the UK BNF prescribing codes as an oral solution.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Tocofersolan is a water-soluble form of vitamin E (alpha-tocopherol) that is marketed in the UK as an oral solution.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-tocofersolan-2",
+   "drug": "tocofersolan",
+   "file": "tocofersolan.md",
+   "action": "correct",
+   "claim": "The drug is a marketed vitamin E formulation, but its approved indication and safety data are missing, so no meaningful repurposing assessment can be made.",
+   "replacement": "The drug is a vitamin E formulation listed in the UK BNF prescribing codes, but its approved indication and safety data are missing, so no meaningful repurposing assessment can be made.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"The drug is a marketed vitamin E formulation, but its approved indication and safety data are missing, so no meaningful repurposing assessment can be made.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-yohimbine-1",
+   "drug": "yohimbine",
+   "file": "yohimbine.md",
+   "action": "correct",
+   "claim": "Yohimbine is a selective alpha-2 adrenoceptor antagonist marketed in the UK as a 5 mg tablet, although the data compiled for this report do not record an approved indication.",
+   "replacement": "Yohimbine is a selective alpha-2 adrenoceptor antagonist listed in the UK BNF prescribing codes as 5 mg tablets, although the data compiled for this report do not record an approved indication.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Yohimbine is a selective alpha-2 adrenoceptor antagonist marketed in the UK as a 5 mg tablet, although the data compiled for this report do not record an approved indication.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-cycloserine-1",
+   "drug": "cycloserine",
+   "file": "cycloserine.md",
+   "action": "correct",
+   "claim": "Label-based warnings and contraindications for the UK-marketed product",
+   "replacement": "Label-based warnings and contraindications for the UK products",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Label-based warnings and contraindications for the UK-marketed product\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-tryptophan-1",
+   "drug": "tryptophan",
+   "file": "tryptophan.md",
+   "action": "correct",
+   "claim": "The current UK approved indication, SmPC, and warnings/contraindication text for the marketed product",
+   "replacement": "The current UK approved indication, SmPC, and warnings/contraindication text for the UK products",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"The current UK approved indication, SmPC, and warnings/contraindication text for the marketed product\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-oxitriptan-1",
+   "drug": "oxitriptan",
+   "file": "oxitriptan.md",
+   "action": "correct",
+   "claim": "SmPC or BNF warnings and contraindications for the marketed product",
+   "replacement": "SmPC or BNF warnings and contraindications for the UK products",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"SmPC or BNF warnings and contraindications for the marketed product\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-formaldehyde-1",
+   "drug": "formaldehyde",
+   "file": "formaldehyde.md",
+   "action": "correct",
+   "claim": "Complete safety information from the SmPC and BNF for the marketed gel, including contraindications and warnings",
+   "replacement": "Complete safety information from the SmPC and BNF for the UK gel products, including contraindications and warnings",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Complete safety information from the SmPC and BNF for the marketed gel, including contraindications and warnings\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-cinchocaine-1",
+   "drug": "cinchocaine",
+   "file": "cinchocaine.md",
+   "action": "correct",
+   "claim": "Assessment of route compatibility, since the marketed product is topical",
+   "replacement": "Assessment of route compatibility, since the UK BNF-listed products are anorectal ointments and suppositories",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Assessment of route compatibility, since the marketed product is topical\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-cinchocaine-2",
+   "drug": "cinchocaine",
+   "file": "cinchocaine.md",
+   "action": "correct",
+   "claim": "The product available in the UK is a topical ointment, whose route does not match a respiratory condition.",
+   "replacement": "The UK BNF-listed products are anorectal ointments and suppositories, whose route does not match a respiratory condition.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"The product available in the UK is a topical ointment, whose route does not match a respiratory condition.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-nefopam-1",
+   "drug": "nefopam",
+   "file": "nefopam.md",
+   "action": "correct",
+   "claim": "A route and formulation assessment. Cataract would probably need ocular delivery, while the marketed product is an oral tablet.",
+   "replacement": "A route and formulation assessment. Cataract would probably need ocular delivery, while the UK BNF-listed products are tablets, oral suspensions and injections.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"A route and formulation assessment. Cataract would probably need ocular delivery, while the marketed product is an oral tablet.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-flumethasone-1",
+   "drug": "flumethasone",
+   "file": "flumethasone.md",
+   "action": "correct",
+   "claim": "Route and formulation assessment, since the marketed products are ear drops",
+   "replacement": "Route and formulation assessment, since the UK BNF-listed products are ear drops",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Route and formulation assessment, since the marketed products are ear drops\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-travoprost-1",
+   "drug": "travoprost",
+   "file": "travoprost.md",
+   "action": "correct",
+   "claim": "Assessment of whether a systemically relevant route or formulation would be needed, since only eye drops are marketed",
+   "replacement": "Assessment of whether a systemically relevant route or formulation would be needed, since the UK BNF-listed products are all eye drops",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Assessment of whether a systemically relevant route or formulation would be needed, since only eye drops are marketed\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-cysteine-1",
+   "drug": "cysteine",
+   "file": "cysteine.md",
+   "action": "correct",
+   "claim": "Evidence that an ophthalmic formulation can be made safely, since the marketed product is a 5 mg tablet and no ocular route is recorded",
+   "replacement": "Evidence that an ophthalmic formulation can be made safely",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Evidence that an ophthalmic formulation can be made safely, since the marketed product is a 5 mg tablet and no ocular route is recorded\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-allantoin-1",
+   "drug": "allantoin",
+   "file": "allantoin.md",
+   "action": "correct",
+   "claim": "Allantoin is a topical skin-protectant and keratolytic agent, available in the UK in a coal tar extract and allantoin cream.",
+   "replacement": "Allantoin is a topical skin-protectant and keratolytic agent, listed in the UK BNF prescribing codes in combination products, including a coal tar extract and allantoin cream.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Allantoin is a topical skin-protectant and keratolytic agent, available in the UK in a coal tar extract and allantoin cream.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-fluticasone-1",
+   "drug": "fluticasone",
+   "file": "fluticasone.md",
+   "action": "correct",
+   "claim": "Fluticasone is an inhaled glucocorticoid, available in the UK within combination inhalers with salmeterol or formoterol.",
+   "replacement": "Fluticasone is an inhaled glucocorticoid, listed in the UK BNF prescribing codes in many forms, including combination inhalers with salmeterol or formoterol.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Fluticasone is an inhaled glucocorticoid, available in the UK within combination inhalers with salmeterol or formoterol.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-stannous_fluoride-1",
+   "drug": "stannous_fluoride",
+   "file": "stannous_fluoride.md",
+   "action": "correct",
+   "claim": "Stannous fluoride is a topical dental agent, available in the UK as a 0.4% gel.",
+   "replacement": "Stannous fluoride is a topical dental agent, listed in the UK BNF prescribing codes as a 0.4% dental gel.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Stannous fluoride is a topical dental agent, available in the UK as a 0.4% gel.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-parathyroid_hormone-1",
+   "drug": "parathyroid_hormone",
+   "file": "parathyroid_hormone.md",
+   "action": "correct",
+   "claim": "Parathyroid hormone is a peptide hormone product marketed in the UK as a prefilled-cartridge injection.",
+   "replacement": "Parathyroid hormone is a peptide hormone product listed in the UK BNF prescribing codes as a prefilled-cartridge injection.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Parathyroid hormone is a peptide hormone product marketed in the UK as a prefilled-cartridge injection.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-flumethasone-2",
+   "drug": "flumethasone",
+   "file": "flumethasone.md",
+   "action": "correct",
+   "claim": "The products are ear preparations, so any use for scalp or skin conditions would be outside the marketed route and would need a route-compatibility assessment.",
+   "replacement": "The products are ear preparations, so any use for scalp or skin conditions would be outside the route of the UK BNF-listed products and would need a route-compatibility assessment.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"The products are ear preparations, so any use for scalp or skin conditions would be outside the marketed route and would need a route-compatibility assessment.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-carbidopa-1",
+   "drug": "carbidopa",
+   "file": "carbidopa.md",
+   "action": "correct",
+   "claim": "Carbidopa is not available as a standalone licensed medicine in the UK.",
+   "replacement": "Carbidopa is listed in the UK BNF prescribing codes.",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）；同段 uk-lic-20261106-carbidopa-1 的更正文字（「commercially available only in fixed-dose combination products」）同 id 重發：BNF 清單另有 Carbidopa 25 mg tablets",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Carbidopa is not available as a standalone licensed medicine in the UK.\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
+  },
+  {
+   "id": "uk-lic-20261125-cinnarizine-1",
+   "drug": "cinnarizine",
+   "file": "cinnarizine.md",
+   "action": "correct",
+   "claim": "**Note on UK Market Status:** Cinnarizine is in fact available in the United Kingdom (e.g. Stugeron, Cinnarizine 15 mg tablets — available over the counter for motion sickness and as a prescription medicine for vestibular disorders).",
+   "replacement": "**Note on UK Market Status:** Cinnarizine is in fact listed in the UK BNF prescribing codes (e.g. Stugeron, Cinnarizine 15 mg tablets — available over the counter for motion sickness and as a prescription medicine for vestibular disorders).",
+   "note": "Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information.",
+   "finding": "把 BNF 處方代碼講成在英國上市／可取得（marketed／available／sold in the UK），改成 BNF 代碼口徑；待辦與理由只拿掉錯的前提（2026-11-25 第五輪，用戶決定）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"**Note on UK Market Status:** Cinnarizine is in fact available in the United Kingdom (e.g. Stugeron, Cinnarizine 15 mg tablets — available over the counter for motion sickness and as a prescription medicine for vestibular disorders).\"",
+   "method": "2026-11-25 另寫寬偵測（marketed／available／sold／on the market／commercially 等＋UK 語境；另掃不帶國名的 the marketed product 句，排除查核框、程式表與引文）全量掃 docs/_drugs（含 noindex），逐句標註後處理；劑型對照證據包 tfda.records（Release data-20261116-160902）"
   }
  ]
 }

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 218
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-25
 description: "Dexketoprofen: predicted new indication Tendinitis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Dexketoprofen"
 predicted_indications: ["tendinitis", "fibromyalgia", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis", "migraine disorder", "headache disorder", "migraine with brainstem aura", "exostosis", "congenital hypotrichosis milia"]
@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Dexketoprofen is a non-steroidal anti-inflammatory drug (NSAID) marketed in the UK as a 25 mg tablet.
+Dexketoprofen is a non-steroidal anti-inflammatory drug (NSAID) listed in the UK BNF prescribing codes as 25 mg tablets.
 The TxGNN model's top-ranked prediction is **tendinitis**, but this is supported by **no registered clinical trials** and only **1 indirect publication** (an emergency department study in non-specific musculoskeletal pain).
 Among the other predictions, **migraine disorder** has by far the strongest evidence (**5 clinical trials** and **20 publications**), and is discussed below as the more actionable direction.
+
+<!-- review:begin uk-lic-20261125-dexketoprofen-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Dexketoprofen is a non-steroidal anti-inflammatory drug (NSAID) marketed in the UK as a 25 mg tablet." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-dexketoprofen-1 -->
 
 ---
 
@@ -167,6 +173,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "as the authorisation record is incomplete" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435) |
+| 2026-11-25 | Corrected: "Dexketoprofen is a non-steroidal anti-inflammatory drug (NSAID) marketed in the UK as a 25 mg tablet." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "Citalopram"
 predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "schizoid personality disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-25
 description: "Citalopram: predicted new indication Obsessive-compulsive disorder (evidence level L2). In the UK: 11 NHSBSA BNF presentation codes"
 ---
 
@@ -38,7 +38,13 @@ Evidence Level: **L2** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Citalopram is a selective serotonin reuptake inhibitor (SSRI) marketed in the UK. The TxGNN model predicts it may be effective for **obsessive-compulsive disorder**, with **4 registered clinical trials** and **16 publications** retrieved. However, the evidence for citalopram itself is limited to one small single-blind comparison and several open-label studies, giving an evidence level of **L2**.
+Citalopram is a selective serotonin reuptake inhibitor (SSRI) listed in the UK BNF prescribing codes. The TxGNN model predicts it may be effective for **obsessive-compulsive disorder**, with **4 registered clinical trials** and **16 publications** retrieved. However, the evidence for citalopram itself is limited to one small single-blind comparison and several open-label studies, giving an evidence level of **L2**.
+
+<!-- review:begin uk-lic-20261125-citalopram-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Citalopram is a selective serotonin reuptake inhibitor (SSRI) marketed in the UK." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-citalopram-1 -->
 
 ---
 
@@ -170,6 +176,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The data lists one valid single-ingredient licence" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data for citalopram is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177) |
+| 2026-11-25 | Corrected: "Citalopram is a selective serotonin reuptake inhibitor (SSRI) marketed in the UK." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

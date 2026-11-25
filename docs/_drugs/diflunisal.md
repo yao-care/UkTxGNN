@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Diflunisal"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "ankylosing spondylitis", "brachyolmia", "hypermobility of coccyx", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "inflammatory spondylopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-25
 description: "Diflunisal: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In the UK: 5 NHSBSA BNF presentation codes"
 ---
 
@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Diflunisal is a salicylate-derived non-steroidal anti-inflammatory drug (NSAID) that is currently marketed in the UK.
+Diflunisal is a salicylate-derived non-steroidal anti-inflammatory drug (NSAID) that is listed in the UK BNF prescribing codes.
 The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type**,
 but there are **no clinical trials** and **no publications** supporting this prediction, so it rests on a computational prediction only.
+
+<!-- review:begin uk-lic-20261125-diflunisal-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Diflunisal is a salicylate-derived non-steroidal anti-inflammatory drug (NSAID) that is currently marketed in the UK." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-diflunisal-1 -->
 
 ---
 
@@ -138,6 +144,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The local data show one valid single-ingredient licence. The record carries no dosage-form or indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dolobid (diflunisal) prescribing information, INA Pharmaceutics Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725234b2-0e23-45c3-a42d-eb4e62273f9b) |
+| 2026-11-25 | Corrected: "Diflunisal is a salicylate-derived non-steroidal anti-inflammatory drug (NSAID) that is currently marketed in the UK." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

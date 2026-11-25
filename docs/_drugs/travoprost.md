@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 635
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-25
 description: "Travoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "Travoprost"
 predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
@@ -154,9 +154,15 @@ The prediction for visceral calciphylaxis rests solely on a score from the TxGNN
 **To proceed, the following is needed:**
 - Detailed mechanism of action data, and a credible mechanistic rationale for calcific vascular disease
 - Preclinical or mechanistic studies showing relevance to calciphylaxis pathophysiology
-- Assessment of whether a systemically relevant route or formulation would be needed, since only eye drops are marketed
+- Assessment of whether a systemically relevant route or formulation would be needed, since the UK BNF-listed products are all eye drops
 - Review of the SmPC warnings and contraindications, which were not available in the data compiled for this report
 - Evaluation of safety in patients with vascular abnormalities, given the Sturge-Weber-Krabbe case report
+
+<!-- review:begin uk-lic-20261125-travoprost-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Assessment of whether a systemically relevant route or formulation would be needed, since only eye drops are marketed" Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-travoprost-1 -->
 
 <!-- review:begin log -->
 
@@ -168,6 +174,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5) |
+| 2026-11-25 | Corrected: "Assessment of whether a systemically relevant route or formulation would be needed, since only eye drops are marketed" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

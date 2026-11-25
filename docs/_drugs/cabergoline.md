@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cabergoline"
 predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-25
 description: "Cabergoline: predicted new indication progeria-short stature-pigmented nevi syndrome (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes"
 ---
 
@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Cabergoline is a dopamine D2 receptor agonist that is currently marketed in the UK.
+Cabergoline is a dopamine D2 receptor agonist that is listed in the UK BNF prescribing codes.
 The TxGNN model predicts it may be relevant to **progeria-short stature-pigmented nevi syndrome**, but this is a model prediction only.
 No clinical trials or publications were found in the data compiled for this report.
+
+<!-- review:begin uk-lic-20261125-cabergoline-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Cabergoline is a dopamine D2 receptor agonist that is currently marketed in the UK." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-cabergoline-1 -->
 
 ## Quick Overview
 
@@ -87,13 +93,19 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-Cabergoline is marketed in the UK. No approved indication text is recorded in the local data, and no dosage form or manufacturer is listed.
+Cabergoline is listed in the UK BNF prescribing codes. No approved indication text is recorded in the local data, and no dosage form or manufacturer is listed.
 
 <!-- review:begin uk-lic-20261106-cabergoline-1 -->
 
 > **Review correction (2026-11-24)**: Originally stated: "The local data record one valid single-ingredient authorisation (1 mg tablet). No approved indication text is recorded in the local data, and no dosage form or manufacturer is listed." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261106-cabergoline-1 -->
+
+<!-- review:begin uk-lic-20261125-cabergoline-2 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Cabergoline is marketed in the UK." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-cabergoline-2 -->
 
 ## Safety Considerations
 
@@ -127,6 +139,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The local data record one valid single-ingredient authorisation (1 mg tablet)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data for cabergoline are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cabergoline prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e497366b-a124-4d7f-bd45-a883c392d4bb) |
+| 2026-11-25 | Corrected: "Cabergoline is a dopamine D2 receptor agonist that is currently marketed in the UK." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Corrected: "Cabergoline is marketed in the UK." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

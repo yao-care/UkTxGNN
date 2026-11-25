@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-25
 description: "Acyclovir: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In the UK: 45 NHSBSA BNF presentation codes"
 ---
 
@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Aciclovir is an antiviral nucleoside analogue that is marketed in the UK in oral suspension and topical cream products.
+Aciclovir is an antiviral nucleoside analogue that is listed in the UK BNF prescribing codes in several forms, including oral suspension and topical cream products.
 The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, with a score of 0.9967.
 No clinical trials are registered for this disease, and the two retrieved publications are case series on unrelated conditions, so the evidence is **model prediction only**.
+
+<!-- review:begin uk-lic-20261125-acyclovir-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Aciclovir is an antiviral nucleoside analogue that is marketed in the UK in oral suspension and topical cream products." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-acyclovir-1 -->
 
 ## Quick Overview
 
@@ -125,11 +131,12 @@ The prediction has a high model score but no supporting clinical trials or relev
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4) |
+| 2026-11-25 | Corrected: "Aciclovir is an antiviral nucleoside analogue that is marketed in the UK in oral suspension and topical cream products." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

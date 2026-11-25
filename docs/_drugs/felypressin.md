@@ -5,8 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 280
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
-description: "Felypressin: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not stated in the data compiled for this report (marketed as a priloc…"
+last_modified_at: 2026-11-25
+description: "Felypressin: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not stated in the data compiled for this report (UK BNF-listed as a priloc…"
 monitor_inn: "felypressin"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "esotropia", "diabetic retinopathy", "bronchial adenomas/carcinoids childhood", "ductal or ductular proliferation", "chondroid hamartoma", "non-seminomatous lesion", "tumor of testis and paratestis", "pre-malignant neoplasm"]
 ---
@@ -38,21 +38,33 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Felypressin is a vasopressin analogue (a V1 receptor agonist) used as a vasoconstrictor alongside local anaesthetics, and in the UK it is marketed in combination with prilocaine.
+Felypressin is a vasopressin analogue (a V1 receptor agonist) used as a vasoconstrictor alongside local anaesthetics, and in the UK BNF prescribing codes it is listed in combination with prilocaine.
 The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, but there are **no clinical trials** and **no publications** supporting this prediction.
 It is a model prediction only, and no mechanistic rationale has been identified.
+
+<!-- review:begin uk-lic-20261125-felypressin-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Felypressin is a vasopressin analogue (a V1 receptor agonist) used as a vasoconstrictor alongside local anaesthetics, and in the UK it is marketed in combination with prilocaine." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-felypressin-1 -->
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the data compiled for this report (marketed as a prilocaine/felypressin local anaesthetic injection) |
+| Original Indication | Not stated in the data compiled for this report (listed in the UK BNF prescribing codes as a prilocaine/felypressin local anaesthetic injection) |
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261125-felypressin-2 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Original Indication / Not stated in the data compiled for this report (marketed as a prilocaine/felypressin local anaesthetic injection)" Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-felypressin-2 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -135,6 +147,9 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Corrected: "The product is a single-ingredient-type listing for the prilocaine/felypressin combination" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "SmPC warnings, contraindications and interaction data for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Corrected: "Felypressin is a vasopressin analogue (a V1 receptor agonist) used as a vasoconstrictor alongside local anaesthetics, and in the UK it is marketed in combination with prilocaine." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Corrected: "&#124; Original Indication &#124; Not stated in the data compiled for this report (marketed as a prilocaine/felypressin local anaesthetic injection) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Corrected: "(marketed as a priloc…" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

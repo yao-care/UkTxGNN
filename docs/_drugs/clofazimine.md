@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Clofazimine"
 predicted_indications: ["pneumocystosis", "malaria", "gastrin secretion abnormality"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-25
 description: "Clofazimine: predicted new indication Pneumocystosis (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes"
 ---
 
@@ -38,7 +38,13 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Clofazimine is an antimycobacterial medicine marketed in the UK. The TxGNN model predicts it may be useful for **pneumocystosis**, with a score of 0.9990. However, **no clinical trials** and **no publications that directly study clofazimine in pneumocystosis** were found, so the prediction rests on the model alone.
+Clofazimine is an antimycobacterial medicine listed in the UK BNF prescribing codes. The TxGNN model predicts it may be useful for **pneumocystosis**, with a score of 0.9990. However, **no clinical trials** and **no publications that directly study clofazimine in pneumocystosis** were found, so the prediction rests on the model alone.
+
+<!-- review:begin uk-lic-20261125-clofazimine-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Clofazimine is an antimycobacterial medicine marketed in the UK." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-clofazimine-1 -->
 
 ---
 
@@ -133,11 +139,12 @@ The prediction is supported only by a model score. No trial or publication tests
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available, so n" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lamprene (clofazimine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e07448f-f888-4747-80ab-570c1b621250) |
+| 2026-11-25 | Corrected: "Clofazimine is an antimycobacterial medicine marketed in the UK." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

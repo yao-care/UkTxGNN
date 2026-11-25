@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "bacitracin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "infective urethral stricture", "post-infectious syndrome", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-25
 description: "Bacitracin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes"
 ---
 
@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Bacitracin is a topical polypeptide antibacterial that is marketed in the UK in ointment products.
+Bacitracin is a topical polypeptide antibacterial that is listed in the UK BNF prescribing codes in ointment products.
 The TxGNN model predicts it may be relevant to **punctate epithelial keratoconjunctivitis**, but there are currently **no clinical trials and no publications** directly studying this condition, so the prediction rests on model output alone.
+
+<!-- review:begin uk-lic-20261125-bacitracin-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Bacitracin is a topical polypeptide antibacterial that is marketed in the UK in ointment products." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-bacitracin-1 -->
 
 ## Quick Overview
 
@@ -125,6 +131,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Both authorisations are currently valid, and the data compiled for this report contain no indication text for them. Both are classed as sing" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558) |
+| 2026-11-25 | Corrected: "Bacitracin is a topical polypeptide antibacterial that is marketed in the UK in ointment products." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

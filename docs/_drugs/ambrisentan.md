@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Ambrisentan"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Ambrisentan: predicted new indication pulmonary arteriovenous malformation (disease) (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes"
 ---
 
@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Ambrisentan is an endothelin receptor antagonist that is currently marketed in the United Kingdom.
+Ambrisentan is an endothelin receptor antagonist that is listed in the UK BNF prescribing codes.
 The TxGNN model predicts it may be relevant to **pulmonary arteriovenous malformation (disease)**, but the supporting evidence is thin: **no clinical trials** and **1 publication** (a case report on a related condition) were found.
+
+<!-- review:begin uk-lic-20261125-ambrisentan-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Ambrisentan is an endothelin receptor antagonist that is currently marketed in the United Kingdom." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-ambrisentan-1 -->
 
 ## Quick Overview
 
@@ -127,6 +133,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Letairis (ambrisentan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844) |
 | 2026-11-24 | Corrected: "Clarification of the approved indication text for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Corrected: "Ambrisentan is an endothelin receptor antagonist that is currently marketed in the United Kingdom." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

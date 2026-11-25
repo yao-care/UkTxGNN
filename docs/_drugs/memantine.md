@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 391
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-25
 description: "Memantine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Memantine"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Memantine is an NMDA receptor antagonist marketed in the UK in oral solution and tablet forms. The data compiled for this report do not record an approved indication for it.
+Memantine is an NMDA receptor antagonist listed in the UK BNF prescribing codes in oral solution and tablet forms. The data compiled for this report do not record an approved indication for it.
 The TxGNN model's most clinically supported prediction is **migraine disorder** (second-ranked overall; the top-ranked prediction, pulmonary hypertension, has no supporting studies), with **1 completed Phase 3 trial** and **19 publications**, including a meta-analysis of RCTs. The evidence base is small and of limited quality, so this should be treated as provisional.
+
+<!-- review:begin uk-lic-20261125-memantine-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Memantine is an NMDA receptor antagonist marketed in the UK in oral solution and tablet forms." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-memantine-1 -->
 
 ## Quick Overview
 
@@ -156,6 +162,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Both authorisations are valid single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: memantine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e6977ef-6a0a-4bd9-b500-6ceb15abbd5e) |
+| 2026-11-25 | Corrected: "Memantine is an NMDA receptor antagonist marketed in the UK in oral solution and tablet forms." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

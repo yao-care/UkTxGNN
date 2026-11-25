@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Cyproheptadine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Cyproheptadine: predicted new indication Nasal cavity disease (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes"
 ---
 
@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Cyproheptadine is an antihistamine with serotonin-antagonist activity that is marketed in the United Kingdom.
+Cyproheptadine is an antihistamine with serotonin-antagonist activity that is listed in the UK BNF prescribing codes.
 The TxGNN model predicts it may be relevant to **nasal cavity disease**, but **no clinical trials and no publications** were found in the data compiled for this report, so this is a model prediction only.
+
+<!-- review:begin uk-lic-20261125-cyproheptadine-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Cyproheptadine is an antihistamine with serotonin-antagonist activity that is marketed in the United Kingdom." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-cyproheptadine-1 -->
 
 ---
 
@@ -144,6 +150,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "The data compiled for this report show one valid single-ingredient licence record" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyproheptadine Hydrochloride Solution (cyproheptadine hydrochloride) prescribing information, Method Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1acfd050-6c07-a269-e063-6394a90a77e8) |
 | 2026-11-24 | Corrected: "Retrieve the SmPC warnings and contraindications, and verify the licence record against MHRA data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Corrected: "Cyproheptadine is an antihistamine with serotonin-antagonist activity that is marketed in the United Kingdom." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 405
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-25
 monitor_inn: "Methysergide"
 predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease"]
 description: "Methysergide: predicted new indication Migraine with brainstem aura (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes"
@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Methysergide is a serotonin receptor antagonist that is currently marketed in the UK.
+Methysergide is a serotonin receptor antagonist that is listed in the UK BNF prescribing codes.
 The TxGNN model predicts it may be useful for **migraine with brainstem aura**. The supporting evidence is indirect: no clinical trials are registered, and the available literature consists of reviews and one historical 1963 clinical series in general migraine prevention.
+
+<!-- review:begin uk-lic-20261125-methysergide-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Methysergide is a serotonin receptor antagonist that is currently marketed in the UK." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-methysergide-1 -->
 
 ## Quick Overview
 
@@ -133,6 +139,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "One valid single-ingredient licence is listed" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Corrected: "Methysergide is a serotonin receptor antagonist that is currently marketed in the UK." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "dihydrocodeine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "headache disorder", "cold urticaria", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-25
 description: "Dihydrocodeine: predicted new indication nasal cavity disease (evidence level L5). In the UK: 33 NHSBSA BNF presentation codes"
 ---
 
@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Dihydrocodeine is an opioid analgesic and cough suppressant that is marketed in the UK, mostly in combination products for cold, flu and pain relief.
+Dihydrocodeine is an opioid analgesic and cough suppressant that is listed in the UK BNF prescribing codes, mostly in combination products with paracetamol for pain relief.
 The TxGNN model predicts it may be relevant to **nasal cavity disease**, but **no clinical trials and no publications** directly support this prediction, so it rests on model output alone.
+
+<!-- review:begin uk-lic-20261125-dihydrocodeine-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Dihydrocodeine is an opioid analgesic and cough suppressant that is marketed in the UK, mostly in combination products for cold, flu and pain relief." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-dihydrocodeine-1 -->
 
 ---
 
@@ -148,6 +154,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "Twenty single-ingredient licence records are listed as valid in the local data, and the list may be partial" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Corrected: "Dihydrocodeine is an opioid analgesic and cough suppressant that is marketed in the UK, mostly in combination products for cold, flu and pain relief." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

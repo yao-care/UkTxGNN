@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Nefopam"
 predicted_indications: ["immature cataract", "mature cataract", "craniostenosis cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "diabetic cataract", "lumbar spinal stenosis"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Nefopam: predicted new indication Immature cataract (evidence level L5). Approved use: Not stated in the UK BNF presentation code records compiled for this report"
 ---
 
@@ -138,7 +138,7 @@ The prediction rests only on a model score. There are no trials or publications 
 - Mechanism of action data (for example from DrugBank) and a credible biological rationale linking nefopam to lens opacification
 - Preclinical evidence (for example lens models) or any clinical study directly addressing cataract
 - The SmPC warnings and contraindications, and the licensed indication text, for the UK products
-- A route and formulation assessment. Cataract would probably need ocular delivery, while the marketed product is an oral tablet.
+- A route and formulation assessment. Cataract would probably need ocular delivery, while the UK BNF-listed products are tablets, oral suspensions and injections.
 - Given the seizure risk, a safety review before any consideration in an older population, in which cataract is most common
 
 <!-- review:begin uk-lic-20261124c-nefopam-1 -->
@@ -146,6 +146,12 @@ The prediction rests only on a model score. There are no trials or publications 
 > **Review correction (2026-11-24)**: Originally stated: "The SmPC warnings and contraindications, and the licensed indication text, for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261124c-nefopam-1 -->
+
+<!-- review:begin uk-lic-20261125-nefopam-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "A route and formulation assessment. Cataract would probably need ocular delivery, while the marketed product is an oral tablet." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-nefopam-1 -->
 
 <!-- review:begin log -->
 
@@ -160,6 +166,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Corrected: "The SmPC warnings and contraindications, and the licensed indication text, for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not stated in the licence record compiled for this report &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "Not stated in the licence record compiled for this report" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Corrected: "A route and formulation assessment. Cataract would probably need ocular delivery, while the marketed product is an oral tablet." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

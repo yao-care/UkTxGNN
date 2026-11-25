@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cycloserine"
 predicted_indications: ["irritable bowel syndrome", "acne (disease)", "gastroparesis (disease)", "conjunctivitis", "insomnia (disease)", "pharyngitis", "nasal cavity disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-25
 description: "Cycloserine: predicted new indication irritable bowel syndrome (evidence level L5). In the UK: 1 NHSBSA BNF presentation code"
 ---
 
@@ -121,7 +121,13 @@ The prediction rests on the model score alone. No clinical trials or publication
 - Mechanistic data (MOA) and a biologically plausible link to irritable bowel syndrome
 - Preclinical or early-phase clinical data in this condition
 - A review of the neuropsychiatric safety profile in this population, based on the SmPC
-- Label-based warnings and contraindications for the UK-marketed product
+- Label-based warnings and contraindications for the UK products
+
+<!-- review:begin uk-lic-20261125-cycloserine-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Label-based warnings and contraindications for the UK-marketed product" Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-cycloserine-1 -->
 
 <!-- review:begin log -->
 
@@ -133,6 +139,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The list contains one single-ingredient record, and it is currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cycloserine prescribing information, Dr. Reddys Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8e7e2665-7a3d-3f54-9f92-5fe845f02ef9) |
+| 2026-11-25 | Corrected: "Label-based warnings and contraindications for the UK-marketed product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

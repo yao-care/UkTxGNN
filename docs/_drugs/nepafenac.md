@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 439
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Nepafenac: predicted new indication Eye disease (evidence level L1). Approved use: Not available in the UK BNF prescribing code data compiled for this report"
 monitor_inn: "Nepafenac"
 predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
@@ -156,7 +156,13 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-For the core ocular inflammation, pain and macular oedema setting, multiple completed Phase 3 trials (including large studies of 800 to 2,000 participants) support efficacy, and the drug is already marketed in the UK. However, "eye disease" is a very broad prediction, and the other predicted indications (optic papillitis, vitreous detachment and the dermatological or rare-disease predictions) lack meaningful evidence and should be held.
+For the core ocular inflammation, pain and macular oedema setting, multiple completed Phase 3 trials (including large studies of 800 to 2,000 participants) support efficacy, and the drug is already listed in the UK BNF prescribing codes. However, "eye disease" is a very broad prediction, and the other predicted indications (optic papillitis, vitreous detachment and the dermatological or rare-disease predictions) lack meaningful evidence and should be held.
+
+<!-- review:begin uk-lic-20261125-nepafenac-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "For the core ocular inflammation, pain and macular oedema setting, multiple completed Phase 3 trials (including large studies of 800 to 2,000 participants) support efficacy, and the drug is already marketed in the UK." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-nepafenac-1 -->
 
 **To proceed, the following is needed:**
 - Confirmation of the licensed UK indications, dosage form and warnings from the SmPC and BNF
@@ -178,6 +184,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Corrected: "marketed in the UK as a 1 mg/ml eye drop." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "Approved use: Not available in the UK licence data compiled for this report" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not available in the UK licence data compiled for this report &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Corrected: "For the core ocular inflammation, pain and macular oedema setting, multiple completed Phase 3 trials (including large studies of 800 to 2,000 participants) support efficacy, and the drug is already marketed in the UK." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

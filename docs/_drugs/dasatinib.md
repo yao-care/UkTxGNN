@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 209
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-25
 description: "Dasatinib: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Chronic myeloid leukaemia, BCR-ABL1 positive (including blast phase)"
 monitor_inn: "Dasatinib"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
@@ -167,7 +167,13 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The Src/FAK rationale is biologically plausible, and dasatinib is already marketed in the UK. However, the only sizeable clinical study was a single-arm Phase 2 trial in mixed sarcomas, and published commentary says single-agent dasatinib failed in Ewing sarcoma. The remaining support is laboratory work and one descriptive case series.
+The Src/FAK rationale is biologically plausible, and dasatinib is already listed in the UK BNF prescribing codes. However, the only sizeable clinical study was a single-arm Phase 2 trial in mixed sarcomas, and published commentary says single-agent dasatinib failed in Ewing sarcoma. The remaining support is laboratory work and one descriptive case series.
+
+<!-- review:begin uk-lic-20261125-dasatinib-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "The Src/FAK rationale is biologically plausible, and dasatinib is already marketed in the UK." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-dasatinib-1 -->
 
 **To proceed, the following is needed:**
 - Ewing sarcoma-specific results from NCT00464620, or a subtype-stratified re-analysis.
@@ -188,6 +194,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sprycel (dasatinib) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4764f37b-c9e6-4ede-bcc2-8a03b7c521df) |
+| 2026-11-25 | Corrected: "The Src/FAK rationale is biologically plausible, and dasatinib is already marketed in the UK." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

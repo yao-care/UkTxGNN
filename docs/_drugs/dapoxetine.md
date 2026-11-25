@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Dapoxetine"
 predicted_indications: ["migraine disorder", "dysthymic disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-25
 description: "Dapoxetine: predicted new indication migraine disorder (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes"
 ---
 
@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Dapoxetine is a short-acting selective serotonin reuptake inhibitor (SSRI) marketed in the UK.
+Dapoxetine is a short-acting selective serotonin reuptake inhibitor (SSRI) listed in the UK BNF prescribing codes.
 The TxGNN model predicts it may be useful for **migraine disorder**, but there are currently **no registered clinical trials** and **no publications that directly study dapoxetine in migraine**, so the prediction rests on the model alone.
+
+<!-- review:begin uk-lic-20261125-dapoxetine-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Dapoxetine is a short-acting selective serotonin reuptake inhibitor (SSRI) marketed in the UK." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-dapoxetine-1 -->
 
 ---
 
@@ -121,6 +127,19 @@ The prediction is supported only by the TxGNN model. No clinical trials or direc
 - Preclinical or clinical studies that directly examine dapoxetine in migraine
 - Safety data from the SmPC and BNF, including contraindications and interactions, to support any risk assessment
 - Comparison against established migraine prophylaxis options, including other SSRIs and standard-of-care agents
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-25 | Corrected: "Dapoxetine is a short-acting selective serotonin reuptake inhibitor (SSRI) marketed in the UK." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

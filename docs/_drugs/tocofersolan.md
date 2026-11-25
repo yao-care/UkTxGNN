@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 624
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Tocofersolan: predicted new indication amenorrhea (disease) (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Tocofersolan"
 predicted_indications: ["amenorrhea (disease)", "acne (disease)"]
@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Tocofersolan is a water-soluble form of vitamin E (alpha-tocopherol) that is marketed in the UK as an oral solution.
+Tocofersolan is a water-soluble form of vitamin E (alpha-tocopherol) that is listed in the UK BNF prescribing codes as an oral solution.
 The TxGNN model predicts it may be effective for **amenorrhoea**,
 but there are currently **no clinical trials** and **no publications** supporting this prediction, so it rests on the computational model alone.
+
+<!-- review:begin uk-lic-20261125-tocofersolan-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Tocofersolan is a water-soluble form of vitamin E (alpha-tocopherol) that is marketed in the UK as an oral solution." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-tocofersolan-1 -->
 
 ---
 
@@ -112,7 +118,13 @@ For the predicted indications, one point is worth noting from the mechanistic re
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN model score, with no clinical trials, no literature and no established mechanism. The drug is a marketed vitamin E formulation, but its approved indication and safety data are missing, so no meaningful repurposing assessment can be made.
+The prediction is supported only by the TxGNN model score, with no clinical trials, no literature and no established mechanism. The drug is a vitamin E formulation listed in the UK BNF prescribing codes, but its approved indication and safety data are missing, so no meaningful repurposing assessment can be made.
+
+<!-- review:begin uk-lic-20261125-tocofersolan-2 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "The drug is a marketed vitamin E formulation, but its approved indication and safety data are missing, so no meaningful repurposing assessment can be made." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-tocofersolan-2 -->
 
 **To proceed, the following is needed:**
 - The approved indication and SmPC safety information (warnings, contraindications, interactions) for the UK products
@@ -137,6 +149,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106) |
 | 2026-11-24 | Corrected: "The approved indication and SmPC safety information (warnings, contraindications, interactions) for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Corrected: "Tocofersolan is a water-soluble form of vitamin E (alpha-tocopherol) that is marketed in the UK as an oral solution." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Corrected: "The drug is a marketed vitamin E formulation, but its approved indication and safety data are missing, so no meaningful repurposing assessment can be made." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

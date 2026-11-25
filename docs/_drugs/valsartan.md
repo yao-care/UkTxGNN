@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 651
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-25
 monitor_inn: "Valsartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). In the UK: 38 NHSBSA BNF presentation codes"
@@ -38,7 +38,13 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Valsartan is an angiotensin II receptor blocker (ARB) that is marketed in the UK. The TxGNN model predicts it may be useful for **malignant hypertensive renal disease**. Support is very limited: **no clinical trials** and **1 publication**, which is a preclinical study of a different drug.
+Valsartan is an angiotensin II receptor blocker (ARB) that is listed in the UK BNF prescribing codes. The TxGNN model predicts it may be useful for **malignant hypertensive renal disease**. Support is very limited: **no clinical trials** and **1 publication**, which is a preclinical study of a different drug.
+
+<!-- review:begin uk-lic-20261125-valsartan-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Valsartan is an angiotensin II receptor blocker (ARB) that is marketed in the UK." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-valsartan-1 -->
 
 ---
 
@@ -151,6 +157,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is a single-ingredient product and its status is valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Diovan (valsartan) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ddba454-f3e6-43c2-a7a6-58365d297213) |
+| 2026-11-25 | Corrected: "Valsartan is an angiotensin II receptor blocker (ARB) that is marketed in the UK." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

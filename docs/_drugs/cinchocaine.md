@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cinchocaine"
 predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-25
 description: "Cinchocaine: predicted new indication Bronchitis (evidence level L5). In the UK: 12 NHSBSA BNF presentation codes"
 ---
 
@@ -107,13 +107,25 @@ No drug interactions were found in the data compiled for this report.
 **Decision: Hold**
 
 **Rationale:**
-The prediction for bronchitis is supported only by a model score, with no clinical trials or publications and no established mechanistic link. The product available in the UK is a topical ointment, whose route does not match a respiratory condition.
+The prediction for bronchitis is supported only by a model score, with no clinical trials or publications and no established mechanistic link. The UK BNF-listed products are anorectal ointments and suppositories, whose route does not match a respiratory condition.
+
+<!-- review:begin uk-lic-20261125-cinchocaine-2 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "The product available in the UK is a topical ointment, whose route does not match a respiratory condition." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-cinchocaine-2 -->
 
 **To proceed, the following is needed:**
 - Mechanism of action data to assess a plausible link to airway disease
 - Preclinical or clinical studies that directly examine bronchitis
-- Assessment of route compatibility, since the marketed product is topical
+- Assessment of route compatibility, since the UK BNF-listed products are anorectal ointments and suppositories
 - Full safety information from the SmPC and BNF, including warnings and contraindications
+
+<!-- review:begin uk-lic-20261125-cinchocaine-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Assessment of route compatibility, since the marketed product is topical" Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-cinchocaine-1 -->
 
 <!-- review:begin log -->
 
@@ -124,6 +136,8 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "The single record is a single-ingredient product with valid status. The record is from the BNF-coded listing and does not include a PL numbe" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Corrected: "Assessment of route compatibility, since the marketed product is topical" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Corrected: "The product available in the UK is a topical ointment, whose route does not match a respiratory condition." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

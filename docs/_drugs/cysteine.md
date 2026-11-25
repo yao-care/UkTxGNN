@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "cysteine"
 predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Cysteine: predicted new indication Dry eye syndrome (evidence level L5). In the UK: no NHSBSA BNF presentation code in this data"
 ---
 
@@ -122,9 +122,15 @@ The prediction score is very high, but no clinical trials exist and no retrieved
 **To proceed, the following is needed:**
 - Mechanism of action data for cysteine
 - Preclinical studies testing free cysteine or a cysteine-releasing agent in dry eye models
-- Evidence that an ophthalmic formulation can be made safely, since the marketed product is a 5 mg tablet and no ocular route is recorded
+- Evidence that an ophthalmic formulation can be made safely
 - Safety and tolerability data for ocular use
 - Label safety data (warnings, contraindications and interactions), which are not available in the data compiled for this report
+
+<!-- review:begin uk-lic-20261125-cysteine-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Evidence that an ophthalmic formulation can be made safely, since the marketed product is a 5 mg tablet and no ocular route is recorded" Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-cysteine-1 -->
 
 <!-- review:begin log -->
 
@@ -136,6 +142,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not currently available for cysteine" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Elcys (cysteine hydrochloride) prescribing information, Exela Pharma Sciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52317b38-b2e6-4a1c-b5b0-43cada0d205e) |
 | 2026-11-24 | Corrected: "Cysteine is a sulphur-containing amino acid and a precursor of glutathione, available in the UK as a single-ingredient product." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Corrected: "Evidence that an ophthalmic formulation can be made safely, since the marketed product is a 5 mg tablet and no ocular route is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

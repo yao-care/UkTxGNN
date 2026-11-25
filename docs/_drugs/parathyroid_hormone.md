@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 478
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Parathyroid Hormone: predicted new indication Migraine disorder (evidence level L4). Approved use: Not specified in the available UK BNF prescribing code data"
 monitor_inn: "Parathyroid hormone"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "amenorrhea (disease)", "Raynaud disease", "non-syndromic esophageal malformation", "esophageal disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "erectile dysfunction (disease)"]
@@ -38,8 +38,14 @@ Evidence Level: **L4** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-> Parathyroid hormone is a peptide hormone product marketed in the UK as a prefilled-cartridge injection. The data compiled for this report do not specify its licensed indication.
+> Parathyroid hormone is a peptide hormone product listed in the UK BNF prescribing codes as a prefilled-cartridge injection. The data compiled for this report do not specify its licensed indication.
 > The TxGNN model predicts it may be relevant to **migraine disorder**, but there are **no registered clinical trials** and only **5 publications**, all observational or genetic and indirect. No publication shows that PTH treats migraine.
+
+<!-- review:begin uk-lic-20261125-parathyroid_hormone-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Parathyroid hormone is a peptide hormone product marketed in the UK as a prefilled-cartridge injection." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-parathyroid_hormone-1 -->
 
 ---
 
@@ -150,6 +156,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2108078 (parathyroid hormone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108078) |
 | 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not specified in the available licence data &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "Not specified in the available licence data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-25 | Corrected: "Parathyroid hormone is a peptide hormone product marketed in the UK as a prefilled-cartridge injection." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

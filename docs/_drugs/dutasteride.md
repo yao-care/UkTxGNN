@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Dutasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "familial isolated trichomegaly"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-25
 description: "Dutasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). In the UK: 7 NHSBSA BNF presentation codes"
 ---
 
@@ -86,13 +86,19 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-Dutasteride is marketed in the United Kingdom. No indication text is recorded for this authorisation in the local data.
+Dutasteride is listed in the UK BNF prescribing codes. No indication text is recorded for this authorisation in the local data.
 
 <!-- review:begin uk-lic-20261106-dutasteride-1 -->
 
 > **Review correction (2026-11-24)**: Originally stated: "The local data record one valid marketing authorisation, for a single-ingredient product (a 500 microgram capsule). No indication text is recorded for this authorisation in the local data." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261106-dutasteride-1 -->
+
+<!-- review:begin uk-lic-20261125-dutasteride-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Dutasteride is marketed in the United Kingdom." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-dutasteride-1 -->
 
 ## Safety Considerations
 
@@ -132,6 +138,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The local data record one valid marketing authorisation, for a single-ingredient product (a 500 microgram capsule)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism-of-action data were not available in the compiled data, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: dutasteride prescribing information, Strides Pharma Science Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c78d18cf-05df-4154-b2f9-39cc374ca9e3) |
+| 2026-11-25 | Corrected: "Dutasteride is marketed in the United Kingdom." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

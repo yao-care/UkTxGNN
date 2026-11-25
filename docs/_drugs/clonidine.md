@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Clonidine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-25
 description: "Clonidine: predicted new indication faciodigitogenital syndrome (evidence level L5). In the UK: 37 NHSBSA BNF presentation codes"
 ---
 
@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Clonidine is a centrally acting alpha-2 adrenergic agonist that is marketed in the UK.
+Clonidine is a centrally acting alpha-2 adrenergic agonist that is listed in the UK BNF prescribing codes.
 The TxGNN model predicts it may be relevant to **faciodigitogenital syndrome**, but **no clinical trials and no publications** were found for this condition, so the prediction rests on the model score alone.
+
+<!-- review:begin uk-lic-20261125-clonidine-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Clonidine is a centrally acting alpha-2 adrenergic agonist that is marketed in the UK." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-clonidine-1 -->
 
 ---
 
@@ -151,6 +157,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The local data list one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Qlonilik (clonidine hydrochloride) prescribing information, CMP Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=826de1dc-378e-4c90-86d1-e33f7a4248cd) |
+| 2026-11-25 | Corrected: "Clonidine is a centrally acting alpha-2 adrenergic agonist that is marketed in the UK." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

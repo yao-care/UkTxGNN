@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Danazol"
 predicted_indications: ["amenorrhea (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-25
 description: "Danazol: predicted new indication amenorrhoea (amenorrhea (disease)) (evidence level L5). In the UK: 7 NHSBSA BNF presentation codes"
 ---
 
@@ -38,7 +38,13 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Danazol is a synthetic steroid with antigonadotropin activity that is marketed in the UK. The TxGNN model predicts it may be relevant to **amenorrhoea (amenorrhea (disease))**, with **0 registered clinical trials** and **20 publications** in the data compiled for this report. None of these publications studies amenorrhoea as a disease to be treated, so the prediction rests mainly on the model score.
+Danazol is a synthetic steroid with antigonadotropin activity that is listed in the UK BNF prescribing codes. The TxGNN model predicts it may be relevant to **amenorrhoea (amenorrhea (disease))**, with **0 registered clinical trials** and **20 publications** in the data compiled for this report. None of these publications studies amenorrhoea as a disease to be treated, so the prediction rests mainly on the model score.
+
+<!-- review:begin uk-lic-20261125-danazol-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Danazol is a synthetic steroid with antigonadotropin activity that is marketed in the UK." Corrected wording only: the text said the drug or product is marketed, available or sold in the UK. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902): a BNF presentation code shows that an NHS prescribing code exists, not that the product is currently marketed or on sale, and MHRA licence status is not included. The wording was changed to the UK BNF prescribing codes (or the unsupported premise was removed); forms named are those in the BNF code list, and the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261125-danazol-1 -->
 
 ## Quick Overview
 
@@ -138,6 +144,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Danazol is marketed in the UK, with one valid single-ingredient licence in the local records. The licence record does not include a dosage f" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: danazol prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=55ad6325-16f6-4f0c-a1dc-734847052d0b) |
+| 2026-11-25 | Corrected: "Danazol is a synthetic steroid with antigonadotropin activity that is marketed in the UK." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

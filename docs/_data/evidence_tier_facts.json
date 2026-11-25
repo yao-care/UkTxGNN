@@ -84,8 +84,8 @@
     "i": "eye disease",
     "lt": 4,
     "lv": 4,
-    "r": 5,
-    "rs": "Corrected: \" Original Indication  Not available in the UK licence data compiled for this report \"",
+    "r": 6,
+    "rs": "Corrected: \"For the core ocular inflammation, pain and macular oedema setting, multiple completed Phase 3…",
     "x": 0
    },
    {
@@ -106,8 +106,8 @@
     "i": "seborrheic dermatitis",
     "lt": 64,
     "lv": 64,
-    "r": 3,
-    "rs": "Corrected: \"Confirmation of the UK licence details (indication, dosage form, authorisation number format)…",
+    "r": 4,
+    "rs": "Corrected: \"The product is already marketed in the UK for atopic eczema.\"",
     "x": 0
    },
    {
@@ -139,8 +139,8 @@
     "i": "obsessive-compulsive disorder",
     "lt": 11,
     "lv": 11,
-    "r": 2,
-    "rs": "Removed: \"The data lists one valid single-ingredient licence\"",
+    "r": 3,
+    "rs": "Corrected: \"Citalopram is a selective serotonin reuptake inhibitor (SSRI) marketed in the UK.\"",
     "x": 0
    },
    {
@@ -161,8 +161,8 @@
     "i": "Ewing sarcoma",
     "lt": 24,
     "lv": 24,
-    "r": 2,
-    "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
+    "r": 3,
+    "rs": "Corrected: \"The Src/FAK rationale is biologically plausible, and dasatinib is already marketed in the UK.\"",
     "x": 0
    },
    {
@@ -227,8 +227,8 @@
     "i": "agoraphobia",
     "lt": 6,
     "lv": 6,
-    "r": 2,
-    "rs": "Corrected: \"Approved indication text and dosage form for the UK authorisation\"",
+    "r": 3,
+    "rs": "Corrected: \"Two randomised controlled trials in panic disorder with or without agoraphobia support this…",
     "x": 0
    },
    {
@@ -414,8 +414,8 @@
     "i": "primary cutaneous T-cell lymphoma",
     "lt": 53,
     "lv": 53,
-    "r": 2,
-    "rs": "Corrected: \"The authorisation number shown is not in standard MHRA PL format, so please verify it against the…",
+    "r": 3,
+    "rs": "Corrected: \"Clobetasol is a super-potent topical corticosteroid, here represented by a…",
     "x": 0
    },
    {
@@ -535,8 +535,8 @@
     "i": "migraine disorder",
     "lt": 10,
     "lv": 10,
-    "r": 3,
-    "rs": "Corrected: \"Confirmation of the licensed indications and dosage forms for the UK authorisation\"",
+    "r": 4,
+    "rs": "Corrected: \"Ropivacaine is a long-acting amide local anaesthetic, marketed in the UK as an injectable…",
     "x": 0
    },
    {
@@ -546,8 +546,8 @@
     "i": "restless legs syndrome",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "Corrected: \"It is marketed in the UK as a 500 mg tablet,\"",
+    "r": 2,
+    "rs": "Corrected: \"The current UK approved indication, SmPC, and warnings/contraindication text for the marketed…",
     "x": 0
    },
    {
@@ -679,7 +679,7 @@
     "lt": 2,
     "lv": 2,
     "r": 5,
-    "rs": "Corrected: \" Original Indication  Not stated in the UK licence data compiled for this report \"",
+    "rs": "Removed: \"licence\"",
     "x": 0
    },
    {
@@ -810,8 +810,8 @@
     "i": "migraine disorder",
     "lt": 2,
     "lv": 2,
-    "r": 3,
-    "rs": "Corrected: \"Not specified in the available licence data\"",
+    "r": 4,
+    "rs": "Corrected: \"Parathyroid hormone is a peptide hormone product marketed in the UK as a prefilled-cartridge…",
     "x": 0
    },
    {
@@ -942,8 +942,8 @@
     "i": "migraine disorder",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Removed: \"Only one single-ingredient product is listed, and it is recorded as valid\"",
+    "r": 2,
+    "rs": "Corrected: \"Yohimbine is a selective alpha-2 adrenoceptor antagonist marketed in the UK as a 5 mg tablet…",
     "x": 0
    },
    {
@@ -976,7 +976,7 @@
   "with_current": 453,
   "none_current": 0,
   "without_data": 2,
-  "with_reviews": 452,
+  "with_reviews": 453,
   "rows": [
    {
     "t": "Ibuprofen",
@@ -1018,8 +1018,8 @@
     "i": "migraine disorder",
     "lt": 119,
     "lv": 119,
-    "r": 2,
-    "rs": "Removed: \"Both products are listed as valid single-entry records\"",
+    "r": 3,
+    "rs": "Corrected: \"Fluticasone is an inhaled glucocorticoid, available in the UK within combination inhalers with…",
     "x": 0
    },
    {
@@ -1073,8 +1073,8 @@
     "i": "papillary conjunctivitis",
     "lt": 94,
     "lv": 94,
-    "r": 3,
-    "rs": "Removed: \"since the only UK licence recorded is an inhalation product\"",
+    "r": 4,
+    "rs": "Corrected: \"Salbutamol is an established beta-2 adrenergic agonist marketed in the UK.\"",
     "x": 0
    },
    {
@@ -1139,8 +1139,8 @@
     "i": "atrophoderma vermiculata",
     "lt": 78,
     "lv": 78,
-    "r": 6,
-    "rs": "Corrected: \"No licence reviewed for this report lists atrophoderma vermiculata as an approved use.\"",
+    "r": 7,
+    "rs": "Corrected: \"Aspirin is a long-established cyclooxygenase inhibitor with antiplatelet activity, marketed in…",
     "x": 0
    },
    {
@@ -1381,8 +1381,8 @@
     "i": "migraine disorder",
     "lt": 50,
     "lv": 50,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available from the compiled data\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Tapentadol is an opioid analgesic that is currently marketed in the UK, although the data…",
     "x": 0
    },
    {
@@ -1513,8 +1513,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 45,
     "lv": 45,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Aciclovir is an antiviral nucleoside analogue that is marketed in the UK in oral suspension and…",
     "x": 0
    },
    {
@@ -1557,8 +1557,8 @@
     "i": "hypermobility of coccyx",
     "lt": 43,
     "lv": 43,
-    "r": 2,
-    "rs": "Removed: \"The local data list one valid single-ingredient licence and no cancelled licences\"",
+    "r": 3,
+    "rs": "Corrected: \"Adalimumab is currently marketed in the UK.\"",
     "x": 0
    },
    {
@@ -1711,8 +1711,8 @@
     "i": "malignant hypertensive renal disease",
     "lt": 38,
     "lv": 38,
-    "r": 2,
-    "rs": "Removed: \"This is a single-ingredient product and its status is valid\"",
+    "r": 3,
+    "rs": "Corrected: \"Valsartan is an angiotensin II receptor blocker (ARB) that is marketed in the UK.\"",
     "x": 0
    },
    {
@@ -1744,8 +1744,8 @@
     "i": "faciodigitogenital syndrome",
     "lt": 37,
     "lv": 37,
-    "r": 2,
-    "rs": "Removed: \"The local data list one valid single-ingredient authorisation\"",
+    "r": 3,
+    "rs": "Corrected: \"Clonidine is a centrally acting alpha-2 adrenergic agonist that is marketed in the UK.\"",
     "x": 0
    },
    {
@@ -1898,8 +1898,8 @@
     "i": "nasal cavity disease",
     "lt": 33,
     "lv": 33,
-    "r": 1,
-    "rs": "Removed: \"Twenty single-ingredient licence records are listed as valid in the local data, and the list may be…",
+    "r": 2,
+    "rs": "Corrected: \"Dihydrocodeine is an opioid analgesic and cough suppressant that is marketed in the UK, mostly in…",
     "x": 0
    },
    {
@@ -1920,8 +1920,8 @@
     "i": "sick sinus syndrome 2, autosomal dominant",
     "lt": 32,
     "lv": 32,
-    "r": 2,
-    "rs": "Removed: \"One single-ingredient authorisation is recorded, and it is valid\"",
+    "r": 3,
+    "rs": "Corrected: \"Dipyridamole is an antiplatelet medicine that is currently marketed in the UK.\"",
     "x": 0
    },
    {
@@ -2041,8 +2041,8 @@
     "i": "pulmonary hypertension",
     "lt": 28,
     "lv": 28,
-    "r": 2,
-    "rs": "Removed: \"Both authorisations are valid single-ingredient products\"",
+    "r": 3,
+    "rs": "Corrected: \"Memantine is an NMDA receptor antagonist marketed in the UK in oral solution and tablet forms.\"",
     "x": 0
    },
    {
@@ -2096,8 +2096,8 @@
     "i": "atypical coarctation of aorta",
     "lt": 27,
     "lv": 27,
-    "r": 3,
-    "rs": "Corrected: \"Approved indication, dosage form and route details for the UK authorisation, verified with the…",
+    "r": 4,
+    "rs": "Corrected: \"Lactic acid is an endogenous metabolite marketed in the UK, but the data compiled for this report…",
     "x": 0
    },
    {
@@ -2162,8 +2162,8 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 25,
     "lv": 25,
-    "r": 2,
-    "rs": "Removed: \"The licence records compiled for this report show one valid single-ingredient authorisation…",
+    "r": 3,
+    "rs": "Corrected: \"Chlorpromazine is a phenothiazine antipsychotic medicine marketed in the UK.\"",
     "x": 0
    },
    {
@@ -2404,8 +2404,8 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 21,
     "lv": 21,
-    "r": 2,
-    "rs": "Removed: \"The data show one valid single-ingredient dorzolamide eye-drop licence in the UK, and the drug is…",
+    "r": 3,
+    "rs": "Corrected: \"Dorzolamide is a topical carbonic anhydrase inhibitor, marketed in the UK as an eye drop (2%).\"",
     "x": 0
    },
    {
@@ -2415,8 +2415,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 21,
     "lv": 21,
-    "r": 3,
-    "rs": "Removed: \"since only an oral modified-release formulation is recorded locally\"",
+    "r": 4,
+    "rs": "Corrected: \"Doxycycline is marketed in the UK.\"",
     "x": 0
    },
    {
@@ -2514,8 +2514,8 @@
     "i": "respiratory malformation",
     "lt": 20,
     "lv": 20,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Tiotropium is an inhaled long-acting anticholinergic bronchodilator marketed in the UK.\"",
     "x": 0
    },
    {
@@ -2965,8 +2965,8 @@
     "i": "leprosy",
     "lt": 15,
     "lv": 15,
-    "r": 2,
-    "rs": "Corrected: \"for the two UK products\"",
+    "r": 3,
+    "rs": "Corrected: \"Peppermint oil is a long-established product marketed in the UK, but no approved indication text…",
     "x": 0
    },
    {
@@ -2987,8 +2987,8 @@
     "i": "psychogenic movement disorders",
     "lt": 14,
     "lv": 14,
-    "r": 2,
-    "rs": "Removed: \"The licence is a single-ingredient product and is currently valid\"",
+    "r": 3,
+    "rs": "Corrected: \"Donepezil is a cholinesterase inhibitor that is marketed in the UK.\"",
     "x": 0
    },
    {
@@ -3196,8 +3196,8 @@
     "i": "Tourette syndrome",
     "lt": 13,
     "lv": 13,
-    "r": 2,
-    "rs": "Corrected: \"Confirmation of the UK licence number, dosage form, and approved indication\"",
+    "r": 3,
+    "rs": "Corrected: \"Zonisamide is an antiseizure medication marketed in the UK, and its original use is in epilepsy.\"",
     "x": 0
    },
    {
@@ -3251,8 +3251,8 @@
     "i": "bronchitis",
     "lt": 12,
     "lv": 12,
-    "r": 1,
-    "rs": "Removed: \"The single record is a single-ingredient product with valid status. The record is from the…",
+    "r": 3,
+    "rs": "Corrected: \"The product available in the UK is a topical ointment, whose route does not match a respiratory…",
     "x": 0
    },
    {
@@ -3350,8 +3350,8 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 12,
     "lv": 12,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available from the compiled data\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Ranolazine is a modified-release tablet marketed in the UK; the data compiled for this report do…",
     "x": 0
    },
    {
@@ -3449,8 +3449,8 @@
     "i": "seborrheic keratosis",
     "lt": 11,
     "lv": 11,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 3,
+    "rs": "Corrected: \"Product label information (approved indication, warnings and contraindications) for the…",
     "x": 0
    },
    {
@@ -3504,8 +3504,8 @@
     "i": "severe nonproliferative diabetic retinopathy",
     "lt": 10,
     "lv": 10,
-    "r": 1,
-    "rs": "Removed: \"The local licence record lists one valid authorisation, for a combination product containing coal…",
+    "r": 2,
+    "rs": "Corrected: \"Allantoin is a topical skin-protectant and keratolytic agent, available in the UK in a coal tar…",
     "x": 0
    },
    {
@@ -3537,8 +3537,8 @@
     "i": "multiple system atrophy",
     "lt": 10,
     "lv": 10,
-    "r": 5,
-    "rs": "Corrected: \"Approved indication text and dosage form for the UK authorisations\"",
+    "r": 6,
+    "rs": "Corrected: \"Fenoterol is a selective beta-2 adrenergic agonist used as a bronchodilator, and it is marketed…",
     "x": 0
    },
    {
@@ -3603,8 +3603,8 @@
     "i": "liposarcoma",
     "lt": 10,
     "lv": 10,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Sirolimus is an mTOR inhibitor that is marketed in the UK.\"",
     "x": 0
    },
    {
@@ -3636,8 +3636,8 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 9,
     "lv": 9,
-    "r": 2,
-    "rs": "Removed: \"At least one single-ingredient licence is currently valid, with no cancelled licences\"",
+    "r": 3,
+    "rs": "Corrected: \"Celecoxib is a selective COX-2 inhibitor (an NSAID) marketed in the UK.\"",
     "x": 0
    },
    {
@@ -3812,8 +3812,8 @@
     "i": "progeria-short stature-pigmented nevi syndrome",
     "lt": 8,
     "lv": 8,
-    "r": 2,
-    "rs": "Removed: \"The local data record one valid single-ingredient authorisation (1 mg tablet)\"",
+    "r": 4,
+    "rs": "Corrected: \"Cabergoline is marketed in the UK.\"",
     "x": 0
    },
    {
@@ -3867,8 +3867,8 @@
     "i": "nasal cavity disease",
     "lt": 8,
     "lv": 8,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Desloratadine is an oral antihistamine tablet marketed in the UK.\"",
     "x": 0
    },
    {
@@ -3900,8 +3900,8 @@
     "i": "leishmaniasis, diffuse cutaneous",
     "lt": 8,
     "lv": 8,
-    "r": 2,
-    "rs": "Corrected: \"The identifier above is as recorded in the compiled licence data and is not in the standard MHRA…",
+    "r": 3,
+    "rs": "Corrected: \"Complete safety information from the SmPC and BNF for the marketed gel, including…",
     "x": 0
    },
    {
@@ -4065,8 +4065,8 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 7,
     "lv": 7,
-    "r": 2,
-    "rs": "Removed: \"The local records show one valid single-ingredient authorisation, a sublingual tablet (5 mg)\"",
+    "r": 3,
+    "rs": "Corrected: \"Asenapine is marketed in the United Kingdom.\"",
     "x": 0
    },
    {
@@ -4087,8 +4087,8 @@
     "i": "amenorrhoea",
     "lt": 7,
     "lv": 7,
-    "r": 2,
-    "rs": "Removed: \"Danazol is marketed in the UK, with one valid single-ingredient licence in the local records. The…",
+    "r": 3,
+    "rs": "Corrected: \"Danazol is a synthetic steroid with antigonadotropin activity that is marketed in the UK.\"",
     "x": 0
    },
    {
@@ -4098,8 +4098,8 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 7,
     "lv": 7,
-    "r": 2,
-    "rs": "Removed: \"The local data record one valid marketing authorisation, for a single-ingredient product (a 500…",
+    "r": 3,
+    "rs": "Corrected: \"Dutasteride is marketed in the United Kingdom.\"",
     "x": 0
    },
    {
@@ -4208,8 +4208,8 @@
     "i": "immature cataract",
     "lt": 7,
     "lv": 7,
-    "r": 5,
-    "rs": "Corrected: \"Not stated in the licence record compiled for this report\"",
+    "r": 6,
+    "rs": "Corrected: \"A route and formulation assessment. Cataract would probably need ocular delivery, while the…",
     "x": 0
    },
    {
@@ -4241,8 +4241,8 @@
     "i": "cauda equina syndrome",
     "lt": 7,
     "lv": 7,
-    "r": 6,
-    "rs": "Corrected: \"Not stated in the available authorisation data\"",
+    "r": 7,
+    "rs": "Corrected: \"Sulthiame is a carbonic anhydrase inhibitor that is marketed in the UK, but the data compiled for…",
     "x": 0
    },
    {
@@ -4252,8 +4252,8 @@
     "i": "visceral calciphylaxis",
     "lt": 7,
     "lv": 7,
-    "r": 2,
-    "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
+    "r": 3,
+    "rs": "Corrected: \"Assessment of whether a systemically relevant route or formulation would be needed, since only…",
     "x": 0
    },
    {
@@ -4285,8 +4285,8 @@
     "i": "pulmonary arteriovenous malformation (disease)",
     "lt": 6,
     "lv": 6,
-    "r": 2,
-    "rs": "Corrected: \"Clarification of the approved indication text for the UK authorisation\"",
+    "r": 3,
+    "rs": "Corrected: \"Ambrisentan is an endothelin receptor antagonist that is currently marketed in the United…",
     "x": 0
    },
    {
@@ -4329,8 +4329,8 @@
     "i": "migraine disorder",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: \"Dapoxetine is a short-acting selective serotonin reuptake inhibitor (SSRI) marketed in the UK.\"",
     "x": 0
    },
    {
@@ -4395,8 +4395,8 @@
     "i": "drug-induced osteoporosis",
     "lt": 6,
     "lv": 6,
-    "r": 2,
-    "rs": "Corrected: \"SmPC warnings, contraindications and interaction data for the UK product\"",
+    "r": 5,
+    "rs": "Corrected: \"(marketed as a priloc…\"",
     "x": 0
    },
    {
@@ -4527,8 +4527,8 @@
     "i": "insomnia (disease)",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "Corrected: \"Oxitriptan (5-hydroxytryptophan, 5-HTP) is the immediate precursor of serotonin, and a UK…",
+    "r": 2,
+    "rs": "Corrected: \"SmPC or BNF warnings and contraindications for the marketed product\"",
     "x": 0
    },
    {
@@ -4538,8 +4538,8 @@
     "i": "rheumatoid arthritis",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "Removed: \"Both authorisations are valid single-ingredient entries\"",
+    "r": 2,
+    "rs": "Corrected: \"Piperacillin is a beta-lactam antibiotic, marketed in the UK as an injectable (including the…",
     "x": 0
    },
    {
@@ -4681,8 +4681,8 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 5,
     "lv": 5,
-    "r": 2,
-    "rs": "Removed: \"The local data show one valid single-ingredient licence. The record carries no dosage-form or…",
+    "r": 3,
+    "rs": "Corrected: \"Diflunisal is a salicylate-derived non-steroidal anti-inflammatory drug (NSAID) that is currently…",
     "x": 0
    },
    {
@@ -4835,8 +4835,8 @@
     "i": "open-angle glaucoma",
     "lt": 5,
     "lv": 5,
-    "r": 2,
-    "rs": "Removed: \"Only one entry is available.\"",
+    "r": 3,
+    "rs": "Corrected: \"Terlipressin is a vasopressin analogue (V1 receptor agonist) listed in the BNF and marketed in…",
     "x": 0
    },
    {
@@ -4923,8 +4923,8 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "Removed: \"The local data hold one valid single-ingredient licence for this drug\"",
+    "r": 2,
+    "rs": "Corrected: \"Azapropazone is a non-steroidal anti-inflammatory drug (NSAID) that is currently marketed in the…",
     "x": 0
    },
    {
@@ -4934,8 +4934,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Removed: \"Both authorisations are currently valid, and the data compiled for this report contain no…",
+    "r": 3,
+    "rs": "Corrected: \"Bacitracin is a topical polypeptide antibacterial that is marketed in the UK in ointment…",
     "x": 0
    },
    {
@@ -4989,8 +4989,8 @@
     "i": "pneumocystosis",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available, so n\" replaced with a sourced…",
+    "r": 2,
+    "rs": "Corrected: \"Clofazimine is an antimycobacterial medicine marketed in the UK.\"",
     "x": 0
    },
    {
@@ -5011,8 +5011,8 @@
     "i": "nasal cavity disease",
     "lt": 4,
     "lv": 4,
-    "r": 3,
-    "rs": "Corrected: \"Retrieve the SmPC warnings and contraindications, and verify the licence record against MHRA data\"",
+    "r": 4,
+    "rs": "Corrected: \"Cyproheptadine is an antihistamine with serotonin-antagonist activity that is marketed in the…",
     "x": 0
    },
    {
@@ -5044,8 +5044,8 @@
     "i": "tendinitis",
     "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Removed: \"as the authorisation record is incomplete\"",
+    "r": 3,
+    "rs": "Corrected: \"Dexketoprofen is a non-steroidal anti-inflammatory drug (NSAID) marketed in the UK as a 25 mg…",
     "x": 0
    },
    {
@@ -5121,8 +5121,8 @@
     "i": "hypertrichosis (disease)",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "Removed: \"This is the single valid single-ingredient licence recorded locally\"",
+    "r": 2,
+    "rs": "Corrected: \"Indoramin is a selective alpha-1 adrenoceptor antagonist marketed in the UK.\"",
     "x": 9
    },
    {
@@ -5374,8 +5374,8 @@
     "i": "fascioliasis",
     "lt": 3,
     "lv": 3,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report contain only one authorisation, and its record is incomplete (no…",
+    "r": 3,
+    "rs": "Corrected: \"Penciclovir is marketed in the UK as a single-ingredient topical product.\"",
     "x": 0
    },
    {
@@ -5396,8 +5396,8 @@
     "i": "serpinopathy with toxic serpin polymerization",
     "lt": 3,
     "lv": 3,
-    "r": 3,
-    "rs": "Corrected: \"A review of the approved indication and the SmPC safety information for the UK product.\"",
+    "r": 4,
+    "rs": "Corrected: \"Stanozolol is an oral anabolic-androgenic steroid that is currently marketed in the UK.\"",
     "x": 0
    },
    {
@@ -5407,8 +5407,8 @@
     "i": "brachyolmia-amelogenesis imperfecta syndrome",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Removed: \"One single-ingredient authorisation is currently valid\"",
+    "r": 2,
+    "rs": "Corrected: \"Aceclofenac is a non-steroidal anti-inflammatory drug (NSAID) that is currently marketed in the…",
     "x": 0
    },
    {
@@ -5429,8 +5429,8 @@
     "i": "chronic hepatitis C virus infection",
     "lt": 2,
     "lv": 2,
-    "r": 3,
-    "rs": "Corrected: \"Mechanism of action data and label safety information (warnings, contraindications) for the UK…",
+    "r": 4,
+    "rs": "Corrected: \"Adefovir dipivoxil is an oral nucleotide analogue antiviral that is marketed in the UK.\"",
     "x": 0
    },
    {
@@ -5473,8 +5473,8 @@
     "i": "acquired angioedema",
     "lt": 2,
     "lv": 2,
-    "r": 2,
-    "rs": "Removed: \"Both listed records are valid single-ingredient entries according to the local data\"",
+    "r": 3,
+    "rs": "Corrected: \"Artemether is an artemisinin-derivative antimalarial that is marketed in the UK.\"",
     "x": 0
    },
    {
@@ -5572,8 +5572,8 @@
     "i": "alopecia areata",
     "lt": 2,
     "lv": 2,
-    "r": 2,
-    "rs": "Corrected: \" Original Indication  Inflammatory skin conditions (e.g. atopic eczema, contact dermatitis…",
+    "r": 4,
+    "rs": "Corrected: \"The products are ear preparations, so any use for scalp or skin conditions would be outside the…",
     "x": 0
    },
    {
@@ -5660,8 +5660,8 @@
     "i": "hereditary hemochromatosis",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Removed: \"Both authorisations are valid single-ingredient products\"",
+    "r": 2,
+    "rs": "Corrected: \"Methyl aminolevulinate (MAL) is a topical photosensitiser prodrug used in photodynamic therapy…",
     "x": 0
    },
    {
@@ -5671,8 +5671,8 @@
     "i": "migraine with brainstem aura",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Removed: \"One valid single-ingredient licence is listed\"",
+    "r": 2,
+    "rs": "Corrected: \"Methysergide is a serotonin receptor antagonist that is currently marketed in the UK.\"",
     "x": 5
    },
    {
@@ -5738,7 +5738,7 @@
     "lt": 2,
     "lv": 2,
     "r": 3,
-    "rs": "Corrected: \"Approved indication and SmPC safety information for the UK product\"",
+    "rs": "Corrected: \"The available UK product is a rectal combination with a corticosteroid, and ocular use raises a…",
     "x": 0
    },
    {
@@ -5781,8 +5781,8 @@
     "i": "meningococcal infection",
     "lt": 2,
     "lv": 2,
-    "r": 2,
-    "rs": "Corrected: \"The licensed indication and labelled warnings and contraindications for the UK product\"",
+    "r": 3,
+    "rs": "Corrected: \"Stannous fluoride is a topical dental agent, available in the UK as a 0.4% gel.\"",
     "x": 0
    },
    {
@@ -5858,8 +5858,8 @@
     "i": "amenorrhea (disease)",
     "lt": 2,
     "lv": 2,
-    "r": 2,
-    "rs": "Corrected: \"The approved indication and SmPC safety information (warnings, contraindications, interactions)…",
+    "r": 4,
+    "rs": "Corrected: \"The drug is a marketed vitamin E formulation, but its approved indication and safety data are…",
     "x": 0
    },
    {
@@ -5880,8 +5880,8 @@
     "i": "headache disorder",
     "lt": 2,
     "lv": 2,
-    "r": 2,
-    "rs": "Corrected: \" Original Indication  Acute migraine (the licence record compiled for this report has no…",
+    "r": 3,
+    "rs": "Corrected: \"Several randomised, double-blind studies support tolfenamic acid for acute and prophylactic…",
     "x": 0
    },
    {
@@ -5891,8 +5891,8 @@
     "i": "bronchitis",
     "lt": 2,
     "lv": 2,
-    "r": 2,
-    "rs": "Removed: \"The licence record carries a BNF-style code (chapter 3, respiratory system) rather than a PL…",
+    "r": 3,
+    "rs": "Corrected: \"Zafirlukast is a cysteinyl leukotriene receptor antagonist that is currently marketed in the UK.\"",
     "x": 0
    },
    {
@@ -5913,8 +5913,8 @@
     "i": "irritable bowel syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 2,
-    "rs": "Removed: \"The list contains one single-ingredient record, and it is currently valid\"",
+    "r": 3,
+    "rs": "Corrected: \"Label-based warnings and contraindications for the UK-marketed product\"",
     "x": 0
    },
    {
@@ -5968,8 +5968,8 @@
     "i": "dry eye syndrome",
     "lt": 0,
     "lv": 0,
-    "r": 2,
-    "rs": "Corrected: \"Cysteine is a sulphur-containing amino acid and a precursor of glutathione, available in the UK…",
+    "r": 3,
+    "rs": "Corrected: \"Evidence that an ophthalmic formulation can be made safely, since the marketed product is a 5 mg…",
     "x": 0
    },
    {
